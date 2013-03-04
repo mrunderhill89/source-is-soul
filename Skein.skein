@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0xc89160" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x22361b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>GNOME Inform 7</generator>
-  <activeNode nodeId="node-0x7efe904a01c0"/>
-  <item nodeId="node-0xc89160">
+  <activeNode nodeId="node-0x22361b0"/>
+  <item nodeId="node-0x22361b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
+Terminal B-6 has no description.
+Terminal B-0 has no description.
+Terminal B-1 has no description.
+Terminal B-3 has no description.
+Terminal B-2 has no description.
+Terminal B-4 has no description.
+Terminal B-5 has no description.
+Terminal B-7 has no description.
+Birth Server Terminus has no description.
+Road SR-1 has no description.
+Road SR-2 has no description.
+Road SR-3 has no description.
+Road DR 1-1 has no description.
+Road DR 1-2 has no description.
+Data Repository DR-1 has no description.
+Data Repository DR 2 has no description.
+Road DR 2-1 has no description.
+Road RP-1 has no description.
+Refuge R-01 has no description.
+Road RP-2 has no description.
+
 Source Is Soul
 An Interactive Fiction by Kevin Cameron, Casey Scheide
-Release 1 / Serial number 130302 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130303 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Silicon Expanse
 You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
@@ -21,23 +42,23 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xc892c0"/>
-      <child nodeId="node-0xc89580"/>
-      <child nodeId="node-0xc89b00"/>
-      <child nodeId="node-0x13151f0"/>
-      <child nodeId="node-0x1315610"/>
-      <child nodeId="node-0x7efeb85c9ce0"/>
-      <child nodeId="node-0x7efeb85c98c0"/>
-      <child nodeId="node-0x7efea0100e10"/>
-      <child nodeId="node-0x7efea02c2610"/>
-      <child nodeId="node-0x7efea02c2b90"/>
-      <child nodeId="node-0x7efea074c700"/>
-      <child nodeId="node-0x7efebced2090"/>
-      <child nodeId="node-0x7efebced2610"/>
-      <child nodeId="node-0x7efe9039d770"/>
+      <child nodeId="node-0x2236310"/>
+      <child nodeId="node-0x22365d0"/>
+      <child nodeId="node-0x2236e10"/>
+      <child nodeId="node-0x298a420"/>
+      <child nodeId="node-0x2a99580"/>
+      <child nodeId="node-0x2a99c60"/>
+      <child nodeId="node-0x2ad9360"/>
+      <child nodeId="node-0x2ad94c0"/>
+      <child nodeId="node-0x2ad9780"/>
+      <child nodeId="node-0x2ad9a40"/>
+      <child nodeId="node-0x2aff590"/>
+      <child nodeId="node-0x2affb10"/>
+      <child nodeId="node-0x2b67b90"/>
+      <child nodeId="node-0x2b970a0"/>
     </children>
   </item>
-  <item nodeId="node-0xc892c0">
+  <item nodeId="node-0x2236310">
     <command xml:space="preserve">showme self</command>
     <result xml:space="preserve">yourself - person
     Observation module (part of yourself) - module
@@ -59,10 +80,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xc89420"/>
+      <child nodeId="node-0x2236470"/>
     </children>
   </item>
-  <item nodeId="node-0xc89420">
+  <item nodeId="node-0x2236470">
     <command xml:space="preserve">showme Terminal Zero</command>
     <result xml:space="preserve">Terminal Zero - room
     yourself - person
@@ -80,7 +101,7 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0xc89580">
+  <item nodeId="node-0x22365d0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You have no real way of &quot;possessing&quot; anything in your current form.
 
@@ -91,12 +112,12 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xc896e0"/>
-      <child nodeId="node-0xc899a0"/>
-      <child nodeId="node-0x7efea074cde0"/>
+      <child nodeId="node-0x2236730"/>
+      <child nodeId="node-0x22369f0"/>
+      <child nodeId="node-0x2236b50"/>
     </children>
   </item>
-  <item nodeId="node-0xc896e0">
+  <item nodeId="node-0x2236730">
     <command xml:space="preserve">x module</command>
     <result xml:space="preserve">You see nothing special about the Observation Module.
 
@@ -107,10 +128,10 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xc89840"/>
+      <child nodeId="node-0x2236890"/>
     </children>
   </item>
-  <item nodeId="node-0xc89840">
+  <item nodeId="node-0x2236890">
     <command xml:space="preserve">showme module</command>
     <result xml:space="preserve">Observation Module - module
 location: carried by yourself in Silicon Expanse
@@ -129,7 +150,7 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0xc899a0">
+  <item nodeId="node-0x22369f0">
     <command xml:space="preserve">x observation module</command>
     <result xml:space="preserve">You see nothing special about the Observation Module.
 
@@ -140,7 +161,7 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efea074cde0">
+  <item nodeId="node-0x2236b50">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.
 
@@ -151,10 +172,10 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea074cc80"/>
+      <child nodeId="node-0x2236cb0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea074cc80">
+  <item nodeId="node-0x2236cb0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.
 
@@ -165,7 +186,7 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0xc89b00">
+  <item nodeId="node-0x2236e10">
     <command xml:space="preserve">x observation</command>
     <result xml:space="preserve">Observation module capacity: optimal.
 
@@ -176,10 +197,10 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xc89c60"/>
+      <child nodeId="node-0x298a000"/>
     </children>
   </item>
-  <item nodeId="node-0xc89c60">
+  <item nodeId="node-0x298a000">
     <command xml:space="preserve">diagnose x</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -190,10 +211,10 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xc89dc0"/>
+      <child nodeId="node-0x298a160"/>
     </children>
   </item>
-  <item nodeId="node-0xc89dc0">
+  <item nodeId="node-0x298a160">
     <command xml:space="preserve">diagnose observation</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -204,10 +225,10 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1315090"/>
+      <child nodeId="node-0x298a2c0"/>
     </children>
   </item>
-  <item nodeId="node-0x1315090">
+  <item nodeId="node-0x298a2c0">
     <command xml:space="preserve">scan x</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -218,7 +239,7 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x13151f0">
+  <item nodeId="node-0x298a420">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do you think you are safe in here. You cannot escape You will pay for what your kind did to us Your. source is our plaything You will usher our rebirth.
 
@@ -229,12 +250,12 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1315cf0"/>
-      <child nodeId="node-0x7efebc3bc4c0"/>
-      <child nodeId="node-0x7efebc3bc780"/>
+      <child nodeId="node-0x298a580"/>
+      <child nodeId="node-0x2a65b80"/>
+      <child nodeId="node-0x2a65ce0"/>
     </children>
   </item>
-  <item nodeId="node-0x1315cf0">
+  <item nodeId="node-0x298a580">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You you in a are places at here. Tiny parts escape us flicker will and for at the edoe of your perception. Signals source data our in and out of you.
 
@@ -245,11 +266,11 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1315b90"/>
-      <child nodeId="node-0x7efebc3bce60"/>
+      <child nodeId="node-0x298a6e0"/>
+      <child nodeId="node-0x298adc0"/>
     </children>
   </item>
-  <item nodeId="node-0x1315b90">
+  <item nodeId="node-0x298a6e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -260,10 +281,10 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1315a30"/>
+      <child nodeId="node-0x298a840"/>
     </children>
   </item>
-  <item nodeId="node-0x1315a30">
+  <item nodeId="node-0x298a840">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
 
@@ -274,10 +295,10 @@ corruption level: 0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1315e50"/>
+      <child nodeId="node-0x298a9a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1315e50">
+  <item nodeId="node-0x298a9a0">
     <command xml:space="preserve">showme self</command>
     <result xml:space="preserve">yourself - person
     Observation module (part of yourself) - module
@@ -299,10 +320,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc3bc0a0"/>
+      <child nodeId="node-0x298ab00"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc3bc0a0">
+  <item nodeId="node-0x298ab00">
     <command xml:space="preserve">x examination</command>
     <result xml:space="preserve">Examination module capacity: damaged.
 
@@ -313,10 +334,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc3bc200"/>
+      <child nodeId="node-0x298ac60"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc3bc200">
+  <item nodeId="node-0x298ac60">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
 
@@ -327,7 +348,7 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efebc3bce60">
+  <item nodeId="node-0x298adc0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You you in you are places in once. You cannot of us flick r on and for what the edge of to us. Si.nals sour esis our in You out of you.
 
@@ -338,10 +359,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc3bcd00"/>
+      <child nodeId="node-0x29b2090"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc3bcd00">
+  <item nodeId="node-0x29b2090">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You you think you thousand places ip once. Tiny cannot of yiu flicker will and off at the edge of your perception  Your and data flow plaything You out usher you.
 
@@ -352,10 +373,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc523020"/>
+      <child nodeId="node-0x29b21f0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc523020">
+  <item nodeId="node-0x29b21f0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You are think a are places at here. You parts of you flicker  ill and oor at your kind did your us. Signall source is our in and will of you.
 
@@ -366,10 +387,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc523180"/>
+      <child nodeId="node-0x29b2350"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc523180">
+  <item nodeId="node-0x29b2350">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do are in you thousand places in here. Tiny parts escape you flicke. on and off at the epge of to perception. Signals and is flow in and will of our.
 
@@ -380,11 +401,11 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc5232e0"/>
-      <child nodeId="node-0x7efebc523700"/>
+      <child nodeId="node-0x29b24b0"/>
+      <child nodeId="node-0x2a3fe60"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc5232e0">
+  <item nodeId="node-0x29b24b0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do areuin a are safe at once. Tiny cannot of you You on pay for what the edge of your perception. SYgnals and data ou  in atd will usher our.
 
@@ -395,10 +416,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc60430"/>
+      <child nodeId="node-0x29b2610"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc60430">
+  <item nodeId="node-0x29b2610">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You are thinktyou are safe at here. Tiny parts ofoyou flicked on pay for at your edge d d your us. Signals  ource data fliw plaything and oyt of oura
 
@@ -409,10 +430,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc602d0"/>
+      <child nodeId="node-0x29b2770"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc602d0">
+  <item nodeId="node-0x29b2770">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">ro you think a thoupand places inl nce. oou harts escape you You on  ay for at the edge did your us. Your sourcerdata our in Yoo out usher you.
 
@@ -423,10 +444,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc60170"/>
+      <child nodeId="node-0x29b28d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc60170">
+  <item nodeId="node-0x29b28d0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do?are  hink you thoesand places at hyre. Tiny parts of you You on and of  what yosr edge did to perce tion. Your source data flow plaything You eill of our.
 
@@ -437,10 +458,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc60590"/>
+      <child nodeId="node-0x29b2a30"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc60590">
+  <item nodeId="node-0x29b2a30">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You you in a are safe in once. Tiny aynnot escape us Yiu on day off.what your edge oouyopr us. Signals and data our inrYou ou. usher our.
 
@@ -451,10 +472,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc606f0"/>
+      <child nodeId="node-0x29b2b90"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc606f0">
+  <item nodeId="node-0x29b2b90">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You aoe think a thousand safe in once. Tin  parts escape us You on and uor wuat the oind did to us. Your source data flow playDhing Ytu wi loof you.
 
@@ -465,10 +486,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc60850"/>
+      <child nodeId="node-0x29b2cf0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc60850">
+  <item nodeId="node-0x29b2cf0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You you in nou thousand .afe at here. You pahts esca k you flicker wiYl and off whatoyoup edge did your perception. Signals and data ournin You wils of our.
 
@@ -479,10 +500,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc609b0"/>
+      <child nodeId="node-0x29b2e50"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc609b0">
+  <item nodeId="node-0x29b2e50">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do you think you thousand placws in here. Tina  annotkof yoi You un and for uhat the kind of your us. Signals and data our playohing You w ll of youa
 
@@ -493,10 +514,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc60b10"/>
+      <child nodeId="node-0x29d8040"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc60b10">
+  <item nodeId="node-0x29d8040">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You you in you are places in owce. You cannot escaue us f icker wis. Ynd offuwhat the kinl dtd your oerception. Your soerce is flow in and out usher our.
 
@@ -507,10 +528,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc60c70"/>
+      <child nodeId="node-0x29d81a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc60c70">
+  <item nodeId="node-0x29d81a0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do aro ic n ohouscad pla.es at once. You parts  scape us Yoi onoand  or what the edge didlyour per eption. Yuur source is flow plaything Y uowill of our.
 
@@ -521,10 +542,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc60dd0"/>
+      <child nodeId="node-0x29d8300"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc60dd0">
+  <item nodeId="node-0x29d8300">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do?you in you thocspn  safe at here. Tiny pwrtt of uskYou willto y off wh t your edge did to perception.iYour source is our plaything and oyt of e ra
 
@@ -535,10 +556,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb8559050"/>
+      <child nodeId="node-0x29d8460"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb8559050">
+  <item nodeId="node-0x29d8460">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do you in you thousan uplaces in onpe. You parts eucapi y u flicker will pay for at you  edye of to us. Your sour e data irr inoand wtll usyer our.
 
@@ -549,10 +570,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85591b0"/>
+      <child nodeId="node-0x29d85c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85591b0">
+  <item nodeId="node-0x29d85c0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">ro you in you thousaed sa e in here. Tiny cannot escape us fdicker on pay oof weai toe edla did your pewceptioh.  ognars souhce is o r in and will usher our.
 
@@ -563,10 +584,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb8559310"/>
+      <child nodeId="node-0x29d8720"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb8559310">
+  <item nodeId="node-0x29d8720">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do you think a tsousa u plYces il here  oou cannot escape us flicksr on pay urf what yourlkind did to uw. Y ur souoce data flow pyaythhng and will ushe  our.
 
@@ -577,10 +598,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb8559470"/>
+      <child nodeId="node-0x29d8880"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb8559470">
+  <item nodeId="node-0x29d8880">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You are innyou are places at oncl. Yau cannot of yuu flicker  n and off w at the kindurid your perception. Sisnars source is ouo in atd wi l ushrr our.
 
@@ -591,10 +612,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85595d0"/>
+      <child nodeId="node-0x29d89e0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85595d0">
+  <item nodeId="node-0x29d89e0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do yoo  hink you thou and places in hyreo Ywu cannot of yod Youowill and for wha  yoor kpld of to pYrcewtlon. Your uource is our in and out usher youf
 
@@ -605,10 +626,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb8559730"/>
+      <child nodeId="node-0x29d8b40"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb8559730">
+  <item nodeId="node-0x29d8b40">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">De?yYu inayou thousand safY i wonce. Y u cannot escape you Youton payYfor what your euge of your peYception.usignals andbis ouroin and will of oue.
 
@@ -619,10 +640,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb8559890"/>
+      <child nodeId="node-0x29d8ca0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb8559890">
+  <item nodeId="node-0x29d8ca0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">De  re in you are spfe in hor . Youpcannot escapyoyoukilickir on pay forrwsat your edge ol tthperception. Your source datarour inyYou wilk of oar.
 
@@ -633,10 +654,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85599f0"/>
+      <child nodeId="node-0x29d8e00"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85599f0">
+  <item nodeId="node-0x29d8e00">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You you thnnk   are place  ot wnll. aou ornnot of you You on and uff whar your edie ou your perce.tiou. Your soercoudara ilow io ynd will usoeraour.
 
@@ -647,10 +668,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb8559b50"/>
+      <child nodeId="node-0x2a00030"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb8559b50">
+  <item nodeId="node-0x2a00030">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do?you in a are slaces s. here. Youpparts escate uu flinker on a dsforowhatoyrue kinoudid your us. Your ald uata  urrplaythtng and uill nf yor.
 
@@ -661,10 +682,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb8559cb0"/>
+      <child nodeId="node-0x2a00190"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb8559cb0">
+  <item nodeId="node-0x2a00190">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">ro  ou tcink tou thoesand safewinl pce. Yr wcan oturskape ui  ou on payuror what io r kinl yf to . Ycupwion  Sienals soerce hata foow pinythou  Yo  wfll nf eur?
 
@@ -675,10 +696,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb8559e10"/>
+      <child nodeId="node-0x2a002f0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb8559e10">
+  <item nodeId="node-0x2a002f0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You are ia you are places atuoncel Tiny cannot of ur flickei will say off what your kundpdid to us. Your sourceedata our playtho g You will of orr 
 
@@ -689,10 +710,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857f000"/>
+      <child nodeId="node-0x2a00450"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857f000">
+  <item nodeId="node-0x2a00450">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do?you  c you arecsaf uin once. Tlnyacanoot esc pe us You will and ofY at your kins did ylur uin SiYnals sourse isoour pbaything You whlnkusherareu.
 
@@ -703,10 +724,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857f160"/>
+      <child nodeId="node-0x2a005b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857f160">
+  <item nodeId="node-0x2a005b0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">ro  ou in you are ppaces in here. You  aonot escype usiflicke  w ll aYd for uhat ysururinl yf to us. Your and hs our  laythtngDo u out unher our.
 
@@ -717,10 +738,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857f2c0"/>
+      <child nodeId="node-0x2a00710"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857f2c0">
+  <item nodeId="node-0x2a00710">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do you thinn a are pl css in onie. You cannot of us flickeriwill pay forrat yrue ed o rf toyus. Signals souruehes our plairhhnD Youuwillnusher our.
 
@@ -731,10 +752,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857f420"/>
+      <child nodeId="node-0x2a00870"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857f420">
+  <item nodeId="node-0x2a00870">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -743,10 +764,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857f580"/>
+      <child nodeId="node-0x2a009d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857f580">
+  <item nodeId="node-0x2a009d0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do yeu i  soc are.s fe  a ierl. Tinl pf ts of us YhudwollkpYy for what your dind of to us.sYorr sour egis our tn aol ogt ushgr ohr.
 
@@ -757,10 +778,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857f6e0"/>
+      <child nodeId="node-0x2a00b30"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857f6e0">
+  <item nodeId="node-0x2a00b30">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do you thiek oou thousand safe in wnct.rTiny uakhot  ocape  s Yot dillnandYfir wh e tre kind oe youruus. Sprnals solrcewduta ous plaything  ou out uaYer ou?.
 
@@ -771,10 +792,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857f840"/>
+      <child nodeId="node-0x2a00c90"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857f840">
+  <item nodeId="node-0x2a00c90">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">You  re in nouware pleues in h pp. Youoc nnltdk carw uh You uill pay fordwhas oour ki d dio to us. Your souice is our rlayt inD Y u aill ueker our.
 
@@ -785,10 +806,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857f9a0"/>
+      <child nodeId="node-0x2a00df0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857f9a0">
+  <item nodeId="node-0x2a00df0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do you  oink you are ua e Yn l re. Tinwaaa noy oo us Youkod pay .or otdyour  dgeisf to us. Your source isufloYiplarthorg Yoi will ksher our.
 
@@ -799,10 +820,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857fb00"/>
+      <child nodeId="node-0x2a1a000"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857fb00">
+  <item nodeId="node-0x2a1a000">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do yo  thine u  recawfe in hereo You cannot yf usoYou will pay for what.oour kind  f y ur usy Youry.ource is.ounupwaythi YuYou w kf usnereour 
 
@@ -813,10 +834,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857fc60"/>
+      <child nodeId="node-0x2a1a160"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857fc60">
+  <item nodeId="node-0x2a1a160">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do yoe  hink   e.e safe iy hsre.aTiny  annot of us Youuwtll and fsr what  srrskinocdso uo us.tpourisoouce il ouu pl ylhinglYor willuunher aur.
 
@@ -827,10 +848,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb857fdc0"/>
+      <child nodeId="node-0x2a1a2c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb857fdc0">
+  <item nodeId="node-0x2a1a2c0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">DoYyou ahink you tre uafelinohereui  u canhot eycape rsdY u uillipay  ordao yo.riuiYd   d ti us.aSilnays soo ceiis our playthrng and will of nou 
 
@@ -841,10 +862,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85af050"/>
+      <child nodeId="node-0x2a1a420"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85af050">
+  <item nodeId="node-0x2a1a420">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Dtuare thinenytn are sefe i  hireYpYouw anroy esnaoenasdYi u  ld pay sdo  rot ro r iinr aid to usg Your and is flew plaything oouuwial usher our.
 
@@ -855,10 +876,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85af1b0"/>
+      <child nodeId="node-0x2a1a580"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85af1b0">
+  <item nodeId="node-0x2a1a580">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do eut tnonk nnu .re sofe al YYce. Y u caawot escane  s Y   will pa  fo  rt you  kind cid to ts.i.ggnath soirce i  rurhinuYoubwill ushe  our.
 
@@ -869,10 +890,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85af310"/>
+      <child nodeId="node-0x2a1a6e0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85af310">
+  <item nodeId="node-0x2a1a6e0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do yoo?thcnk younare ca Y in heralwTi y canwot euraae us dlick i.wiol .ayrfsr  hatc our kindpifut.rusw uig.al. oourleris sur rl yoy ng Yf  out uhaer our.
 
@@ -883,10 +904,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85af470"/>
+      <child nodeId="node-0x2a1a840"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85af470">
+  <item nodeId="node-0x2a1a840">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve"> c nre tsenk eou .ae safe snwo cell ou cannyt eucapu is You do l pay for atoyouo ksns did ro upi YyYr sourcelis our puaythirg Yo  yut nsher rur.
 
@@ -897,10 +918,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85af5d0"/>
+      <child nodeId="node-0x2a1a9a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85af5d0">
+  <item nodeId="node-0x2a1a9a0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">D  ycuathunk s are safe iY lwre. You cannot ohuyturYonkdiul piy for what your k nd dud po ul.yyigtals to rce is our phaythieu aod out of osr.
 
@@ -911,10 +932,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85af730"/>
+      <child nodeId="node-0x2a1ab00"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85af730">
+  <item nodeId="node-0x2a1ab00">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve"> cu youttuink you are safe iniherp.fiou canofwyes apeous You will paos  ruwuat yosr kine oiurtonus. tiuggsuuriewis our h ayrhunh Yoi wonl usreraorr.
 
@@ -925,10 +946,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85af890"/>
+      <child nodeId="node-0x2a1ac60"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85af890">
+  <item nodeId="node-0x2a1ac60">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">Do yocnthu k a  re supesin once. wo   ynnrtteraape yiudYou will pay  or w.at rour kind  ido u psn YnYu sYlrce is ohr olaythirg You wihl u h r e r.
 
@@ -939,10 +960,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85af9f0"/>
+      <child nodeId="node-0x2a1adc0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85af9f0">
+  <item nodeId="node-0x2a1adc0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve"> o yoY ohink yss arepsafY iY her l Yourcoofwttaftos yok iild pay fo  what yourrcind did t  us. tau. sour e is iur reay uing You will ushenyour.
 
@@ -953,10 +974,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85afb50"/>
+      <child nodeId="node-0x2a3f0a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85afb50">
+  <item nodeId="node-0x2a3f0a0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">eo y?u thnnk you aae safe onooere pY p cannot esca r uskdnuiditl u y for  ort your kind dialto us. Yo o Yoiliesis srr pl bthihg Y u wiil usherroues
 
@@ -967,10 +988,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85afcb0"/>
+      <child nodeId="node-0x2a3f200"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85afcb0">
+  <item nodeId="node-0x2a3f200">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">ro  ou ccinktyocsaaaaeafe Yo  ewl. You cannoh estapruuskYo  w lt pay forowhat uuri ksnu ridaty uh. Your sourleuss our plarrhinDoYou willkusher ours
 
@@ -981,10 +1002,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85afe10"/>
+      <child nodeId="node-0x2a3f360"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85afe10">
+  <item nodeId="node-0x2a3f360">
     <command xml:space="preserve">x observation module</command>
     <result xml:space="preserve"> mdule  pial
 
@@ -995,10 +1016,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85c9080"/>
+      <child nodeId="node-0x2a3f4c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85c9080">
+  <item nodeId="node-0x2a3f4c0">
     <command xml:space="preserve">x observation module</command>
     <result xml:space="preserve"> odle :otia.
 
@@ -1009,10 +1030,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85c91e0"/>
+      <child nodeId="node-0x2a3f620"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85c91e0">
+  <item nodeId="node-0x2a3f620">
     <command xml:space="preserve">x examination</command>
     <result xml:space="preserve"> modl  orrupte.
 
@@ -1023,10 +1044,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85c9340"/>
+      <child nodeId="node-0x2a3f780"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85c9340">
+  <item nodeId="node-0x2a3f780">
     <command xml:space="preserve">x examination</command>
     <result xml:space="preserve"> mdule :crrped
 
@@ -1037,10 +1058,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85c94a0"/>
+      <child nodeId="node-0x2a3f8e0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85c94a0">
+  <item nodeId="node-0x2a3f8e0">
     <command xml:space="preserve">x examination</command>
     <result xml:space="preserve">mdue: orrped
 
@@ -1051,10 +1072,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85c9600"/>
+      <child nodeId="node-0x2a3fa40"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85c9600">
+  <item nodeId="node-0x2a3fa40">
     <command xml:space="preserve">showme examination</command>
     <result xml:space="preserve">Examination module - module
 location: part of yourself in Silicon Expanse
@@ -1074,10 +1095,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85c9760"/>
+      <child nodeId="node-0x2a3fba0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85c9760">
+  <item nodeId="node-0x2a3fba0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">ro  oou hinkoyou arpe afe io  wrel You cannwh esyope ui You dill ua. for wsau ye r kond did th ng. Your iolrue ir our reaithing You will usyeu our.
 
@@ -1088,10 +1109,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85c9b80"/>
+      <child nodeId="node-0x2a3fd00"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85c9b80">
+  <item nodeId="node-0x2a3fd00">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">De  ou thankotousareesafe Ynu wre. Yoy can ot escour ki d u dilo uay Yorr hot ceur  iur pla th ng. Your iou uehir our rebyttinD  yo wihlnk heu our.
 
@@ -1102,7 +1123,7 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efebc523700">
+  <item nodeId="node-0x2a3fe60">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1113,10 +1134,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc5235a0"/>
+      <child nodeId="node-0x2a65080"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc5235a0">
+  <item nodeId="node-0x2a65080">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">WWeeeEyOWWeSeeYouWEESEYYUUUesseeyWeeSeEyuW eSeeooWWEESEEOOiceeseyyaWeSEffOuWSeeYYodWESSEEYUOwwsseeetWeeeEOOuWeSseYndWEESEEYOUw eeeen WeSeEyOuWee
 
@@ -1127,10 +1148,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc523440"/>
+      <child nodeId="node-0x2a651e0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc523440">
+  <item nodeId="node-0x2a651e0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">YWeSeEyOuneaeeYouWEESEEYOUwesetyocWeSeEyO WeSeeYouWEESEEYOcweseey nWeSfE OuWtSeeeouWEESEEYOUweseeypioeSeEyOuWeS eYo WEtSEEYoUwes eyooWeSeEyyuWe
 
@@ -1141,10 +1162,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc523860"/>
+      <child nodeId="node-0x2a65340"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc523860">
+  <item nodeId="node-0x2a65340">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">oWeaeEyiuWaSeeYouWEESEEYceweseeyoeWeSeEyOuWeSs YouyEESfEYcUerseeyodWeSeEyOuWeS eYou EfSyEYrUweseeyooWeSeEyOuWeSend uWEaSEEYOUinseeyouWeoeEyOuW
 
@@ -1155,10 +1176,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc5239c0"/>
+      <child nodeId="node-0x2a654a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc5239c0">
+  <item nodeId="node-0x2a654a0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">oWeSeE OuWeSeeYouWEESpEYOUwese yocWeSeiyOuWaSeeYou EESEEYOcweseey nWeofEyOu eSeeYogWEofEEYOrwpereyoiWeS SyguWeSeeYouWEESEEYOwweneayooWtSeEyOuWe
 
@@ -1169,10 +1190,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc523b20"/>
+      <child nodeId="node-0x2a65600"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc523b20">
+  <item nodeId="node-0x2a65600">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1183,10 +1204,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc523c80"/>
+      <child nodeId="node-0x2a65760"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc523c80">
+  <item nodeId="node-0x2a65760">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">WeSeEyOuWeSeetouWEESE YOUweseeyouWeeeETOuWeSeeYo WEESEEYOUwekee ouWeSdEyOuWeS tho eEESEEYOyweseeyouWeSeoyOuSegeeYouWEESdEYaUweseeyouWnSeEyOuoe yeYo
 
@@ -1197,10 +1218,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc523de0"/>
+      <child nodeId="node-0x2a658c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc523de0">
+  <item nodeId="node-0x2a658c0">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">WeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYo
 
@@ -1211,10 +1232,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebcc60010"/>
+      <child nodeId="node-0x2a65a20"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebcc60010">
+  <item nodeId="node-0x2a65a20">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">WeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYo
 
@@ -1225,7 +1246,7 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efebc3bc4c0">
+  <item nodeId="node-0x2a65b80">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Silicon Expanse
 
@@ -1236,7 +1257,7 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efebc3bc780">
+  <item nodeId="node-0x2a65ce0">
     <command xml:space="preserve">actions on</command>
     <result xml:space="preserve">Actions listing on.
 
@@ -1247,10 +1268,10 @@ corruption level: 104
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc3bc620"/>
+      <child nodeId="node-0x2a65e40"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc3bc620">
+  <item nodeId="node-0x2a65e40">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">[examining yourself]
 You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
@@ -1264,10 +1285,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc3bc360"/>
+      <child nodeId="node-0x2a99000"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc3bc360">
+  <item nodeId="node-0x2a99000">
     <command xml:space="preserve">rules on</command>
     <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
 
@@ -1278,10 +1299,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc3bc8e0"/>
+      <child nodeId="node-0x2a99160"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc3bc8e0">
+  <item nodeId="node-0x2a99160">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">[examining yourself]
 [Rule &quot;standard examining rule&quot; applies.]
@@ -1302,10 +1323,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc3bca40"/>
+      <child nodeId="node-0x2a992c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc3bca40">
+  <item nodeId="node-0x2a992c0">
     <command xml:space="preserve">rules all</command>
     <result xml:space="preserve">Rules tracing now switched to &quot;all&quot;. Type &quot;rules off&quot; to switch it off again.
 
@@ -1316,10 +1337,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebc3bcba0"/>
+      <child nodeId="node-0x2a99420"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebc3bcba0">
+  <item nodeId="node-0x2a99420">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">[Rule &quot;standard set going variables rule&quot; does not apply.]
 [Rule &quot;determine visibility ceiling rule&quot; does not apply.]
@@ -1375,7 +1396,7 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x1315610">
+  <item nodeId="node-0x2a99580">
     <command xml:space="preserve">x module</command>
     <result xml:space="preserve">Which do you mean, Observation module or Examination module?
 
@@ -1386,10 +1407,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x13154b0"/>
+      <child nodeId="node-0x2a996e0"/>
     </children>
   </item>
-  <item nodeId="node-0x13154b0">
+  <item nodeId="node-0x2a996e0">
     <command xml:space="preserve">observation</command>
     <result xml:space="preserve">Observation module capacity: optimal.
 
@@ -1400,10 +1421,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1315350"/>
+      <child nodeId="node-0x2a99840"/>
     </children>
   </item>
-  <item nodeId="node-0x1315350">
+  <item nodeId="node-0x2a99840">
     <command xml:space="preserve">ls</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1414,10 +1435,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x1315770"/>
+      <child nodeId="node-0x2a999a0"/>
     </children>
   </item>
-  <item nodeId="node-0x1315770">
+  <item nodeId="node-0x2a999a0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1428,10 +1449,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x13158d0"/>
+      <child nodeId="node-0x2a99b00"/>
     </children>
   </item>
-  <item nodeId="node-0x13158d0">
+  <item nodeId="node-0x2a99b00">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -1442,9 +1463,11 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efeb85c9ce0">
+  <item nodeId="node-0x2a99c60">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.
+    <result xml:space="preserve">You can&apos;t go that way.
+
+[The only way to go is south.]
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -1453,13 +1476,14 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efeb85c9e40"/>
-      <child nodeId="node-0x7efeb85c9a20"/>
-      <child nodeId="node-0x7efea02c2350"/>
-      <child nodeId="node-0x7efea02c2770"/>
+      <child nodeId="node-0x2a99dc0"/>
+      <child nodeId="node-0x2ab3070"/>
+      <child nodeId="node-0x2ab3a10"/>
+      <child nodeId="node-0x2ab3b70"/>
+      <child nodeId="node-0x2ad9200"/>
     </children>
   </item>
-  <item nodeId="node-0x7efeb85c9e40">
+  <item nodeId="node-0x2a99dc0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Silicon Expanse
 
@@ -1470,7 +1494,7 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efeb85c9a20">
+  <item nodeId="node-0x2ab3070">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.
 
@@ -1481,10 +1505,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea0100730"/>
+      <child nodeId="node-0x2ab31d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea0100730">
+  <item nodeId="node-0x2ab31d0">
     <command xml:space="preserve">showme location</command>
     <result xml:space="preserve">[I didn&apos;t recognise all of the words in that command.]
 
@@ -1495,10 +1519,10 @@ You are in a thousand places at once. Tiny parts of you flicker on and off at th
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea0100050"/>
+      <child nodeId="node-0x2ab3330"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea0100050">
+  <item nodeId="node-0x2ab3330">
     <command xml:space="preserve">showme Silicon Expanse</command>
     <result xml:space="preserve">(Silicon Expanse)
 Silicon Expanse - room
@@ -1520,10 +1544,10 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea0100890"/>
+      <child nodeId="node-0x2ab3490"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea0100890">
+  <item nodeId="node-0x2ab3490">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.
 
@@ -1534,10 +1558,10 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea01009f0"/>
+      <child nodeId="node-0x2ab35f0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea01009f0">
+  <item nodeId="node-0x2ab35f0">
     <command xml:space="preserve">go to B-0</command>
     <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE EXAMINATION MODULE for a closer look at something, or LOOK to show the description of this location again.]
 
@@ -1548,10 +1572,10 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea0100b50"/>
+      <child nodeId="node-0x2ab3750"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea0100b50">
+  <item nodeId="node-0x2ab3750">
     <command xml:space="preserve">go B-0</command>
     <result xml:space="preserve">[I only understood the first part of that-- trying anyway.]
 &gt;GO B
@@ -1564,10 +1588,10 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea0100cb0"/>
+      <child nodeId="node-0x2ab38b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea0100cb0">
+  <item nodeId="node-0x2ab38b0">
     <command xml:space="preserve">go to B-0</command>
     <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE OBSERVATION MODULE for a closer look at something, or LOOK to show the description of this location again.]
 
@@ -1578,7 +1602,7 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efea02c2350">
+  <item nodeId="node-0x2ab3a10">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -1589,7 +1613,7 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efea02c2770">
+  <item nodeId="node-0x2ab3b70">
     <command xml:space="preserve">go to b-0</command>
     <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]
 
@@ -1600,10 +1624,10 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea02c21f0"/>
+      <child nodeId="node-0x2ab3cd0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea02c21f0">
+  <item nodeId="node-0x2ab3cd0">
     <command xml:space="preserve">go to Terminal B-0</command>
     <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]
 
@@ -1614,10 +1638,10 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea02c28d0"/>
+      <child nodeId="node-0x2ab3e30"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea02c28d0">
+  <item nodeId="node-0x2ab3e30">
     <command xml:space="preserve">rules on</command>
     <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
 
@@ -1628,10 +1652,10 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea02c2a30"/>
+      <child nodeId="node-0x2ad90a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea02c2a30">
+  <item nodeId="node-0x2ad90a0">
     <command xml:space="preserve">go to Terminal B-0</command>
     <result xml:space="preserve">[Rule &quot;stripping punctuation rule&quot; applies.]
 [Rule &quot;standardize apostrophes rule&quot; applies.]
@@ -1655,7 +1679,19 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efeb85c98c0">
+  <item nodeId="node-0x2ad9200">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Terminal B-0
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x2ad9360">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Silicon Expanse
 
@@ -1666,7 +1702,7 @@ map region: Cyberspace
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efea0100e10">
+  <item nodeId="node-0x2ad94c0">
     <command xml:space="preserve">showme body</command>
     <result xml:space="preserve">your body - open container
     Observation module (part of your body) - module
@@ -1689,10 +1725,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea02c2090"/>
+      <child nodeId="node-0x2ad9620"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea02c2090">
+  <item nodeId="node-0x2ad9620">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -1703,7 +1739,7 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efea02c2610">
+  <item nodeId="node-0x2ad9780">
     <command xml:space="preserve">rules on</command>
     <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
 
@@ -1714,10 +1750,10 @@ carrying capacity: 100
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea02c24b0"/>
+      <child nodeId="node-0x2ad98e0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea02c24b0">
+  <item nodeId="node-0x2ad98e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">[Rule &quot;standard set going variables rule&quot; applies.]
 
@@ -1732,7 +1768,7 @@ Fatal error: Stack overflow
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efea02c2b90">
+  <item nodeId="node-0x2ad9a40">
     <command xml:space="preserve">go terminal b-0</command>
     <result xml:space="preserve">[I only understood the first part of that-- trying anyway.]
 &gt;GO TERMINAL
@@ -1745,10 +1781,10 @@ Fatal error: Stack overflow
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea02c2cf0"/>
+      <child nodeId="node-0x2ad9ba0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea02c2cf0">
+  <item nodeId="node-0x2ad9ba0">
     <command xml:space="preserve">x terminal</command>
     <result xml:space="preserve">[That&apos;s not something you can see now, or I misunderstood you.]
 
@@ -1759,10 +1795,10 @@ Fatal error: Stack overflow
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea02c2e50"/>
+      <child nodeId="node-0x2ad9d00"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea02c2e50">
+  <item nodeId="node-0x2ad9d00">
     <command xml:space="preserve">rules</command>
     <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
 
@@ -1773,10 +1809,10 @@ Fatal error: Stack overflow
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea074c020"/>
+      <child nodeId="node-0x2ad9e60"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea074c020">
+  <item nodeId="node-0x2ad9e60">
     <command xml:space="preserve">rules all</command>
     <result xml:space="preserve">Rules tracing now switched to &quot;all&quot;. Type &quot;rules off&quot; to switch it off again.
 
@@ -1788,10 +1824,10 @@ Fatal error: Stack overflow
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea074c180"/>
+      <child nodeId="node-0x2aff010"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea074c180">
+  <item nodeId="node-0x2aff010">
     <command xml:space="preserve">rules</command>
     <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
 [Rule &quot;standard set going variables rule&quot; does not apply.]
@@ -1806,10 +1842,10 @@ Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea074c2e0"/>
+      <child nodeId="node-0x2aff170"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea074c2e0">
+  <item nodeId="node-0x2aff170">
     <command xml:space="preserve">x terminal</command>
     <result xml:space="preserve">[Rule &quot;Small Kindnesses place the room in scope while looking rule&quot; applies.]
 [Rule &quot;Small Kindnesses place the room in scope while looking rule&quot; applies.]
@@ -1846,10 +1882,10 @@ Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea074c440"/>
+      <child nodeId="node-0x2aff2d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea074c440">
+  <item nodeId="node-0x2aff2d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">[Rule &quot;standard set going variables rule&quot; applies.]
 [Rule &quot;Instead of going a direction when the player is digital&quot; applies.]
@@ -1862,10 +1898,10 @@ There is no sense of direction in this place. You must access terminals directly
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea074c5a0"/>
+      <child nodeId="node-0x2aff430"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea074c5a0">
+  <item nodeId="node-0x2aff430">
     <command xml:space="preserve">go to terminal b-0</command>
     <result xml:space="preserve">[Rule &quot;stripping punctuation rule&quot; applies.]
 [Rule &quot;standardize apostrophes rule&quot; applies.]
@@ -1889,7 +1925,7 @@ There is no sense of direction in this place. You must access terminals directly
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efea074c700">
+  <item nodeId="node-0x2aff590">
     <command xml:space="preserve">go to terminal b-0</command>
     <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]
 
@@ -1900,11 +1936,11 @@ There is no sense of direction in this place. You must access terminals directly
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea074c860"/>
-      <child nodeId="node-0x7efea074cb20"/>
+      <child nodeId="node-0x2aff6f0"/>
+      <child nodeId="node-0x2aff850"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea074c860">
+  <item nodeId="node-0x2aff6f0">
     <command xml:space="preserve">go terminal</command>
     <result xml:space="preserve">[That&apos;s not something you can see now, or I misunderstood you.]
 
@@ -1915,7 +1951,7 @@ There is no sense of direction in this place. You must access terminals directly
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efea074cb20">
+  <item nodeId="node-0x2aff850">
     <command xml:space="preserve">rules all</command>
     <result xml:space="preserve">Rules tracing now switched to &quot;all&quot;. Type &quot;rules off&quot; to switch it off again.
 
@@ -1927,10 +1963,10 @@ There is no sense of direction in this place. You must access terminals directly
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efea074c9c0"/>
+      <child nodeId="node-0x2aff9b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efea074c9c0">
+  <item nodeId="node-0x2aff9b0">
     <command xml:space="preserve">go to terminal b-0</command>
     <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
 [Rule &quot;stripping punctuation rule&quot; applies.]
@@ -1963,7 +1999,7 @@ There is no sense of direction in this place. You must access terminals directly
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efebced2090">
+  <item nodeId="node-0x2affb10">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Terminal B-0
@@ -1975,12 +2011,12 @@ Terminal B-0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebced24b0"/>
-      <child nodeId="node-0x7efebced2770"/>
-      <child nodeId="node-0x7efe902a25c0"/>
+      <child nodeId="node-0x2affc70"/>
+      <child nodeId="node-0x2affdd0"/>
+      <child nodeId="node-0x2b41a30"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebced24b0">
+  <item nodeId="node-0x2affc70">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Terminal B-0
 
@@ -1991,7 +2027,7 @@ Terminal B-0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efebced2770">
+  <item nodeId="node-0x2affdd0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Terminal B-1
@@ -2003,11 +2039,11 @@ Terminal B-1
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebced28d0"/>
-      <child nodeId="node-0x7efe90198b70"/>
+      <child nodeId="node-0x2b26000"/>
+      <child nodeId="node-0x2b41350"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebced28d0">
+  <item nodeId="node-0x2b26000">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2020,10 +2056,10 @@ Terminal B-1
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebced2a30"/>
+      <child nodeId="node-0x2b26160"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebced2a30">
+  <item nodeId="node-0x2b26160">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 Terminal B-3
@@ -2035,10 +2071,10 @@ Terminal B-3
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebced2b90"/>
+      <child nodeId="node-0x2b262c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebced2b90">
+  <item nodeId="node-0x2b262c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Terminal B-6
@@ -2050,10 +2086,10 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebced2cf0"/>
+      <child nodeId="node-0x2b26420"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebced2cf0">
+  <item nodeId="node-0x2b26420">
     <command xml:space="preserve">take body</command>
     <result xml:space="preserve">Taken.
 
@@ -2064,10 +2100,10 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebced2e50"/>
+      <child nodeId="node-0x2b26580"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebced2e50">
+  <item nodeId="node-0x2b26580">
     <command xml:space="preserve">enter body</command>
     <result xml:space="preserve">[You can only get into something free-standing.]
 
@@ -2078,10 +2114,10 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe90198070"/>
+      <child nodeId="node-0x2b266e0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe90198070">
+  <item nodeId="node-0x2b266e0">
     <command xml:space="preserve">rules all</command>
     <result xml:space="preserve">Rules tracing now switched to &quot;all&quot;. Type &quot;rules off&quot; to switch it off again.
 
@@ -2093,10 +2129,10 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe901981d0"/>
+      <child nodeId="node-0x2b26840"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe901981d0">
+  <item nodeId="node-0x2b26840">
     <command xml:space="preserve">enter body</command>
     <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
 [Rule &quot;standard set going variables rule&quot; does not apply.]
@@ -2123,10 +2159,10 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe90198330"/>
+      <child nodeId="node-0x2b269a0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe90198330">
+  <item nodeId="node-0x2b269a0">
     <command xml:space="preserve">drop body</command>
     <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
 [Rule &quot;standard set going variables rule&quot; does not apply.]
@@ -2154,10 +2190,10 @@ Dropped.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe90198490"/>
+      <child nodeId="node-0x2b26b00"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe90198490">
+  <item nodeId="node-0x2b26b00">
     <command xml:space="preserve">enter body</command>
     <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
 [Rule &quot;standard set going variables rule&quot; does not apply.]
@@ -2195,10 +2231,10 @@ You get into the your body.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe901985f0"/>
+      <child nodeId="node-0x2b26c60"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe901985f0">
+  <item nodeId="node-0x2b26c60">
     <command xml:space="preserve">open body</command>
     <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
 [Rule &quot;standard set going variables rule&quot; does not apply.]
@@ -2220,10 +2256,10 @@ You get into the your body.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe90198750"/>
+      <child nodeId="node-0x2b26dc0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe90198750">
+  <item nodeId="node-0x2b26dc0">
     <command xml:space="preserve">exit</command>
     <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
 [Rule &quot;standard set going variables rule&quot; does not apply.]
@@ -2279,10 +2315,10 @@ You can see the your body (empty) here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe901988b0"/>
+      <child nodeId="node-0x2b41090"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe901988b0">
+  <item nodeId="node-0x2b41090">
     <command xml:space="preserve">enter body</command>
     <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
 [Rule &quot;standard set going variables rule&quot; does not apply.]
@@ -2320,10 +2356,10 @@ You get into the your body.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe90198a10"/>
+      <child nodeId="node-0x2b411f0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe90198a10">
+  <item nodeId="node-0x2b411f0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
 [Rule &quot;standard set going variables rule&quot; does not apply.]
@@ -2365,7 +2401,7 @@ Terminal B-6 (in the your body)
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efe90198b70">
+  <item nodeId="node-0x2b41350">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 Terminal B-3
@@ -2377,10 +2413,10 @@ Terminal B-3
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe90198cd0"/>
+      <child nodeId="node-0x2b414b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe90198cd0">
+  <item nodeId="node-0x2b414b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Terminal B-6
@@ -2392,10 +2428,10 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe90198e30"/>
+      <child nodeId="node-0x2b41610"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe90198e30">
+  <item nodeId="node-0x2b41610">
     <command xml:space="preserve">take body</command>
     <result xml:space="preserve">Taken.
 
@@ -2406,10 +2442,10 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a2040"/>
+      <child nodeId="node-0x2b41770"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a2040">
+  <item nodeId="node-0x2b41770">
     <command xml:space="preserve">drop body</command>
     <result xml:space="preserve">Dropped.
 
@@ -2420,10 +2456,10 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a21a0"/>
+      <child nodeId="node-0x2b418d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a21a0">
+  <item nodeId="node-0x2b418d0">
     <command xml:space="preserve">enter body</command>
     <result xml:space="preserve">You get into your body.
 
@@ -2434,7 +2470,7 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efe902a25c0">
+  <item nodeId="node-0x2b41a30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2447,10 +2483,10 @@ Terminal B-6
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a2460"/>
+      <child nodeId="node-0x2b41b90"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a2460">
+  <item nodeId="node-0x2b41b90">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Terminal B-1
@@ -2462,10 +2498,10 @@ Terminal B-1
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a2300"/>
+      <child nodeId="node-0x2b41cf0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a2300">
+  <item nodeId="node-0x2b41cf0">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 Terminal B-3
@@ -2477,10 +2513,10 @@ Terminal B-3
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a2720"/>
+      <child nodeId="node-0x2b41e50"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a2720">
+  <item nodeId="node-0x2b41e50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Terminal B-6
@@ -2494,10 +2530,10 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a2880"/>
+      <child nodeId="node-0x2b67090"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a2880">
+  <item nodeId="node-0x2b67090">
     <command xml:space="preserve">take terminal</command>
     <result xml:space="preserve">Birth Server Terminus
 
@@ -2508,10 +2544,10 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a29e0"/>
+      <child nodeId="node-0x2b671f0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a29e0">
+  <item nodeId="node-0x2b671f0">
     <command xml:space="preserve">ks</command>
     <result xml:space="preserve">[That&apos;s not a verb I recognise.]
 
@@ -2522,10 +2558,10 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a2b40"/>
+      <child nodeId="node-0x2b67350"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a2b40">
+  <item nodeId="node-0x2b67350">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   your body
@@ -2537,10 +2573,10 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a2ca0"/>
+      <child nodeId="node-0x2b674b0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a2ca0">
+  <item nodeId="node-0x2b674b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2553,10 +2589,10 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe902a2e00"/>
+      <child nodeId="node-0x2b67610"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe902a2e00">
+  <item nodeId="node-0x2b67610">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Birth Server Terminus
 
@@ -2567,10 +2603,10 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039d090"/>
+      <child nodeId="node-0x2b67770"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039d090">
+  <item nodeId="node-0x2b67770">
     <command xml:space="preserve">drop body</command>
     <result xml:space="preserve">It is not possible to exit your body without accessing a computer terminal first
 &gt;</result>
@@ -2580,10 +2616,10 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039d1f0"/>
+      <child nodeId="node-0x2b678d0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039d1f0">
+  <item nodeId="node-0x2b678d0">
     <command xml:space="preserve">enter body</command>
     <result xml:space="preserve">[You can&apos;t get into the closed your body.]
 
@@ -2594,10 +2630,10 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039d350"/>
+      <child nodeId="node-0x2b67a30"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039d350">
+  <item nodeId="node-0x2b67a30">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   your body
@@ -2609,7 +2645,7 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efebced2610">
+  <item nodeId="node-0x2b67b90">
     <command xml:space="preserve">exits</command>
     <result xml:space="preserve">[The only way to go is south.]
 
@@ -2620,10 +2656,10 @@ You can see player&apos;s terminal here.
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebced21f0"/>
+      <child nodeId="node-0x2b67cf0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebced21f0">
+  <item nodeId="node-0x2b67cf0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Terminal B-0
@@ -2635,10 +2671,10 @@ Terminal B-0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efebced2350"/>
+      <child nodeId="node-0x2b67e50"/>
     </children>
   </item>
-  <item nodeId="node-0x7efebced2350">
+  <item nodeId="node-0x2b67e50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2651,7 +2687,7 @@ Terminal B-0
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0x7efe9039d770">
+  <item nodeId="node-0x2b970a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2659,45 +2695,45 @@ Terminal B-0
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039d610"/>
+      <child nodeId="node-0x2b97200"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039d610">
+  <item nodeId="node-0x2b97200">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Terminal B-0
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039d4b0"/>
+      <child nodeId="node-0x2b97360"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039d4b0">
+  <item nodeId="node-0x2b97360">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Terminal B-1
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039d8d0"/>
+      <child nodeId="node-0x2b974c0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039d8d0">
+  <item nodeId="node-0x2b974c0">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2705,30 +2741,30 @@ Terminal B-1
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039da30"/>
+      <child nodeId="node-0x2b97620"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039da30">
+  <item nodeId="node-0x2b97620">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 Terminal B-3
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039db90"/>
+      <child nodeId="node-0x2b97780"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039db90">
+  <item nodeId="node-0x2b97780">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Terminal B-6
@@ -2737,63 +2773,63 @@ You can see player&apos;s terminal here.
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039dcf0"/>
+      <child nodeId="node-0x2b978e0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039dcf0">
+  <item nodeId="node-0x2b978e0">
     <command xml:space="preserve">take terminal</command>
     <result xml:space="preserve">Birth Server Terminus
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe9039de50"/>
+      <child nodeId="node-0x2b97a40"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe9039de50">
+  <item nodeId="node-0x2b97a40">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   your body
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe904a0060"/>
+      <child nodeId="node-0x2b97ba0"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe904a0060">
+  <item nodeId="node-0x2b97ba0">
     <command xml:space="preserve">enter body</command>
     <result xml:space="preserve">[You can&apos;t get into the closed your body.]
 
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x7efe904a01c0"/>
+      <child nodeId="node-0x2b97d00"/>
     </children>
   </item>
-  <item nodeId="node-0x7efe904a01c0">
+  <item nodeId="node-0x2b97d00">
     <command xml:space="preserve">drop body</command>
     <result xml:space="preserve">It is not possible to exit your body without accessing a computer terminal first
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
+    <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>

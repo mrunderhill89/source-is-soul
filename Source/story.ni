@@ -7,6 +7,12 @@ include Player Experience Upgrade by Aaron Reed.
 
 Volume - Debug Routines
 
+[This is meant for finding stuff that still needs descriptions. We should remove it before turning it in.]
+When play begins (this is the find undescribed rooms at the start of play rule):
+	repeat with room running through rooms:
+		if description of the room is "":
+			say "[room] has no description."
+
 Volume - Rules
 
 Part - Modules
@@ -191,11 +197,51 @@ Part - Your Body
 
 Part - Server-Refuge Road
 
+Chapter - Birth Server and Main Road
+
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
+
+Road SR-1 is a room.
+Road SR-1 is east of Birth Server Terminus.
+
+Road SR-2 is a room. 
+Road SR-2 is east of Road SR-1.
+
+Road SR-3 is a room.
+Road SR-3 is east of Road SR-2.
+
+Chapter - Data Repository 1
+
+Road DR 1-1 is a room. 
+It is north of Road SR-1.
+Road DR 1-1 is east of Road DR 1-2.
+
+Road DR 1-2 is a room.
+
+Data Repository DR-1 is a room.
+Data Repository DR-1 is south of Road DR 1-2.
+
+Chapter - Data Repository 2
+
+Data Repository DR 2 is a room.
+
+Road DR 2-1 is a room. 
+It is north of Data Repository DR 2.
+It is east of Road RP-1.
 
 Part - Refugee Camp
 
+Chapter - Refuge R-01
+
+Refuge R-01 is a room.  It is north of Road SR-3.
+
 Part - Refuge-Plant Road
+
+Security Door RP is a locked door. It is south of Road SR-3 and north of Road RP-1.
+
+Road RP-1 is a room. 
+
+Road RP-2 is a room. It is south of Road RP-1.
 
 Part - Power Plant
 
