@@ -200,8 +200,19 @@ Part - Server-Refuge Road
 Chapter - Birth Server and Main Road
 
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
+	[Objects: Spawn chamber, displays]
 
-Road SR-1 is a room.
+	[After entering Birth Server Terminus from Cyberspace, say "Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever.
+	[paragraph break]
+	A single line of white text blinks into view, hovering motionless in the black void.
+	[paragraph break]
+	…initiating startup sequence…
+	[paragraph break]
+	Somewhere far away, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.
+	"]
+	[etc...]
+
+Road SR-1 is a room. [Objects: husk of destroyed battle tank]
 Road SR-1 is east of Birth Server Terminus.
 
 Road SR-2 is a room. 
@@ -233,7 +244,9 @@ Part - Refugee Camp
 
 Chapter - Refuge R-01
 
-Refuge R-01 is a room.  It is north of Road SR-3.
+Refuge R-1 is a room.  It is north of Road SR-3.
+
+[Objects: Art piece(s), "dining" area with power conduits and automated maintenance station, armored wall]
 
 Part - Refuge-Plant Road
 
@@ -245,9 +258,24 @@ Road RP-2 is a room. It is south of Road RP-1.
 
 Part - Power Plant
 
+Power Plant Vicinity PP-1 is a room. It is south of Road RP-2.
+
+Power Plant Entrance PP-2 is a room. It is west of PP-1.
+[Objects: Status readouts, dials / gauges, pipes, sealed hatch to core, safety override system (opens hatch)]
+
+Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
+[Objects in power plant core: misaligned fusion core, core shielding]
+
+
 Part - Refuge Invasion
 
+
+
 Part - Refuge-City Road
+
+Road C-1 is a room. It is east of R-1.
+
+Road C-2 is a room. It is east of C-1.
 
 Part - The Human City Ruins
 
@@ -261,7 +289,13 @@ Chapter - East Labyrinth (To Genesis Factory)
 
 Part - Infected Robot Camp
 
+Infected Robot Camp IC-1 is a room.
+
 Part - Virus Lab
+
+Virus Lab Security Checkpoint VL-1 is a room.
+
+Virus Lab Central Hub VL-2 is a room. It is south of VL-1.
 
 Part - Genesis Factory
 
