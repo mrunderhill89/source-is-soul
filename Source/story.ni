@@ -176,6 +176,7 @@ It is east of Terminal B-0 and northeast of Terminal B-3.
 Chapter - Terminal B-2
 
 Terminal B-2 is a room in BirthServer. It is west of Terminal B-3.
+The description is "A glowing rectangle floats in the center of the room, images flashing by on its smooth surface."
 
 Chapter - Terminal B-3
 
@@ -205,10 +206,10 @@ Chapter - BirthServer and Main Road
 
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
 The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube."
-	
+
 	The cube, tubes, computer terminal, hole, floor, walls, and ceiling are scenery.
-	
-	Door BT-1 is a door. It is east of Birth Server Terminus and west of SR-1.
+
+	Door BT-1 is a door. It is east of Birth Server Terminus and west of Road SR-1.
 
 	[After entering BirthServer Terminus from Cyberspace, say "Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever.
 	[paragraph break]
@@ -220,14 +221,15 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 	"]
 	[etc...]
 
-Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Open doors stand to the east and west."
+Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
 
-	The rubble, south wall, hover tank, gun barrel, northward door, floor, walls, and ceiling are scenery.
+	The rubble, south wall, hovertank, gun barrel, northward door, floor, walls, and ceiling are scenery.
 
 
-Road SR-1 is east of Birth Server Terminus.
+Road SR-1 is east of Door BT-1.
 
-Road SR-2 is a room.
+Road SR-2 is a room. The description is "An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions."
+
 Road SR-2 is east of Road SR-1.
 
 Chapter - Data Repository 1
@@ -282,7 +284,7 @@ Part - Refuge Invasion
 
 Part - Refuge-City Road
 
-Road C-1 is a room. It is east of R-1.
+Road C-1 is a room. It is east of SR-2.
 
 Road C-2 is a room. It is east of C-1.
 
