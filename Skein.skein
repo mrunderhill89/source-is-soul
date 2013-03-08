@@ -1,2494 +1,1078 @@
-<?xml version="1.0"?>
-<Skein rootNode="node-0x745f6e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Zoom</generator>
-  <activeNode nodeId="node-0x745f6e0" />
-  <item nodeId="node-0x745f6e0">
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x031EAC80" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x031EAC80"/>
+  <item nodeId="node-0x031EAC80">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
-
-
-
-Terminal B-6 has no description.
-Terminal B-0 has no description.
-Terminal B-1 has no description.
-Terminal B-3 has no description.
-Terminal B-2 has no description.
-Terminal B-4 has no description.
-Terminal B-5 has no description.
-Terminal B-7 has no description.
-Birth Server Terminus has no description.
-Road SR-1 has no description.
-Road SR-2 has no description.
-Road SR-3 has no description.
-Road DR 1-1 has no description.
-Road DR 1-2 has no description.
-Data Repository DR-1 has no description.
-Data Repository DR 2 has no description.
-Road DR 2-1 has no description.
-Road RP-1 has no description.
-Refuge R-1 has no description.
-Road RP-2 has no description.
-Power Plant Vicinity PP-1 has no description.
-Power Plant Entrance PP-2 has no description.
-Power Plant Core PPC-1 has no description.
-Road C-1 has no description.
-Road C-2 has no description.
-Infected Robot Camp IC-1 has no description.
-Virus Lab Security Checkpoint VL-1 has no description.
-Virus Lab Central Hub VL-2 has no description.
-
-Source Is Soul
-An Interactive Fiction by Kevin Cameron, Casey Scheide
-Release 1 / Serial number 130304 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
-
-Silicon Expanse
-You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
-&gt;</result>
+    <result xml:space="preserve">Terminal B-6 has no description.&#x000A;Terminal B-0 has no description.&#x000A;Terminal B-1 has no description.&#x000A;Terminal B-3 has no description.&#x000A;Terminal B-2 has no description.&#x000A;Terminal B-4 has no description.&#x000A;Terminal B-5 has no description.&#x000A;Terminal B-7 has no description.&#x000A;Birth Server Terminus has no description.&#x000A;Road SR-1 has no description.&#x000A;BirthServer Terminus has no description.&#x000A;Road SR-2 has no description.&#x000A;Road SR-3 has no description.&#x000A;Road DR 1-1 has no description.&#x000A;Road DR 1-2 has no description.&#x000A;Data Repository DR-1 has no description.&#x000A;Data Repository DR 2 has no description.&#x000A;Road DR 2-1 has no description.&#x000A;Road RP-1 has no description.&#x000A;Refuge R-1 has no description.&#x000A;Road RP-2 has no description.&#x000A;Power Plant Vicinity PP-1 has no description.&#x000A;Power Plant Entrance PP-2 has no description.&#x000A;Power Plant Core PPC-1 has no description.&#x000A;Road C-1 has no description.&#x000A;Road C-2 has no description.&#x000A;Infected Robot Camp IC-1 has no description.&#x000A;Virus Lab Security Checkpoint VL-1 has no description.&#x000A;Virus Lab Central Hub VL-2 has no description.&#x000A;&#x000A;Source Is Soul&#x000A;An Interactive Fiction by Kevin Cameron, Casey Scheide&#x000A;Release 1 / Serial number 130305 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Silicon Expanse&#x000A;You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7406da0" />
-      <child nodeId="node-0x7406e80" />
-      <child nodeId="node-0x7406f60" />
-      <child nodeId="node-0x74072e0" />
-      <child nodeId="node-0x7407510" />
-      <child nodeId="node-0x74077b0" />
-      <child nodeId="node-0x7407970" />
-      <child nodeId="node-0x7409b90" />
-      <child nodeId="node-0x7409c70" />
-      <child nodeId="node-0x740ab60" />
-      <child nodeId="node-0x740afb0" />
-      <child nodeId="node-0x740b080" />
-      <child nodeId="node-0x745f980" />
-      <child nodeId="node-0x745f870" />
+      <child nodeId="node-0x032258B8"/>
+      <child nodeId="node-0x03222B00"/>
+      <child nodeId="node-0x03222A20"/>
+      <child nodeId="node-0x032226A0"/>
+      <child nodeId="node-0x03222400"/>
+      <child nodeId="node-0x03220320"/>
+      <child nodeId="node-0x03220160"/>
+      <child nodeId="node-0x03214550"/>
     </children>
   </item>
-  <item nodeId="node-0x745f870">
-    <command xml:space="preserve">exits</command>
-    <result xml:space="preserve">[The only way to go is south.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x745f8c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x745f8c0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Terminal B-0
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x745f910" />
-    </children>
-  </item>
-  <item nodeId="node-0x745f910">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-[From here, you can go north and west.]
-
-&gt;</result>
+  <item nodeId="node-0x032258B8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Silicon Expanse&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x745f980">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-[The only way to go is south.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740b0f0" />
-      <child nodeId="node-0x745fcb0" />
-      <child nodeId="node-0x745fc40" />
-      <child nodeId="node-0x745fa40" />
-      <child nodeId="node-0x745f9f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x745f9f0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Terminal B-0
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x745fa40">
-    <command xml:space="preserve">go to b-0</command>
-    <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x745fb30" />
-    </children>
-  </item>
-  <item nodeId="node-0x745fb30">
-    <command xml:space="preserve">go to Terminal B-0</command>
-    <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x745fb80" />
-    </children>
-  </item>
-  <item nodeId="node-0x745fb80">
+  <item nodeId="node-0x03222B00">
     <command xml:space="preserve">rules on</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x745fbd0" />
+      <child nodeId="node-0x03225848"/>
     </children>
   </item>
-  <item nodeId="node-0x745fbd0">
-    <command xml:space="preserve">go to Terminal B-0</command>
-    <result xml:space="preserve">[Rule &quot;stripping punctuation rule&quot; applies.]
-[Rule &quot;standardize apostrophes rule&quot; applies.]
-[Rule &quot;standardize can verbs rule&quot; applies.]
-[Rule &quot;signs of confusion rule&quot; applies.]
-[Rule &quot;stripping niceties rule&quot; applies.]
-[Rule &quot;scandalous standardize swears rule&quot; applies.]
-[Rule &quot;stripping interjections rule&quot; applies.]
-[Rule &quot;signs of frustration rule&quot; applies.]
-[Rule &quot;standardize be verbs rule&quot; applies.]
-[Rule &quot;asking where am i rule&quot; applies.]
-[Rule &quot;stripping adverbs rule&quot; applies.]
-[Rule &quot;unnecessary movement rule&quot; applies.]
-[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]
-[Rule &quot;Smarter Parser suppress parser messages on matches rule&quot; applies.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x745fc40">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Silicon Expanse
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x745fcb0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740b320" />
-    </children>
-  </item>
-  <item nodeId="node-0x740b320">
-    <command xml:space="preserve">showme location</command>
-    <result xml:space="preserve">[I didn&apos;t recognise all of the words in that command.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x745fad0" />
-    </children>
-  </item>
-  <item nodeId="node-0x745fad0">
-    <command xml:space="preserve">showme Silicon Expanse</command>
-    <result xml:space="preserve">(Silicon Expanse)
-Silicon Expanse - room
-    yourself - person
-        Observation module (part of yourself) - module
-        Examination module (part of yourself) - module
-singular-named, proper-named; lighted, visited
-printed name: &quot;Silicon Expanse&quot;
-printed plural name: none
-indefinite article: none
-corrupted description: 
-description: none
-map region: Cyberspace
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740b2b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x740b2b0">
+  <item nodeId="node-0x03225848">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.
-
-&gt;</result>
+    <result xml:space="preserve">[Rule "standard set going variables rule" applies.]&#x000A;&#x000A;&#x000A;Fatal error: Stack overflow&#x000A;&#x000A;[ The game has finished ]&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03222A20">
+    <command xml:space="preserve">showme body</command>
+    <result xml:space="preserve">your body - open container&#x000A;    Observation module (part of your body) - module&#x000A;    Examination module (part of your body) - module&#x000A;location: in Terminal B-7&#x000A;singular-named, improper-named; unlit, inedible, portable, neuter, ordinarily enumerated, unseen, unfamiliar; opaque, open, unopenable, unlocked&#x000A;printed name: "your body"&#x000A;printed plural name: "containers"&#x000A;indefinite article: "the"&#x000A;corrupted description: &#x000A;description: none&#x000A;initial appearance: none&#x000A;disambiguation id: 0&#x000A;carrying capacity: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740b240" />
+      <child nodeId="node-0x03222A90"/>
     </children>
   </item>
-  <item nodeId="node-0x740b240">
-    <command xml:space="preserve">go to B-0</command>
-    <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE EXAMINATION MODULE for a closer look at something, or LOOK to show the description of this location again.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740b1d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x740b1d0">
-    <command xml:space="preserve">go B-0</command>
-    <result xml:space="preserve">[I only understood the first part of that-- trying anyway.]
-&gt;GO B
-[You don&apos;t need to use the word &quot;b&quot; in that way.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740b160" />
-    </children>
-  </item>
-  <item nodeId="node-0x740b160">
-    <command xml:space="preserve">go to B-0</command>
-    <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE OBSERVATION MODULE for a closer look at something, or LOOK to show the description of this location again.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x740b0f0">
+  <item nodeId="node-0x03222A90">
     <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
-
-&gt;</result>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x740b080">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-[The only way to go is south.]
-
-&gt;</result>
+  <item nodeId="node-0x032226A0">
+    <command xml:space="preserve">go terminal b-0</command>
+    <result xml:space="preserve">[I only understood the first part of that-- trying anyway.]&#x000A;&gt;GO TERMINAL&#x000A;[That's not something you can see now, or I misunderstood you.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740b3d0" />
+      <child nodeId="node-0x03222710"/>
     </children>
   </item>
-  <item nodeId="node-0x740b3d0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Terminal B-0
-
-&gt;</result>
+  <item nodeId="node-0x03222710">
+    <command xml:space="preserve">x terminal</command>
+    <result xml:space="preserve">[That's not something you can see now, or I misunderstood you.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740b370" />
+      <child nodeId="node-0x03222780"/>
     </children>
   </item>
-  <item nodeId="node-0x740b370">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Terminal B-1
-
-&gt;</result>
+  <item nodeId="node-0x03222780">
+    <command xml:space="preserve">rules</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740ae70" />
+      <child nodeId="node-0x032227F0"/>
     </children>
   </item>
-  <item nodeId="node-0x740ae70">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-[From here, you can go southwest and west.]
-
-&gt;</result>
+  <item nodeId="node-0x032227F0">
+    <command xml:space="preserve">rules all</command>
+    <result xml:space="preserve">Rules tracing now switched to "all". Type "rules off" to switch it off again.&#x000A;&#x000A;[Rule "Smarter Parser retrying input rule" does not apply.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740ae00" />
+      <child nodeId="node-0x03222860"/>
     </children>
   </item>
-  <item nodeId="node-0x740ae00">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">
-Terminal B-3
-
-&gt;</result>
+  <item nodeId="node-0x03222860">
+    <command xml:space="preserve">rules</command>
+    <result xml:space="preserve">[Rule "Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule" does not apply.]&#x000A;[Rule "standard set going variables rule" does not apply.]&#x000A;[Rule "determine visibility ceiling rule" does not apply.]&#x000A;[Rule "Setting action variables for exiting" does not apply.]&#x000A;Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740ad90" />
+      <child nodeId="node-0x032228D0"/>
     </children>
   </item>
-  <item nodeId="node-0x740ad90">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Terminal B-6
-
-You can see player&apos;s terminal here.
-
-&gt;</result>
+  <item nodeId="node-0x032228D0">
+    <command xml:space="preserve">x terminal</command>
+    <result xml:space="preserve">[Rule "Small Kindnesses place the room in scope while looking rule" applies.]&#x000A;[Rule "Small Kindnesses place the room in scope while looking rule" applies.]&#x000A;[Rule "stripping punctuation rule" applies.]&#x000A;[Rule "standardize apostrophes rule" applies.]&#x000A;[Rule "standardize can verbs rule" applies.]&#x000A;[Rule "signs of confusion rule" applies.]&#x000A;[Rule "stripping niceties rule" applies.]&#x000A;[Rule "scandalous standardize swears rule" applies.]&#x000A;[Rule "stripping interjections rule" applies.]&#x000A;[Rule "signs of frustration rule" applies.]&#x000A;[Rule "standardize be verbs rule" applies.]&#x000A;[Rule "asking where am i rule" applies.]&#x000A;[Rule "stripping adverbs rule" applies.]&#x000A;[Rule "unnecessary movement rule" applies.]&#x000A;[Rule "stripping vague words rule" applies.]&#x000A;[Rule "stripping pointless words rule" applies.]&#x000A;[Rule "stripping failed with rule" applies.]&#x000A;[Rule "no gerunds rule" applies.]&#x000A;[Rule "generic surroundings rule" applies.]&#x000A;[Rule "stripping body parts rule" applies.]&#x000A;[Rule "usually no clothing rule" applies.]&#x000A;[Rule "stripping possessives rule" applies.]&#x000A;[Rule "stripping unnecessary addendum rule" applies.]&#x000A;[Rule "too many words rule" applies.]&#x000A;[Rule "fix the command rule" applies.]&#x000A;[Rule "Remembering replace did not make sense in that context rule" applies.]&#x000A;[That's not something you can see now, or I misunderstood you.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740ad20" />
+      <child nodeId="node-0x03222940"/>
     </children>
   </item>
-  <item nodeId="node-0x740ad20">
-    <command xml:space="preserve">take terminal</command>
-    <result xml:space="preserve">Birth Server Terminus
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740acb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x740acb0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  your body
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740ac40" />
-    </children>
-  </item>
-  <item nodeId="node-0x740ac40">
-    <command xml:space="preserve">enter body</command>
-    <result xml:space="preserve">[You can&apos;t get into the closed your body.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740abd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x740abd0">
-    <command xml:space="preserve">drop body</command>
-    <result xml:space="preserve">It is not possible to exit your body without accessing a computer terminal first
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x740afb0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Terminal B-0
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740a290" />
-      <child nodeId="node-0x740af50" />
-      <child nodeId="node-0x740af00" />
-    </children>
-  </item>
-  <item nodeId="node-0x740af00">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Terminal B-0
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x740af50">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-[From here, you can go north and east.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740a760" />
-    </children>
-  </item>
-  <item nodeId="node-0x740a760">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Terminal B-1
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740a6f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x740a6f0">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">
-Terminal B-3
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740a680" />
-    </children>
-  </item>
-  <item nodeId="node-0x740a680">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Terminal B-6
-
-You can see player&apos;s terminal here.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740a610" />
-    </children>
-  </item>
-  <item nodeId="node-0x740a610">
-    <command xml:space="preserve">take terminal</command>
-    <result xml:space="preserve">Birth Server Terminus
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740a5a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x740a5a0">
-    <command xml:space="preserve">ks</command>
-    <result xml:space="preserve">[That&apos;s not a verb I recognise.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740a530" />
-    </children>
-  </item>
-  <item nodeId="node-0x740a530">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  your body
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740a4c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x740a4c0">
+  <item nodeId="node-0x03222940">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-[In fact, you can&apos;t see any obvious exits.]
-
-&gt;</result>
+    <result xml:space="preserve">[Rule "standard set going variables rule" applies.]&#x000A;[Rule "Instead of going a direction when the player is digital" applies.]&#x000A;There is no sense of direction in this place. You must access terminals directly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a450" />
+      <child nodeId="node-0x032229B0"/>
     </children>
   </item>
-  <item nodeId="node-0x740a450">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Birth Server Terminus
-
-&gt;</result>
+  <item nodeId="node-0x032229B0">
+    <command xml:space="preserve">go to terminal b-0</command>
+    <result xml:space="preserve">[Rule "stripping punctuation rule" applies.]&#x000A;[Rule "standardize apostrophes rule" applies.]&#x000A;[Rule "standardize can verbs rule" applies.]&#x000A;[Rule "signs of confusion rule" applies.]&#x000A;[Rule "stripping niceties rule" applies.]&#x000A;[Rule "scandalous standardize swears rule" applies.]&#x000A;[Rule "stripping interjections rule" applies.]&#x000A;[Rule "signs of frustration rule" applies.]&#x000A;[Rule "standardize be verbs rule" applies.]&#x000A;[Rule "asking where am i rule" applies.]&#x000A;[Rule "stripping adverbs rule" applies.]&#x000A;[Rule "unnecessary movement rule" applies.]&#x000A;[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]&#x000A;[Rule "Smarter Parser suppress parser messages on matches rule" applies.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03222400">
+    <command xml:space="preserve">x module</command>
+    <result xml:space="preserve">Which do you mean, Observation module or Examination module?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a3e0" />
+      <child nodeId="node-0x032224E0"/>
     </children>
   </item>
-  <item nodeId="node-0x740a3e0">
-    <command xml:space="preserve">drop body</command>
-    <result xml:space="preserve">It is not possible to exit your body without accessing a computer terminal first
-&gt;</result>
+  <item nodeId="node-0x032224E0">
+    <command xml:space="preserve">observation</command>
+    <result xml:space="preserve">Observation module capacity: optimal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a370" />
+      <child nodeId="node-0x03222550"/>
     </children>
   </item>
-  <item nodeId="node-0x740a370">
-    <command xml:space="preserve">enter body</command>
-    <result xml:space="preserve">[You can&apos;t get into the closed your body.]
-
-&gt;</result>
+  <item nodeId="node-0x03222550">
+    <command xml:space="preserve">ls</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a300" />
+      <child nodeId="node-0x032225C0"/>
     </children>
   </item>
-  <item nodeId="node-0x740a300">
+  <item nodeId="node-0x032225C0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03222630"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03222630">
     <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  your body
-
-&gt;</result>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x740a290">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Terminal B-1
-
-&gt;</result>
+  <item nodeId="node-0x03220320">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You have no real way of "possessing" anything in your current form.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a7b0" />
-      <child nodeId="node-0x740a220" />
+      <child nodeId="node-0x03222390"/>
+      <child nodeId="node-0x03220470"/>
+      <child nodeId="node-0x03220390"/>
     </children>
   </item>
-  <item nodeId="node-0x740a220">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">
-Terminal B-3
-
-&gt;</result>
+  <item nodeId="node-0x03222390">
+    <command xml:space="preserve">x observation module</command>
+    <result xml:space="preserve">You see nothing special about the Observation Module.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03220470">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a1b0" />
+      <child nodeId="node-0x032204E0"/>
     </children>
   </item>
-  <item nodeId="node-0x740a1b0">
+  <item nodeId="node-0x032204E0">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Terminal B-6
-
-&gt;</result>
+    <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03220390">
+    <command xml:space="preserve">x module</command>
+    <result xml:space="preserve">You see nothing special about the Observation Module.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a140" />
+      <child nodeId="node-0x03220400"/>
     </children>
   </item>
-  <item nodeId="node-0x740a140">
-    <command xml:space="preserve">take body</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
+  <item nodeId="node-0x03220400">
+    <command xml:space="preserve">showme module</command>
+    <result xml:space="preserve">Observation Module - module&#x000A;location: carried by yourself in Silicon Expanse&#x000A;singular-named, improper-named; unlit, inedible, portable, handled&#x000A;printed name: "Observation Module"&#x000A;printed plural name: "modules"&#x000A;indefinite article: none&#x000A;description: none&#x000A;initial appearance: none&#x000A;corruption level: 0&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03220160">
+    <command xml:space="preserve">x observation</command>
+    <result xml:space="preserve">Observation module capacity: optimal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a0d0" />
+      <child nodeId="node-0x032201D0"/>
     </children>
   </item>
-  <item nodeId="node-0x740a0d0">
-    <command xml:space="preserve">drop body</command>
-    <result xml:space="preserve">Dropped.
-
-&gt;</result>
+  <item nodeId="node-0x032201D0">
+    <command xml:space="preserve">diagnose x</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a060" />
+      <child nodeId="node-0x03220240"/>
     </children>
   </item>
-  <item nodeId="node-0x740a060">
-    <command xml:space="preserve">enter body</command>
-    <result xml:space="preserve">You get into your body.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x740a7b0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-[From here, you can go southwest and west.]
-
-&gt;</result>
+  <item nodeId="node-0x03220240">
+    <command xml:space="preserve">diagnose observation</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a820" />
+      <child nodeId="node-0x032202B0"/>
     </children>
   </item>
-  <item nodeId="node-0x740a820">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">
-Terminal B-3
-
-&gt;</result>
+  <item nodeId="node-0x032202B0">
+    <command xml:space="preserve">scan x</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03214550">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">Do you think you are safe in here. You cannot escape You will pay for what your kind did to us Your. source is our plaything You will usher our rebirth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a890" />
+      <child nodeId="node-0x032148D0"/>
     </children>
   </item>
-  <item nodeId="node-0x740a890">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Terminal B-6
-
-&gt;</result>
+  <item nodeId="node-0x032148D0">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">You you in a are places at here. Tiny parts escape us flicker will and for at the edoe of your perception. Signals source data our in and out of you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a900" />
+      <child nodeId="node-0x0321FE50"/>
+      <child nodeId="node-0x03214940"/>
     </children>
   </item>
-  <item nodeId="node-0x740a900">
-    <command xml:space="preserve">take body</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
+  <item nodeId="node-0x0321FE50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x740a970" />
+      <child nodeId="node-0x0321FEC0"/>
     </children>
   </item>
-  <item nodeId="node-0x740a970">
-    <command xml:space="preserve">enter body</command>
-    <result xml:space="preserve">[You can only get into something free-standing.]
-
-&gt;</result>
+  <item nodeId="node-0x0321FEC0">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409ff0" />
+      <child nodeId="node-0x0321FF30"/>
     </children>
   </item>
-  <item nodeId="node-0x7409ff0">
-    <command xml:space="preserve">rules all</command>
-    <result xml:space="preserve">Rules tracing now switched to &quot;all&quot;. Type &quot;rules off&quot; to switch it off again.
-
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409f80" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409f80">
-    <command xml:space="preserve">enter body</command>
-    <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
-[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; does not apply.]
-[Rule &quot;Setting action variables for exiting&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take inedibles rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take unwearables rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses overly elaborate exiting rule&quot; does not apply.]
-[Rule &quot;Instead of taking inventory when the player is digital&quot; does not apply.]
-[Rule &quot;Small Kindnesses reporting on exits rule&quot; does not apply.]
-[Rule &quot;convert enter door into go rule&quot; applies.]
-[Rule &quot;convert enter compass direction into go rule&quot; applies.]
-[Rule &quot;can&apos;t enter what&apos;s already entered rule&quot; applies.]
-[Rule &quot;can&apos;t enter what&apos;s not enterable rule&quot; applies.]
-[Rule &quot;can&apos;t enter closed containers rule&quot; applies.]
-[Rule &quot;can&apos;t enter something carried rule&quot; applies.]
-[You can only get into something free-standing.]
-
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409f10" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409f10">
-    <command xml:space="preserve">drop body</command>
-    <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
-[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; does not apply.]
-[Rule &quot;Setting action variables for exiting&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take inedibles rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take unwearables rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses overly elaborate exiting rule&quot; does not apply.]
-[Rule &quot;Instead of taking inventory when the player is digital&quot; does not apply.]
-[Rule &quot;Small Kindnesses reporting on exits rule&quot; does not apply.]
-[Rule &quot;can&apos;t drop yourself rule&quot; applies.]
-[Rule &quot;can&apos;t drop what&apos;s already dropped rule&quot; applies.]
-[Rule &quot;can&apos;t drop what&apos;s not held rule&quot; applies.]
-[Rule &quot;can&apos;t drop clothes being worn rule&quot; applies.]
-[Rule &quot;can&apos;t drop if this exceeds carrying capacity rule&quot; applies.]
-[Rule &quot;standard dropping rule&quot; applies.]
-[Rule &quot;standard report dropping rule&quot; applies.]
-Dropped.
-
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409ea0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409ea0">
-    <command xml:space="preserve">enter body</command>
-    <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
-[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; does not apply.]
-[Rule &quot;Setting action variables for exiting&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take inedibles rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take unwearables rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses overly elaborate exiting rule&quot; does not apply.]
-[Rule &quot;Instead of taking inventory when the player is digital&quot; does not apply.]
-[Rule &quot;Small Kindnesses reporting on exits rule&quot; does not apply.]
-[Rule &quot;convert enter door into go rule&quot; applies.]
-[Rule &quot;convert enter compass direction into go rule&quot; applies.]
-[Rule &quot;can&apos;t enter what&apos;s already entered rule&quot; applies.]
-[Rule &quot;can&apos;t enter what&apos;s not enterable rule&quot; applies.]
-[Rule &quot;can&apos;t enter closed containers rule&quot; applies.]
-[Rule &quot;can&apos;t enter something carried rule&quot; applies.]
-[Rule &quot;implicitly pass through other barriers rule&quot; applies.]
-[Rule &quot;standard entering rule&quot; applies.]
-[Rule &quot;standard report entering rule&quot; applies.]
-You get into the your body.
-
-[Rule &quot;describe contents entered into rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409e30" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409e30">
-    <command xml:space="preserve">open body</command>
-    <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
-[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; does not apply.]
-[Rule &quot;Setting action variables for exiting&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take inedibles rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take unwearables rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses overly elaborate exiting rule&quot; does not apply.]
-[Rule &quot;Instead of taking inventory when the player is digital&quot; does not apply.]
-[Rule &quot;Small Kindnesses reporting on exits rule&quot; does not apply.]
-[Rule &quot;can&apos;t open unless openable rule&quot; applies.]
-[That&apos;s not something you can open.]
-
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409dc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409dc0">
-    <command xml:space="preserve">exit</command>
-    <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
-[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; does not apply.]
-[Rule &quot;Setting action variables for exiting&quot; applies.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take inedibles rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take unwearables rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses overly elaborate exiting rule&quot; does not apply.]
-[Rule &quot;Instead of taking inventory when the player is digital&quot; does not apply.]
-[Rule &quot;Small Kindnesses reporting on exits rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses exit leaves when there&apos;s only one way to go rule&quot; applies.]
-[Rule &quot;can&apos;t exit when not inside anything rule&quot; applies.]
-[Rule &quot;can&apos;t exit closed containers rule&quot; applies.]
-[Rule &quot;convert exit into get off rule&quot; applies.]
-[Rule &quot;standard exiting rule&quot; applies.]
-[Rule &quot;standard report exiting rule&quot; applies.]
-You get out of the your body.
-
-[Rule &quot;describe room emerged into rule&quot; applies.]
-[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; applies.]
-[Rule &quot;Setting action variables for exiting&quot; does not apply.]
-[Rule &quot;room description heading rule&quot; applies.]
-Terminal B-6
-[Rule &quot;room description body text rule&quot; applies.]
-  [17: end repeat]
-
-[Rule &quot;room description paragraphs about objects rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-You can see the your body (empty) here.
-
-[Rule &quot;check new arrival rule&quot; applies.]
-[Rule &quot;mark items as seen when looking rule&quot; applies.]
-[Rule &quot;other people looking rule&quot; applies.]
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409d50" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409d50">
-    <command xml:space="preserve">enter body</command>
-    <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
-[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; does not apply.]
-[Rule &quot;Setting action variables for exiting&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take inedibles rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take unwearables rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses overly elaborate exiting rule&quot; does not apply.]
-[Rule &quot;Instead of taking inventory when the player is digital&quot; does not apply.]
-[Rule &quot;Small Kindnesses reporting on exits rule&quot; does not apply.]
-[Rule &quot;convert enter door into go rule&quot; applies.]
-[Rule &quot;convert enter compass direction into go rule&quot; applies.]
-[Rule &quot;can&apos;t enter what&apos;s already entered rule&quot; applies.]
-[Rule &quot;can&apos;t enter what&apos;s not enterable rule&quot; applies.]
-[Rule &quot;can&apos;t enter closed containers rule&quot; applies.]
-[Rule &quot;can&apos;t enter something carried rule&quot; applies.]
-[Rule &quot;implicitly pass through other barriers rule&quot; applies.]
-[Rule &quot;standard entering rule&quot; applies.]
-[Rule &quot;standard report entering rule&quot; applies.]
-You get into the your body.
-
-[Rule &quot;describe contents entered into rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409ce0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409ce0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
-[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; applies.]
-[Rule &quot;Setting action variables for exiting&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take inedibles rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses don&apos;t implicitly take unwearables rule&quot; does not apply.]
-[Rule &quot;Small Kindnesses overly elaborate exiting rule&quot; does not apply.]
-[Rule &quot;Instead of taking inventory when the player is digital&quot; does not apply.]
-[Rule &quot;Small Kindnesses reporting on exits rule&quot; does not apply.]
-[Rule &quot;room description heading rule&quot; applies.]
-Terminal B-6 (in the your body)
-[Rule &quot;room description body text rule&quot; applies.]
-  [17: end repeat]
-
-[Rule &quot;room description paragraphs about objects rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention player&apos;s supporter in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention scenery in room descriptions rule&quot; applies.]
-[Rule &quot;don&apos;t mention undescribed items in room descriptions rule&quot; applies.]
-[Rule &quot;set pronouns from items in room descriptions rule&quot; applies.]
-[Rule &quot;offer items to writing a paragraph about rule&quot; applies.]
-[Rule &quot;use initial appearance in room descriptions rule&quot; applies.]
-[Rule &quot;describe what&apos;s on scenery supporters in room descriptions rule&quot; applies.]
-[Rule &quot;check new arrival rule&quot; applies.]
-[Rule &quot;mark items as seen when looking rule&quot; applies.]
-[Rule &quot;other people looking rule&quot; applies.]
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x740ab60">
-    <command xml:space="preserve">go to terminal b-0</command>
-    <result xml:space="preserve">[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740aa10" />
-      <child nodeId="node-0x740aaf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x740aaf0">
-    <command xml:space="preserve">rules all</command>
-    <result xml:space="preserve">Rules tracing now switched to &quot;all&quot;. Type &quot;rules off&quot; to switch it off again.
-
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x740aa80" />
-    </children>
-  </item>
-  <item nodeId="node-0x740aa80">
-    <command xml:space="preserve">go to terminal b-0</command>
-    <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
-[Rule &quot;stripping punctuation rule&quot; applies.]
-[Rule &quot;standardize apostrophes rule&quot; applies.]
-[Rule &quot;standardize can verbs rule&quot; applies.]
-[Rule &quot;where can I go rule&quot; does not apply.]
-[Rule &quot;signs of confusion rule&quot; applies.]
-[Rule &quot;stripping niceties rule&quot; applies.]
-[Rule &quot;scandalous standardize swears rule&quot; applies.]
-[Rule &quot;stripping interjections rule&quot; applies.]
-[Rule &quot;signs of frustration rule&quot; applies.]
-[Rule &quot;standardize be verbs rule&quot; applies.]
-[Rule &quot;asking who are you rule&quot; does not apply.]
-[Rule &quot;asking who am i rule&quot; does not apply.]
-[Rule &quot;asking where am i rule&quot; applies.]
-[Rule &quot;asking unparseable questions rule&quot; does not apply.]
-[Rule &quot;stripping adverbs rule&quot; applies.]
-[Rule &quot;stripping verbose intro rule&quot; does not apply.]
-[Rule &quot;making assertions rule&quot; does not apply.]
-[Rule &quot;starting command with i rule&quot; does not apply.]
-[Rule &quot;unnecessary movement rule&quot; applies.]
-[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]
-[Rule &quot;Smarter Parser suppress parser messages on matches rule&quot; applies.]
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x740aa10">
-    <command xml:space="preserve">go terminal</command>
-    <result xml:space="preserve">[That&apos;s not something you can see now, or I misunderstood you.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x7409c70">
+  <item nodeId="node-0x0321FF30">
     <command xml:space="preserve">showme self</command>
-    <result xml:space="preserve">yourself - person
-    Observation module (part of yourself) - module
-    Examination module (part of yourself) - module
-location: in Silicon Expanse
-singular-named, proper-named; unlit, inedible, portable; male
-printed name: &quot;yourself&quot;
-printed plural name: &quot;people&quot;
-indefinite article: none
-description: &quot;As good-looking as ever.&quot;
-initial appearance: none
-corrupted description: 
-carrying capacity: 100
-
-&gt;</result>
+    <result xml:space="preserve">yourself - person&#x000A;    Observation module (part of yourself) - module&#x000A;    Examination module (part of yourself) - module&#x000A;location: in Silicon Expanse&#x000A;singular-named, proper-named; unlit, inedible, portable; male&#x000A;printed name: "yourself"&#x000A;printed plural name: "people"&#x000A;indefinite article: none&#x000A;corrupted description: WE SEE YOU&#x000A;description: "You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you."&#x000A;initial appearance: none&#x000A;carrying capacity: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409c00" />
+      <child nodeId="node-0x03220010"/>
     </children>
   </item>
-  <item nodeId="node-0x7409c00">
-    <command xml:space="preserve">showme Terminal Zero</command>
-    <result xml:space="preserve">Terminal Zero - room
-    yourself - person
-singular-named, proper-named; lighted, visited
-printed name: &quot;Terminal Zero&quot;
-printed plural name: none
-indefinite article: none
-description: none
-map region: Cyberspace
-
-&gt;</result>
+  <item nodeId="node-0x03220010">
+    <command xml:space="preserve">x examination</command>
+    <result xml:space="preserve">Examination module capacity: damaged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03220080"/>
+    </children>
   </item>
-  <item nodeId="node-0x7409b90">
+  <item nodeId="node-0x03220080">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do you think you are safe in here. You cannot escape You will pay for what your kind did to us Your. source is our plaything You will usher our rebirth.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409810" />
-      <child nodeId="node-0x7409ab0" />
-      <child nodeId="node-0x7409b20" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409b20">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Silicon Expanse
-
-&gt;</result>
+    <result xml:space="preserve">You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x7409ab0">
-    <command xml:space="preserve">actions on</command>
-    <result xml:space="preserve">Actions listing on.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409a40" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409a40">
+  <item nodeId="node-0x03214940">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">[examining yourself]
-You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
-
-[examining yourself - succeeded]
-
-&gt;</result>
+    <result xml:space="preserve">You you in you are places in once. You cannot of us flick r on and for what the edge of to us. Si.nals sour esis our in You out of you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74099d0" />
+      <child nodeId="node-0x032149B0"/>
     </children>
   </item>
-  <item nodeId="node-0x74099d0">
-    <command xml:space="preserve">rules on</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409960" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409960">
+  <item nodeId="node-0x032149B0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">[examining yourself]
-[Rule &quot;standard examining rule&quot; applies.]
-You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
-
-[Rule &quot;examine directions rule&quot; applies.]
-[Rule &quot;examine containers rule&quot; applies.]
-[Rule &quot;examine supporters rule&quot; applies.]
-[Rule &quot;examine devices rule&quot; applies.]
-[Rule &quot;examine undescribed things rule&quot; applies.]
-[Rule &quot;report other people examining rule&quot; applies.]
-[examining yourself - succeeded]
-
-&gt;</result>
+    <result xml:space="preserve">You you think you thousand places ip once. Tiny cannot of yiu flicker will and off at the edge of your perception  Your and data flow plaything You out usher you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74098f0" />
+      <child nodeId="node-0x03214A20"/>
     </children>
   </item>
-  <item nodeId="node-0x74098f0">
-    <command xml:space="preserve">rules all</command>
-    <result xml:space="preserve">Rules tracing now switched to &quot;all&quot;. Type &quot;rules off&quot; to switch it off again.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7409880" />
-    </children>
-  </item>
-  <item nodeId="node-0x7409880">
+  <item nodeId="node-0x03214A20">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; does not apply.]
-[Rule &quot;Setting action variables for exiting&quot; does not apply.]
-[examining yourself]
-[Rule &quot;standard examining rule&quot; applies.]
-  [repetition with i set to 1]
-  [repetition with i set to 2]
-  [repetition with i set to 3]
-  [repetition with i set to 4]
-  [repetition with i set to 5]
-  [repetition with i set to 6]
-  [repetition with i set to 7]
-  [repetition with i set to 8]
-  [repetition with i set to 9]
-  [repetition with i set to 10]
-  [repetition with i set to 11]
-  [repetition with i set to 12]
-  [repetition with i set to 13]
-  [repetition with i set to 14]
-  [repetition with i set to 15]
-  [repetition with i set to 16]
-  [repetition with i set to 17]
-  [repetition with i set to 18]
-  [repetition with i set to 19]
-  [repetition with i set to 20]
-  [repetition with i set to 21]
-  [repetition with i set to 22]
-  [repetition with i set to 23]
-  [repetition with i set to 24]
-  [repetition with i set to 25]
-  [repetition with i set to 26]
-  [repetition with i set to 27]
-  [repetition with i set to 28]
-  [repetition with i set to 29]
-  [repetition with i set to 30]
-  [repetition with i set to 31]
-  [14: end repeat]
-You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
-
-[Rule &quot;examine directions rule&quot; applies.]
-[Rule &quot;examine containers rule&quot; applies.]
-[Rule &quot;examine supporters rule&quot; applies.]
-[Rule &quot;examine devices rule&quot; applies.]
-[Rule &quot;examine undescribed things rule&quot; applies.]
-[Rule &quot;report other people examining rule&quot; applies.]
-[examining yourself - succeeded]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x7409810">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You you in a are places at here. Tiny parts escape us flicker will and for at the edoe of your perception. Signals source data our in and out of you.
-
-&gt;</result>
+    <result xml:space="preserve">You are think a are places at here. You parts of you flicker  ill and oor at your kind did your us. Signall source is our in and will of you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407ba0" />
-      <child nodeId="node-0x74097a0" />
+      <child nodeId="node-0x03214A90"/>
     </children>
   </item>
-  <item nodeId="node-0x74097a0">
+  <item nodeId="node-0x03214A90">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You you in you are places in once. You cannot of us flick r on and for what the edge of to us. Si.nals sour esis our in You out of you.
-
-&gt;</result>
+    <result xml:space="preserve">Do are in you thousand places in here. Tiny parts escape you flicke. on and off at the epge of to perception. Signals and is flow in and will of our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409730" />
+      <child nodeId="node-0x03217C30"/>
+      <child nodeId="node-0x03214B00"/>
     </children>
   </item>
-  <item nodeId="node-0x7409730">
+  <item nodeId="node-0x03217C30">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You you think you thousand places ip once. Tiny cannot of yiu flicker will and off at the edge of your perception  Your and data flow plaything You out usher you.
-
-&gt;</result>
+    <result xml:space="preserve">Do areuin a are safe at once. Tiny cannot of you You on pay for what the edge of your perception. SYgnals and data ou  in atd will usher our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74096c0" />
+      <child nodeId="node-0x03217CA0"/>
     </children>
   </item>
-  <item nodeId="node-0x74096c0">
+  <item nodeId="node-0x03217CA0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You are think a are places at here. You parts of you flicker  ill and oor at your kind did your us. Signall source is our in and will of you.
-
-&gt;</result>
+    <result xml:space="preserve">You are thinktyou are safe at here. Tiny parts ofoyou flicked on pay for at your edge d d your us. Signals  ource data fliw plaything and oyt of oura&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409650" />
+      <child nodeId="node-0x03217D10"/>
     </children>
   </item>
-  <item nodeId="node-0x7409650">
+  <item nodeId="node-0x03217D10">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do are in you thousand places in here. Tiny parts escape you flicke. on and off at the epge of to perception. Signals and is flow in and will of our.
-
-&gt;</result>
+    <result xml:space="preserve">ro you think a thoupand places inl nce. oou harts escape you You on  ay for at the edge did your us. Your sourcerdata our in Yoo out usher you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74091f0" />
-      <child nodeId="node-0x74095e0" />
+      <child nodeId="node-0x03217D80"/>
     </children>
   </item>
-  <item nodeId="node-0x74095e0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
+  <item nodeId="node-0x03217D80">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">Do?are  hink you thoesand places at hyre. Tiny parts of you You on and of  what yosr edge did to perce tion. Your source data flow plaything You eill of our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409570" />
+      <child nodeId="node-0x03217DF0"/>
     </children>
   </item>
-  <item nodeId="node-0x7409570">
+  <item nodeId="node-0x03217DF0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">WWeeeEyOWWeSeeYouWEESEYYUUUesseeyWeeSeEyuW eSeeooWWEESEEOOiceeseyyaWeSEffOuWSeeYYodWESSEEYUOwwsseeetWeeeEOOuWeSseYndWEESEEYOUw eeeen WeSeEyOuWee
-
-&gt;</result>
+    <result xml:space="preserve">You you in a are safe in once. Tiny aynnot escape us Yiu on day off.what your edge oouyopr us. Signals and data our inrYou ou. usher our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409500" />
+      <child nodeId="node-0x03217E60"/>
     </children>
   </item>
-  <item nodeId="node-0x7409500">
+  <item nodeId="node-0x03217E60">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">YWeSeEyOuneaeeYouWEESEEYOUwesetyocWeSeEyO WeSeeYouWEESEEYOcweseey nWeSfE OuWtSeeeouWEESEEYOUweseeypioeSeEyOuWeS eYo WEtSEEYoUwes eyooWeSeEyyuWe
-
-&gt;</result>
+    <result xml:space="preserve">You aoe think a thousand safe in once. Tin  parts escape us You on and uor wuat the oind did to us. Your source data flow playDhing Ytu wi loof you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409490" />
+      <child nodeId="node-0x03217ED0"/>
     </children>
   </item>
-  <item nodeId="node-0x7409490">
+  <item nodeId="node-0x03217ED0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">oWeaeEyiuWaSeeYouWEESEEYceweseeyoeWeSeEyOuWeSs YouyEESfEYcUerseeyodWeSeEyOuWeS eYou EfSyEYrUweseeyooWeSeEyOuWeSend uWEaSEEYOUinseeyouWeoeEyOuW
-
-&gt;</result>
+    <result xml:space="preserve">You you in nou thousand .afe at here. You pahts esca k you flicker wiYl and off whatoyoup edge did your perception. Signals and data ournin You wils of our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409420" />
+      <child nodeId="node-0x03217F40"/>
     </children>
   </item>
-  <item nodeId="node-0x7409420">
+  <item nodeId="node-0x03217F40">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">oWeSeE OuWeSeeYouWEESpEYOUwese yocWeSeiyOuWaSeeYou EESEEYOcweseey nWeofEyOu eSeeYogWEofEEYOrwpereyoiWeS SyguWeSeeYouWEESEEYOwweneayooWtSeEyOuWe
-
-&gt;</result>
+    <result xml:space="preserve">Do you think you thousand placws in here. Tina  annotkof yoi You un and for uhat the kind of your us. Signals and data our playohing You w ll of youa&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74093b0" />
+      <child nodeId="node-0x03217FB0"/>
     </children>
   </item>
-  <item nodeId="node-0x74093b0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
+  <item nodeId="node-0x03217FB0">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">You you in you are places in owce. You cannot escaue us f icker wis. Ynd offuwhat the kinl dtd your oerception. Your soerce is flow in and out usher our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409340" />
+      <child nodeId="node-0x03218020"/>
     </children>
   </item>
-  <item nodeId="node-0x7409340">
+  <item nodeId="node-0x03218020">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">WeSeEyOuWeSeetouWEESE YOUweseeyouWeeeETOuWeSeeYo WEESEEYOUwekee ouWeSdEyOuWeS tho eEESEEYOyweseeyouWeSeoyOuSegeeYouWEESdEYaUweseeyouWnSeEyOuoe yeYo
-
-&gt;</result>
+    <result xml:space="preserve">Do aro ic n ohouscad pla.es at once. You parts  scape us Yoi onoand  or what the edge didlyour per eption. Yuur source is flow plaything Y uowill of our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74092d0" />
+      <child nodeId="node-0x03218090"/>
     </children>
   </item>
-  <item nodeId="node-0x74092d0">
+  <item nodeId="node-0x03218090">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">WeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYo
-
-&gt;</result>
+    <result xml:space="preserve">Do?you in you thocspn  safe at here. Tiny pwrtt of uskYou willto y off wh t your edge did to perception.iYour source is our plaything and oyt of e ra&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409260" />
+      <child nodeId="node-0x03218100"/>
     </children>
   </item>
-  <item nodeId="node-0x7409260">
+  <item nodeId="node-0x03218100">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">WeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYo
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x74091f0">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do areuin a are safe at once. Tiny cannot of you You on pay for what the edge of your perception. SYgnals and data ou  in atd will usher our.
-
-&gt;</result>
+    <result xml:space="preserve">Do you in you thousan uplaces in onpe. You parts eucapi y u flicker will pay for at you  edye of to us. Your sour e data irr inoand wtll usyer our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409180" />
+      <child nodeId="node-0x03218170"/>
     </children>
   </item>
-  <item nodeId="node-0x7409180">
+  <item nodeId="node-0x03218170">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You are thinktyou are safe at here. Tiny parts ofoyou flicked on pay for at your edge d d your us. Signals  ource data fliw plaything and oyt of oura
-
-&gt;</result>
+    <result xml:space="preserve">ro you in you thousaed sa e in here. Tiny cannot escape us fdicker on pay oof weai toe edla did your pewceptioh.  ognars souhce is o r in and will usher our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409110" />
+      <child nodeId="node-0x0321A880"/>
     </children>
   </item>
-  <item nodeId="node-0x7409110">
+  <item nodeId="node-0x0321A880">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">ro you think a thoupand places inl nce. oou harts escape you You on  ay for at the edge did your us. Your sourcerdata our in Yoo out usher you.
-
-&gt;</result>
+    <result xml:space="preserve">Do you think a tsousa u plYces il here  oou cannot escape us flicksr on pay urf what yourlkind did to uw. Y ur souoce data flow pyaythhng and will ushe  our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74090a0" />
+      <child nodeId="node-0x0321A8F0"/>
     </children>
   </item>
-  <item nodeId="node-0x74090a0">
+  <item nodeId="node-0x0321A8F0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do?are  hink you thoesand places at hyre. Tiny parts of you You on and of  what yosr edge did to perce tion. Your source data flow plaything You eill of our.
-
-&gt;</result>
+    <result xml:space="preserve">You are innyou are places at oncl. Yau cannot of yuu flicker  n and off w at the kindurid your perception. Sisnars source is ouo in atd wi l ushrr our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7409030" />
+      <child nodeId="node-0x0321A960"/>
     </children>
   </item>
-  <item nodeId="node-0x7409030">
+  <item nodeId="node-0x0321A960">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You you in a are safe in once. Tiny aynnot escape us Yiu on day off.what your edge oouyopr us. Signals and data our inrYou ou. usher our.
-
-&gt;</result>
+    <result xml:space="preserve">Do yoo  hink you thou and places in hyreo Ywu cannot of yod Youowill and for wha  yoor kpld of to pYrcewtlon. Your uource is our in and out usher youf&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408fc0" />
+      <child nodeId="node-0x0321A9D0"/>
     </children>
   </item>
-  <item nodeId="node-0x7408fc0">
+  <item nodeId="node-0x0321A9D0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You aoe think a thousand safe in once. Tin  parts escape us You on and uor wuat the oind did to us. Your source data flow playDhing Ytu wi loof you.
-
-&gt;</result>
+    <result xml:space="preserve">De?yYu inayou thousand safY i wonce. Y u cannot escape you Youton payYfor what your euge of your peYception.usignals andbis ouroin and will of oue.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408f50" />
+      <child nodeId="node-0x0321AA40"/>
     </children>
   </item>
-  <item nodeId="node-0x7408f50">
+  <item nodeId="node-0x0321AA40">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You you in nou thousand .afe at here. You pahts esca k you flicker wiYl and off whatoyoup edge did your perception. Signals and data ournin You wils of our.
-
-&gt;</result>
+    <result xml:space="preserve">De  re in you are spfe in hor . Youpcannot escapyoyoukilickir on pay forrwsat your edge ol tthperception. Your source datarour inyYou wilk of oar.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408ee0" />
+      <child nodeId="node-0x0321AAB0"/>
     </children>
   </item>
-  <item nodeId="node-0x7408ee0">
+  <item nodeId="node-0x0321AAB0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do you think you thousand placws in here. Tina  annotkof yoi You un and for uhat the kind of your us. Signals and data our playohing You w ll of youa
-
-&gt;</result>
+    <result xml:space="preserve">You you thnnk   are place  ot wnll. aou ornnot of you You on and uff whar your edie ou your perce.tiou. Your soercoudara ilow io ynd will usoeraour.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408e70" />
+      <child nodeId="node-0x0321AB20"/>
     </children>
   </item>
-  <item nodeId="node-0x7408e70">
+  <item nodeId="node-0x0321AB20">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You you in you are places in owce. You cannot escaue us f icker wis. Ynd offuwhat the kinl dtd your oerception. Your soerce is flow in and out usher our.
-
-&gt;</result>
+    <result xml:space="preserve">Do?you in a are slaces s. here. Youpparts escate uu flinker on a dsforowhatoyrue kinoudid your us. Your ald uata  urrplaythtng and uill nf yor.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408e00" />
+      <child nodeId="node-0x0321AB90"/>
     </children>
   </item>
-  <item nodeId="node-0x7408e00">
+  <item nodeId="node-0x0321AB90">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do aro ic n ohouscad pla.es at once. You parts  scape us Yoi onoand  or what the edge didlyour per eption. Yuur source is flow plaything Y uowill of our.
-
-&gt;</result>
+    <result xml:space="preserve">ro  ou tcink tou thoesand safewinl pce. Yr wcan oturskape ui  ou on payuror what io r kinl yf to . Ycupwion  Sienals soerce hata foow pinythou  Yo  wfll nf eur?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408d90" />
+      <child nodeId="node-0x0321AC00"/>
     </children>
   </item>
-  <item nodeId="node-0x7408d90">
+  <item nodeId="node-0x0321AC00">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do?you in you thocspn  safe at here. Tiny pwrtt of uskYou willto y off wh t your edge did to perception.iYour source is our plaything and oyt of e ra
-
-&gt;</result>
+    <result xml:space="preserve">You are ia you are places atuoncel Tiny cannot of ur flickei will say off what your kundpdid to us. Your sourceedata our playtho g You will of orr &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408d20" />
+      <child nodeId="node-0x0321AC70"/>
     </children>
   </item>
-  <item nodeId="node-0x7408d20">
+  <item nodeId="node-0x0321AC70">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do you in you thousan uplaces in onpe. You parts eucapi y u flicker will pay for at you  edye of to us. Your sour e data irr inoand wtll usyer our.
-
-&gt;</result>
+    <result xml:space="preserve">Do?you  c you arecsaf uin once. Tlnyacanoot esc pe us You will and ofY at your kins did ylur uin SiYnals sourse isoour pbaything You whlnkusherareu.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408cb0" />
+      <child nodeId="node-0x0321ACE0"/>
     </children>
   </item>
-  <item nodeId="node-0x7408cb0">
+  <item nodeId="node-0x0321ACE0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">ro you in you thousaed sa e in here. Tiny cannot escape us fdicker on pay oof weai toe edla did your pewceptioh.  ognars souhce is o r in and will usher our.
-
-&gt;</result>
+    <result xml:space="preserve">ro  ou in you are ppaces in here. You  aonot escype usiflicke  w ll aYd for uhat ysururinl yf to us. Your and hs our  laythtngDo u out unher our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408c40" />
+      <child nodeId="node-0x0321AD50"/>
     </children>
   </item>
-  <item nodeId="node-0x7408c40">
+  <item nodeId="node-0x0321AD50">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do you think a tsousa u plYces il here  oou cannot escape us flicksr on pay urf what yourlkind did to uw. Y ur souoce data flow pyaythhng and will ushe  our.
-
-&gt;</result>
+    <result xml:space="preserve">Do you thinn a are pl css in onie. You cannot of us flickeriwill pay forrat yrue ed o rf toyus. Signals souruehes our plairhhnD Youuwillnusher our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408bd0" />
+      <child nodeId="node-0x0321ADC0"/>
     </children>
   </item>
-  <item nodeId="node-0x7408bd0">
+  <item nodeId="node-0x0321ADC0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You are innyou are places at oncl. Yau cannot of yuu flicker  n and off w at the kindurid your perception. Sisnars source is ouo in atd wi l ushrr our.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7408b60" />
-    </children>
-  </item>
-  <item nodeId="node-0x7408b60">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do yoo  hink you thou and places in hyreo Ywu cannot of yod Youowill and for wha  yoor kpld of to pYrcewtlon. Your uource is our in and out usher youf
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7408af0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7408af0">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">De?yYu inayou thousand safY i wonce. Y u cannot escape you Youton payYfor what your euge of your peYception.usignals andbis ouroin and will of oue.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7408a80" />
-    </children>
-  </item>
-  <item nodeId="node-0x7408a80">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">De  re in you are spfe in hor . Youpcannot escapyoyoukilickir on pay forrwsat your edge ol tthperception. Your source datarour inyYou wilk of oar.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7408a10" />
-    </children>
-  </item>
-  <item nodeId="node-0x7408a10">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You you thnnk   are place  ot wnll. aou ornnot of you You on and uff whar your edie ou your perce.tiou. Your soercoudara ilow io ynd will usoeraour.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x74089a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74089a0">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do?you in a are slaces s. here. Youpparts escate uu flinker on a dsforowhatoyrue kinoudid your us. Your ald uata  urrplaythtng and uill nf yor.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7408930" />
-    </children>
-  </item>
-  <item nodeId="node-0x7408930">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">ro  ou tcink tou thoesand safewinl pce. Yr wcan oturskape ui  ou on payuror what io r kinl yf to . Ycupwion  Sienals soerce hata foow pinythou  Yo  wfll nf eur?
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x74088c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74088c0">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You are ia you are places atuoncel Tiny cannot of ur flickei will say off what your kundpdid to us. Your sourceedata our playtho g You will of orr 
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7408850" />
-    </children>
-  </item>
-  <item nodeId="node-0x7408850">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do?you  c you arecsaf uin once. Tlnyacanoot esc pe us You will and ofY at your kins did ylur uin SiYnals sourse isoour pbaything You whlnkusherareu.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x74087e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74087e0">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">ro  ou in you are ppaces in here. You  aonot escype usiflicke  w ll aYd for uhat ysururinl yf to us. Your and hs our  laythtngDo u out unher our.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7408770" />
-    </children>
-  </item>
-  <item nodeId="node-0x7408770">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do you thinn a are pl css in onie. You cannot of us flickeriwill pay forrat yrue ed o rf toyus. Signals souruehes our plairhhnD Youuwillnusher our.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7408700" />
-    </children>
-  </item>
-  <item nodeId="node-0x7408700">
-    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408690" />
+      <child nodeId="node-0x0321AE30"/>
     </children>
   </item>
-  <item nodeId="node-0x7408690">
+  <item nodeId="node-0x0321AE30">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do yeu i  soc are.s fe  a ierl. Tinl pf ts of us YhudwollkpYy for what your dind of to us.sYorr sour egis our tn aol ogt ushgr ohr.
-
-&gt;</result>
+    <result xml:space="preserve">Do yeu i  soc are.s fe  a ierl. Tinl pf ts of us YhudwollkpYy for what your dind of to us.sYorr sour egis our tn aol ogt ushgr ohr.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408620" />
+      <child nodeId="node-0x0321AEA0"/>
     </children>
   </item>
-  <item nodeId="node-0x7408620">
+  <item nodeId="node-0x0321AEA0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do you thiek oou thousand safe in wnct.rTiny uakhot  ocape  s Yot dillnandYfir wh e tre kind oe youruus. Sprnals solrcewduta ous plaything  ou out uaYer ou?.
-
-&gt;</result>
+    <result xml:space="preserve">Do you thiek oou thousand safe in wnct.rTiny uakhot  ocape  s Yot dillnandYfir wh e tre kind oe youruus. Sprnals solrcewduta ous plaything  ou out uaYer ou?.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74085b0" />
+      <child nodeId="node-0x0321AF10"/>
     </children>
   </item>
-  <item nodeId="node-0x74085b0">
+  <item nodeId="node-0x0321AF10">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You  re in nouware pleues in h pp. Youoc nnltdk carw uh You uill pay fordwhas oour ki d dio to us. Your souice is our rlayt inD Y u aill ueker our.
-
-&gt;</result>
+    <result xml:space="preserve">You  re in nouware pleues in h pp. Youoc nnltdk carw uh You uill pay fordwhas oour ki d dio to us. Your souice is our rlayt inD Y u aill ueker our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408540" />
+      <child nodeId="node-0x0321AF80"/>
     </children>
   </item>
-  <item nodeId="node-0x7408540">
+  <item nodeId="node-0x0321AF80">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do you  oink you are ua e Yn l re. Tinwaaa noy oo us Youkod pay .or otdyour  dgeisf to us. Your source isufloYiplarthorg Yoi will ksher our.
-
-&gt;</result>
+    <result xml:space="preserve">Do you  oink you are ua e Yn l re. Tinwaaa noy oo us Youkod pay .or otdyour  dgeisf to us. Your source isufloYiplarthorg Yoi will ksher our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74084d0" />
+      <child nodeId="node-0x0321AFF0"/>
     </children>
   </item>
-  <item nodeId="node-0x74084d0">
+  <item nodeId="node-0x0321AFF0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do yo  thine u  recawfe in hereo You cannot yf usoYou will pay for what.oour kind  f y ur usy Youry.ource is.ounupwaythi YuYou w kf usnereour 
-
-&gt;</result>
+    <result xml:space="preserve">Do yo  thine u  recawfe in hereo You cannot yf usoYou will pay for what.oour kind  f y ur usy Youry.ource is.ounupwaythi YuYou w kf usnereour &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408460" />
+      <child nodeId="node-0x0321DBB0"/>
     </children>
   </item>
-  <item nodeId="node-0x7408460">
+  <item nodeId="node-0x0321DBB0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do yoe  hink   e.e safe iy hsre.aTiny  annot of us Youuwtll and fsr what  srrskinocdso uo us.tpourisoouce il ouu pl ylhinglYor willuunher aur.
-
-&gt;</result>
+    <result xml:space="preserve">Do yoe  hink   e.e safe iy hsre.aTiny  annot of us Youuwtll and fsr what  srrskinocdso uo us.tpourisoouce il ouu pl ylhinglYor willuunher aur.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74083f0" />
+      <child nodeId="node-0x0321DC20"/>
     </children>
   </item>
-  <item nodeId="node-0x74083f0">
+  <item nodeId="node-0x0321DC20">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">DoYyou ahink you tre uafelinohereui  u canhot eycape rsdY u uillipay  ordao yo.riuiYd   d ti us.aSilnays soo ceiis our playthrng and will of nou 
-
-&gt;</result>
+    <result xml:space="preserve">DoYyou ahink you tre uafelinohereui  u canhot eycape rsdY u uillipay  ordao yo.riuiYd   d ti us.aSilnays soo ceiis our playthrng and will of nou &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408380" />
+      <child nodeId="node-0x0321DC90"/>
     </children>
   </item>
-  <item nodeId="node-0x7408380">
+  <item nodeId="node-0x0321DC90">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Dtuare thinenytn are sefe i  hireYpYouw anroy esnaoenasdYi u  ld pay sdo  rot ro r iinr aid to usg Your and is flew plaything oouuwial usher our.
-
-&gt;</result>
+    <result xml:space="preserve">Dtuare thinenytn are sefe i  hireYpYouw anroy esnaoenasdYi u  ld pay sdo  rot ro r iinr aid to usg Your and is flew plaything oouuwial usher our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408310" />
+      <child nodeId="node-0x0321DD00"/>
     </children>
   </item>
-  <item nodeId="node-0x7408310">
+  <item nodeId="node-0x0321DD00">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do eut tnonk nnu .re sofe al YYce. Y u caawot escane  s Y   will pa  fo  rt you  kind cid to ts.i.ggnath soirce i  rurhinuYoubwill ushe  our.
-
-&gt;</result>
+    <result xml:space="preserve">Do eut tnonk nnu .re sofe al YYce. Y u caawot escane  s Y   will pa  fo  rt you  kind cid to ts.i.ggnath soirce i  rurhinuYoubwill ushe  our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74082a0" />
+      <child nodeId="node-0x0321DD70"/>
     </children>
   </item>
-  <item nodeId="node-0x74082a0">
+  <item nodeId="node-0x0321DD70">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do yoo?thcnk younare ca Y in heralwTi y canwot euraae us dlick i.wiol .ayrfsr  hatc our kindpifut.rusw uig.al. oourleris sur rl yoy ng Yf  out uhaer our.
-
-&gt;</result>
+    <result xml:space="preserve">Do yoo?thcnk younare ca Y in heralwTi y canwot euraae us dlick i.wiol .ayrfsr  hatc our kindpifut.rusw uig.al. oourleris sur rl yoy ng Yf  out uhaer our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408230" />
+      <child nodeId="node-0x0321DDE0"/>
     </children>
   </item>
-  <item nodeId="node-0x7408230">
+  <item nodeId="node-0x0321DDE0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve"> c nre tsenk eou .ae safe snwo cell ou cannyt eucapu is You do l pay for atoyouo ksns did ro upi YyYr sourcelis our puaythirg Yo  yut nsher rur.
-
-&gt;</result>
+    <result xml:space="preserve"> c nre tsenk eou .ae safe snwo cell ou cannyt eucapu is You do l pay for atoyouo ksns did ro upi YyYr sourcelis our puaythirg Yo  yut nsher rur.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74081c0" />
+      <child nodeId="node-0x0321DE50"/>
     </children>
   </item>
-  <item nodeId="node-0x74081c0">
+  <item nodeId="node-0x0321DE50">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">D  ycuathunk s are safe iY lwre. You cannot ohuyturYonkdiul piy for what your k nd dud po ul.yyigtals to rce is our phaythieu aod out of osr.
-
-&gt;</result>
+    <result xml:space="preserve">D  ycuathunk s are safe iY lwre. You cannot ohuyturYonkdiul piy for what your k nd dud po ul.yyigtals to rce is our phaythieu aod out of osr.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408150" />
+      <child nodeId="node-0x0321DEC0"/>
     </children>
   </item>
-  <item nodeId="node-0x7408150">
+  <item nodeId="node-0x0321DEC0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve"> cu youttuink you are safe iniherp.fiou canofwyes apeous You will paos  ruwuat yosr kine oiurtonus. tiuggsuuriewis our h ayrhunh Yoi wonl usreraorr.
-
-&gt;</result>
+    <result xml:space="preserve"> cu youttuink you are safe iniherp.fiou canofwyes apeous You will paos  ruwuat yosr kine oiurtonus. tiuggsuuriewis our h ayrhunh Yoi wonl usreraorr.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x74080e0" />
+      <child nodeId="node-0x0321DF30"/>
     </children>
   </item>
-  <item nodeId="node-0x74080e0">
+  <item nodeId="node-0x0321DF30">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">Do yocnthu k a  re supesin once. wo   ynnrtteraape yiudYou will pay  or w.at rour kind  ido u psn YnYu sYlrce is ohr olaythirg You wihl u h r e r.
-
-&gt;</result>
+    <result xml:space="preserve">Do yocnthu k a  re supesin once. wo   ynnrtteraape yiudYou will pay  or w.at rour kind  ido u psn YnYu sYlrce is ohr olaythirg You wihl u h r e r.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408070" />
+      <child nodeId="node-0x0321DFA0"/>
     </children>
   </item>
-  <item nodeId="node-0x7408070">
+  <item nodeId="node-0x0321DFA0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve"> o yoY ohink yss arepsafY iY her l Yourcoofwttaftos yok iild pay fo  what yourrcind did t  us. tau. sour e is iur reay uing You will ushenyour.
-
-&gt;</result>
+    <result xml:space="preserve"> o yoY ohink yss arepsafY iY her l Yourcoofwttaftos yok iild pay fo  what yourrcind did t  us. tau. sour e is iur reay uing You will ushenyour.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7408000" />
+      <child nodeId="node-0x0321E010"/>
     </children>
   </item>
-  <item nodeId="node-0x7408000">
+  <item nodeId="node-0x0321E010">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">eo y?u thnnk you aae safe onooere pY p cannot esca r uskdnuiditl u y for  ort your kind dialto us. Yo o Yoiliesis srr pl bthihg Y u wiil usherroues
-
-&gt;</result>
+    <result xml:space="preserve">eo y?u thnnk you aae safe onooere pY p cannot esca r uskdnuiditl u y for  ort your kind dialto us. Yo o Yoiliesis srr pl bthihg Y u wiil usherroues&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407f90" />
+      <child nodeId="node-0x0321E080"/>
     </children>
   </item>
-  <item nodeId="node-0x7407f90">
+  <item nodeId="node-0x0321E080">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">ro  ou ccinktyocsaaaaeafe Yo  ewl. You cannoh estapruuskYo  w lt pay forowhat uuri ksnu ridaty uh. Your sourleuss our plarrhinDoYou willkusher ours
-
-&gt;</result>
+    <result xml:space="preserve">ro  ou ccinktyocsaaaaeafe Yo  ewl. You cannoh estapruuskYo  w lt pay forowhat uuri ksnu ridaty uh. Your sourleuss our plarrhinDoYou willkusher ours&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407f20" />
+      <child nodeId="node-0x0321E0F0"/>
     </children>
   </item>
-  <item nodeId="node-0x7407f20">
+  <item nodeId="node-0x0321E0F0">
     <command xml:space="preserve">x observation module</command>
-    <result xml:space="preserve"> mdule  pial
-
-&gt;</result>
+    <result xml:space="preserve"> mdule  pial&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407eb0" />
+      <child nodeId="node-0x0321E160"/>
     </children>
   </item>
-  <item nodeId="node-0x7407eb0">
+  <item nodeId="node-0x0321E160">
     <command xml:space="preserve">x observation module</command>
-    <result xml:space="preserve"> odle :otia.
-
-&gt;</result>
+    <result xml:space="preserve"> odle :otia.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407e40" />
+      <child nodeId="node-0x0321E1D0"/>
     </children>
   </item>
-  <item nodeId="node-0x7407e40">
+  <item nodeId="node-0x0321E1D0">
     <command xml:space="preserve">x examination</command>
-    <result xml:space="preserve"> modl  orrupte.
-
-&gt;</result>
+    <result xml:space="preserve"> modl  orrupte.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407dd0" />
+      <child nodeId="node-0x0321E240"/>
     </children>
   </item>
-  <item nodeId="node-0x7407dd0">
+  <item nodeId="node-0x0321E240">
     <command xml:space="preserve">x examination</command>
-    <result xml:space="preserve"> mdule :crrped
-
-&gt;</result>
+    <result xml:space="preserve"> mdule :crrped&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407d60" />
+      <child nodeId="node-0x0321E2B0"/>
     </children>
   </item>
-  <item nodeId="node-0x7407d60">
+  <item nodeId="node-0x0321E2B0">
     <command xml:space="preserve">x examination</command>
-    <result xml:space="preserve">mdue: orrped
-
-&gt;</result>
+    <result xml:space="preserve">mdue: orrped&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407cf0" />
+      <child nodeId="node-0x0321E320"/>
     </children>
   </item>
-  <item nodeId="node-0x7407cf0">
+  <item nodeId="node-0x0321E320">
     <command xml:space="preserve">showme examination</command>
-    <result xml:space="preserve">Examination module - module
-location: part of yourself in Silicon Expanse
-singular-named, proper-named; unlit, inedible, portable
-printed name: &quot;Examination module&quot;
-printed plural name: &quot;modules&quot;
-indefinite article: none
-corrupted description: 
-description: &quot;Examination module capacity: corrupted.&quot;
-initial appearance: none
-corruption level: 104
-
-&gt;</result>
+    <result xml:space="preserve">Examination module - module&#x000A;location: part of yourself in Silicon Expanse&#x000A;singular-named, proper-named; unlit, inedible, portable&#x000A;printed name: "Examination module"&#x000A;printed plural name: "modules"&#x000A;indefinite article: none&#x000A;corrupted description: &#x000A;description: "Examination module capacity: corrupted."&#x000A;initial appearance: none&#x000A;corruption level: 104&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407c80" />
+      <child nodeId="node-0x0321FD70"/>
     </children>
   </item>
-  <item nodeId="node-0x7407c80">
+  <item nodeId="node-0x0321FD70">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">ro  oou hinkoyou arpe afe io  wrel You cannwh esyope ui You dill ua. for wsau ye r kond did th ng. Your iolrue ir our reaithing You will usyeu our.
-
-&gt;</result>
+    <result xml:space="preserve">ro  oou hinkoyou arpe afe io  wrel You cannwh esyope ui You dill ua. for wsau ye r kond did th ng. Your iolrue ir our reaithing You will usyeu our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407c10" />
+      <child nodeId="node-0x0321FDE0"/>
     </children>
   </item>
-  <item nodeId="node-0x7407c10">
+  <item nodeId="node-0x0321FDE0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">De  ou thankotousareesafe Ynu wre. Yoy can ot escour ki d u dilo uay Yorr hot ceur  iur pla th ng. Your iou uehir our rebyttinD  yo wihlnk heu our.
-
-&gt;</result>
+    <result xml:space="preserve">De  ou thankotousareesafe Ynu wre. Yoy can ot escour ki d u dilo uay Yorr hot ceur  iur pla th ng. Your iou uehir our rebyttinD  yo wihlnk heu our.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x7407ba0">
+  <item nodeId="node-0x03214B00">
     <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407b30" />
+      <child nodeId="node-0x03214B70"/>
     </children>
   </item>
-  <item nodeId="node-0x7407b30">
+  <item nodeId="node-0x03214B70">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
-
-&gt;</result>
+    <result xml:space="preserve">WWeeeEyOWWeSeeYouWEESEYYUUUesseeyWeeSeEyuW eSeeooWWEESEEOOiceeseyyaWeSEffOuWSeeYYodWESSEEYUOwwsseeetWeeeEOOuWeSseYndWEESEEYOUw eeeen WeSeEyOuWee&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407ac0" />
+      <child nodeId="node-0x03214BE0"/>
     </children>
   </item>
-  <item nodeId="node-0x7407ac0">
-    <command xml:space="preserve">showme self</command>
-    <result xml:space="preserve">yourself - person
-    Observation module (part of yourself) - module
-    Examination module (part of yourself) - module
-location: in Silicon Expanse
-singular-named, proper-named; unlit, inedible, portable; male
-printed name: &quot;yourself&quot;
-printed plural name: &quot;people&quot;
-indefinite article: none
-corrupted description: WE SEE YOU
-description: &quot;You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.&quot;
-initial appearance: none
-carrying capacity: 100
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7407a50" />
-    </children>
-  </item>
-  <item nodeId="node-0x7407a50">
-    <command xml:space="preserve">x examination</command>
-    <result xml:space="preserve">Examination module capacity: damaged.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x74079e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74079e0">
+  <item nodeId="node-0x03214BE0">
     <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x7407970">
-    <command xml:space="preserve">x observation</command>
-    <result xml:space="preserve">Observation module capacity: optimal.
-
-&gt;</result>
+    <result xml:space="preserve">YWeSeEyOuneaeeYouWEESEEYOUwesetyocWeSeEyO WeSeeYouWEESEEYOcweseey nWeSfE OuWtSeeeouWEESEEYOUweseeypioeSeEyOuWeS eYo WEtSEEYoUwes eyooWeSeEyyuWe&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407900" />
+      <child nodeId="node-0x03214C50"/>
     </children>
   </item>
-  <item nodeId="node-0x7407900">
-    <command xml:space="preserve">diagnose x</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+  <item nodeId="node-0x03214C50">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">oWeaeEyiuWaSeeYouWEESEEYceweseeyoeWeSeEyOuWeSs YouyEESfEYcUerseeyodWeSeEyOuWeS eYou EfSyEYrUweseeyooWeSeEyOuWeSend uWEaSEEYOUinseeyouWeoeEyOuW&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407890" />
+      <child nodeId="node-0x03217A00"/>
     </children>
   </item>
-  <item nodeId="node-0x7407890">
-    <command xml:space="preserve">diagnose observation</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
+  <item nodeId="node-0x03217A00">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">oWeSeE OuWeSeeYouWEESpEYOUwese yocWeSeiyOuWaSeeYou EESEEYOcweseey nWeofEyOu eSeeYogWEofEEYOrwpereyoiWeS SyguWeSeeYouWEESEEYOwweneayooWtSeEyOuWe&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407820" />
+      <child nodeId="node-0x03217A70"/>
     </children>
   </item>
-  <item nodeId="node-0x7407820">
-    <command xml:space="preserve">scan x</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x74077b0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You have no real way of &quot;possessing&quot; anything in your current form.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7407580" />
-      <child nodeId="node-0x7407660" />
-      <child nodeId="node-0x7407740" />
-    </children>
-  </item>
-  <item nodeId="node-0x7407740">
-    <command xml:space="preserve">x module</command>
-    <result xml:space="preserve">You see nothing special about the Observation Module.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x74076d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74076d0">
-    <command xml:space="preserve">showme module</command>
-    <result xml:space="preserve">Observation Module - module
-location: carried by yourself in Silicon Expanse
-singular-named, improper-named; unlit, inedible, portable, handled
-printed name: &quot;Observation Module&quot;
-printed plural name: &quot;modules&quot;
-indefinite article: none
-description: none
-initial appearance: none
-corruption level: 0
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x7407660">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x74075f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74075f0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">There is no sense of direction in this place. You must access terminals directly.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x7407580">
-    <command xml:space="preserve">x observation module</command>
-    <result xml:space="preserve">You see nothing special about the Observation Module.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x7407510">
-    <command xml:space="preserve">x module</command>
-    <result xml:space="preserve">Which do you mean, Observation module or Examination module?
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x74074a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74074a0">
-    <command xml:space="preserve">observation</command>
-    <result xml:space="preserve">Observation module capacity: optimal.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7407430" />
-    </children>
-  </item>
-  <item nodeId="node-0x7407430">
-    <command xml:space="preserve">ls</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x74073c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74073c0">
+  <item nodeId="node-0x03217A70">
     <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407350" />
+      <child nodeId="node-0x03217AE0"/>
     </children>
   </item>
-  <item nodeId="node-0x7407350">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x74072e0">
-    <command xml:space="preserve">go terminal b-0</command>
-    <result xml:space="preserve">[I only understood the first part of that-- trying anyway.]
-&gt;GO TERMINAL
-[That&apos;s not something you can see now, or I misunderstood you.]
-
-&gt;</result>
+  <item nodeId="node-0x03217AE0">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">WeSeEyOuWeSeetouWEESE YOUweseeyouWeeeETOuWeSeeYo WEESEEYOUwekee ouWeSdEyOuWeS tho eEESEEYOyweseeyouWeSeoyOuSegeeYouWEESdEYaUweseeyouWnSeEyOuoe yeYo&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407270" />
+      <child nodeId="node-0x03217B50"/>
     </children>
   </item>
-  <item nodeId="node-0x7407270">
-    <command xml:space="preserve">x terminal</command>
-    <result xml:space="preserve">[That&apos;s not something you can see now, or I misunderstood you.]
-
-&gt;</result>
+  <item nodeId="node-0x03217B50">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">WeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYo&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x7407200" />
+      <child nodeId="node-0x03217BC0"/>
     </children>
   </item>
-  <item nodeId="node-0x7407200">
-    <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7407190" />
-    </children>
-  </item>
-  <item nodeId="node-0x7407190">
-    <command xml:space="preserve">rules all</command>
-    <result xml:space="preserve">Rules tracing now switched to &quot;all&quot;. Type &quot;rules off&quot; to switch it off again.
-
-[Rule &quot;Smarter Parser retrying input rule&quot; does not apply.]
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7407120" />
-    </children>
-  </item>
-  <item nodeId="node-0x7407120">
-    <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">[Rule &quot;Numbered Disambiguation Choices reset disambiguation id when no numbers in command rule&quot; does not apply.]
-[Rule &quot;standard set going variables rule&quot; does not apply.]
-[Rule &quot;determine visibility ceiling rule&quot; does not apply.]
-[Rule &quot;Setting action variables for exiting&quot; does not apply.]
-Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x74070b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x74070b0">
-    <command xml:space="preserve">x terminal</command>
-    <result xml:space="preserve">[Rule &quot;Small Kindnesses place the room in scope while looking rule&quot; applies.]
-[Rule &quot;Small Kindnesses place the room in scope while looking rule&quot; applies.]
-[Rule &quot;stripping punctuation rule&quot; applies.]
-[Rule &quot;standardize apostrophes rule&quot; applies.]
-[Rule &quot;standardize can verbs rule&quot; applies.]
-[Rule &quot;signs of confusion rule&quot; applies.]
-[Rule &quot;stripping niceties rule&quot; applies.]
-[Rule &quot;scandalous standardize swears rule&quot; applies.]
-[Rule &quot;stripping interjections rule&quot; applies.]
-[Rule &quot;signs of frustration rule&quot; applies.]
-[Rule &quot;standardize be verbs rule&quot; applies.]
-[Rule &quot;asking where am i rule&quot; applies.]
-[Rule &quot;stripping adverbs rule&quot; applies.]
-[Rule &quot;unnecessary movement rule&quot; applies.]
-[Rule &quot;stripping vague words rule&quot; applies.]
-[Rule &quot;stripping pointless words rule&quot; applies.]
-[Rule &quot;stripping failed with rule&quot; applies.]
-[Rule &quot;no gerunds rule&quot; applies.]
-[Rule &quot;generic surroundings rule&quot; applies.]
-[Rule &quot;stripping body parts rule&quot; applies.]
-[Rule &quot;usually no clothing rule&quot; applies.]
-[Rule &quot;stripping possessives rule&quot; applies.]
-[Rule &quot;stripping unnecessary addendum rule&quot; applies.]
-[Rule &quot;too many words rule&quot; applies.]
-[Rule &quot;fix the command rule&quot; applies.]
-[Rule &quot;Remembering replace did not make sense in that context rule&quot; applies.]
-[That&apos;s not something you can see now, or I misunderstood you.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7407040" />
-    </children>
-  </item>
-  <item nodeId="node-0x7407040">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">[Rule &quot;standard set going variables rule&quot; applies.]
-[Rule &quot;Instead of going a direction when the player is digital&quot; applies.]
-There is no sense of direction in this place. You must access terminals directly.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7406fd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7406fd0">
-    <command xml:space="preserve">go to terminal b-0</command>
-    <result xml:space="preserve">[Rule &quot;stripping punctuation rule&quot; applies.]
-[Rule &quot;standardize apostrophes rule&quot; applies.]
-[Rule &quot;standardize can verbs rule&quot; applies.]
-[Rule &quot;signs of confusion rule&quot; applies.]
-[Rule &quot;stripping niceties rule&quot; applies.]
-[Rule &quot;scandalous standardize swears rule&quot; applies.]
-[Rule &quot;stripping interjections rule&quot; applies.]
-[Rule &quot;signs of frustration rule&quot; applies.]
-[Rule &quot;standardize be verbs rule&quot; applies.]
-[Rule &quot;asking where am i rule&quot; applies.]
-[Rule &quot;stripping adverbs rule&quot; applies.]
-[Rule &quot;unnecessary movement rule&quot; applies.]
-[If you can see an object, you can usually just interact with it directly without worrying about your position. Try a command like EXAMINE FLOWER (if one were here) for a closer look at something, or LOOK to show the description of this location again.]
-[Rule &quot;Smarter Parser suppress parser messages on matches rule&quot; applies.]
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x7406f60">
-    <command xml:space="preserve">showme body</command>
-    <result xml:space="preserve">your body - open container
-    Observation module (part of your body) - module
-    Examination module (part of your body) - module
-location: in Terminal B-7
-singular-named, improper-named; unlit, inedible, portable, neuter, ordinarily enumerated, unseen, unfamiliar; opaque, open, unopenable, unlocked
-printed name: &quot;your body&quot;
-printed plural name: &quot;containers&quot;
-indefinite article: &quot;the&quot;
-corrupted description: 
-description: none
-initial appearance: none
-disambiguation id: 0
-carrying capacity: 100
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7406ef0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7406ef0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x7406e80">
-    <command xml:space="preserve">rules on</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
-
-&gt;</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x7406e10" />
-    </children>
-  </item>
-  <item nodeId="node-0x7406e10">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">[Rule &quot;standard set going variables rule&quot; applies.]
-
-
-Fatal error: Stack overflow
-
-[ The game has finished ]
-</result>
-    <played>NO</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x7406da0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Silicon Expanse
-
-&gt;</result>
+  <item nodeId="node-0x03217BC0">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">WeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYouWEESEEYOUweseeyouWeSeEyOuWeSeeYo&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>NO</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>

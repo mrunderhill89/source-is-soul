@@ -133,76 +133,80 @@ To say virus threat:
 
 Part - Navigation Rules
 
-Cyberspace is a region.
+A region can be digital or physical. A region is usually physical.
+BirthServer is a region. BirthServer is digital.
 
-Definition: A room is digital if it is in cyberspace.
-Definition: An object is digital if it is in cyberspace.
-Definition: An object is digital if it is in the player's body.
-Definition: A room is physical if it is not digital.
-Definition: A object is physical if it is not digital. 
+Definition: A room is digital if it is in a digital region.
+Definition: An object is digital if it is in a digital region.
+Definition: A room is physical if it is in a physical region.
+Definition: A object is physical if it is in a physical region.
 
 Chapter - Cyberspace Navigation
 
 Instead of taking inventory when the player is digital:
 say "You have no real way of 'possessing' anything in your current form."
 
+Chapter - Other Regions
+
+
+
 
 Part - Conversation Rules
 
 Volume - Story
 
-Part - Birth Server
+Part - BirthServer
 
 Birth is a scene. Birth begins when play begins. Birth ends when the player holds the player's body.
 
 Chapter - Silicon Expanse
 
-Silicon Expanse is a room in cyberspace. The description is "You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you." 
+Silicon Expanse is a room in BirthServer. The description is "You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you." 
 The player is in Silicon Expanse.
 
 Chapter - Terminal B-0
 
-Terminal B-0 is a room in cyberspace. It is south of Silicon Expanse.
+Terminal B-0 is a room in BirthServer. It is south of Silicon Expanse.
 
 Chapter - Terminal B-1
 
-Terminal B-1 is a room in cyberspace. 
+Terminal B-1 is a room in BirthServer. 
 It is east of Terminal B-0 and northeast of Terminal B-3.
 
 Chapter - Terminal B-2
 
-Terminal B-2 is a room in cyberspace. It is west of Terminal B-3.
+Terminal B-2 is a room in BirthServer. It is west of Terminal B-3.
 
 Chapter - Terminal B-3
 
-Terminal B-3 is a room in cyberspace.
+Terminal B-3 is a room in BirthServer.
 
 Chapter - Terminal B-4
 
-Terminal B-4 is a room in cyberspace. It is east of Terminal B-3.
+Terminal B-4 is a room in BirthServer. It is east of Terminal B-3.
 
 Chapter - Terminal B-5
 
-Terminal B-5 is a room in cyberspace. It is west of Terminal B-6.
+Terminal B-5 is a room in BirthServer. It is west of Terminal B-6.
 
 Chapter - Terminal B-6
 
-Terminal B-6 is a room in cyberspace. It is south of Terminal B-3.
+Terminal B-6 is a room in BirthServer. It is south of Terminal B-3.
 
 Chapter - Terminal B-7
 
-Terminal B-7 is a room in cyberspace. It is south of Terminal  B-4
+Terminal B-7 is a room in BirthServer. It is south of Terminal  B-4
 
 Part - Your Body
 
 Part - Server-Refuge Road
 
-Chapter - Birth Server and Main Road
+Chapter - BirthServer and Main Road
 
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
 	[Objects: Spawn chamber, displays]
 
-	[After entering Birth Server Terminus from Cyberspace, say "Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever.
+	[After entering BirthServer Terminus from Cyberspace, say "Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever.
 	[paragraph break]
 	A single line of white text blinks into view, hovering motionless in the black void.
 	[paragraph break]
