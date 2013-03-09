@@ -1,255 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x02E51D48" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02E949B0"/>
-  <item nodeId="node-0x02E51D48">
+<?xml version="1.0"?>
+<Skein rootNode="node-0x21257250" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x21257250" />
+  <item nodeId="node-0x21257250">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">Terminal B-6 has no description.&#x000A;Terminal B-0 has no description.&#x000A;Terminal B-1 has no description.&#x000A;Terminal B-3 has no description.&#x000A;Terminal B-2 has no description.&#x000A;Terminal B-4 has no description.&#x000A;Terminal B-5 has no description.&#x000A;Terminal B-7 has no description.&#x000A;Road SR-2 has no description.&#x000A;Road DR 1-1 has no description.&#x000A;Road DR 1-2 has no description.&#x000A;Data Repository DR-1 has no description.&#x000A;Data Repository DR 2 has no description.&#x000A;Road DR 2-1 has no description.&#x000A;Road RP-1 has no description.&#x000A;Refuge R-1 has no description.&#x000A;Road RP-2 has no description.&#x000A;Power Plant Vicinity PP-1 has no description.&#x000A;Power Plant Entrance PP-2 has no description.&#x000A;Power Plant Core PPC-1 has no description.&#x000A;Road C-1 has no description.&#x000A;Road C-2 has no description.&#x000A;Infected Robot Camp IC-1 has no description.&#x000A;Virus Lab Security Checkpoint VL-1 has no description.&#x000A;Virus Lab Central Hub VL-2 has no description.&#x000A;&#x000A;Source Is Soul&#x000A;An Interactive Fiction by Kevin Cameron, Casey Scheide&#x000A;Release 1 / Serial number 130308 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Silicon Expanse&#x000A;You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">
+
+
+Terminal B-6 has no description.
+Terminal B-0 has no description.
+Terminal B-1 has no description.
+Terminal B-3 has no description.
+Terminal B-2 has no description.
+Terminal B-4 has no description.
+Terminal B-5 has no description.
+Terminal B-7 has no description.
+Road SR-2 has no description.
+Road DR 1-1 has no description.
+Road DR 1-2 has no description.
+Data Repository DR-1 has no description.
+Data Repository DR 2 has no description.
+Road DR 2-1 has no description.
+Road RP-1 has no description.
+Refuge R-1 has no description.
+Road RP-2 has no description.
+Power Plant Vicinity PP-1 has no description.
+Power Plant Entrance PP-2 has no description.
+Power Plant Core PPC-1 has no description.
+Road C-1 has no description.
+Road C-2 has no description.
+Infected Robot Camp IC-1 has no description.
+Virus Lab Security Checkpoint VL-1 has no description.
+Virus Lab Central Hub VL-2 has no description.
+
+Source Is Soul
+An Interactive Fiction by Kevin Cameron, Casey Scheide
+Release 1 / Serial number 130308 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Silicon Expanse
+You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">NO</temporary>
-    <children>
-      <child nodeId="node-0x02E94080"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94080">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Terminal B-0&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E940F0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E940F0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Terminal B-1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94160"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94160">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">Terminal B-3&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E941D0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E941D0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Terminal B-6&#x000A;&#x000A;You can see player's terminal here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94240"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94240">
-    <command xml:space="preserve">take terminal</command>
-    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E942B0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E942B0">
-    <command xml:space="preserve">x terminal</command>
-    <result xml:space="preserve">[The last time you saw player's terminal, it was at "Terminal B-6".]&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94320"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94320">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Door BT-1)&#x000A;&#x000A;Road SR-1&#x000A;The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Open doors stand to the east and west.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94390"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94390">
-    <command xml:space="preserve">x tank</command>
-    <result xml:space="preserve">[That's not something you can see now, or I misunderstood you.]&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94400"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94400">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Road SR-2&#x000A;&#x000A;You can see Security Door RP here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94470"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94470">
-    <command xml:space="preserve">x security door</command>
-    <result xml:space="preserve">You see nothing unexpected about Security Door RP.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E944E0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E944E0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Refuge R-1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94550"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94550">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Road C-1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E945C0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E945C0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Road C-2&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94630"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94630">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Road C-1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E946A0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E946A0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Refuge R-1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94710"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94710">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Road SR-2&#x000A;&#x000A;You can see Security Door RP here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94780"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94780">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening Security Door RP)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E947F0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E947F0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening Security Door RP)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94860"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94860">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Road SR-1&#x000A;The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Open doors stand to the east and west.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E948D0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E948D0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Road DR 1-1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E94940"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E94940">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Road DR 1-2&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02E949B0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02E949B0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Data Repository DR-1&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
   </item>
 </Skein>
