@@ -208,7 +208,7 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 	
 	The cube, tubes, computer terminal, hole, floor, walls, and ceiling are scenery.
 	
-	Door BT-1 is a door. It is east of Birth Server Terminus and west of SR-1.
+	Door BT-1 is a door. Door BT-1 is east of Birth Server Terminus and west of Road SR-1.
 
 	[After entering BirthServer Terminus from Cyberspace, say "Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever.
 	[paragraph break]
@@ -223,9 +223,6 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Open doors stand to the east and west."
 
 	The rubble, south wall, hover tank, gun barrel, northward door, floor, walls, and ceiling are scenery.
-
-
-Road SR-1 is east of Birth Server Terminus.
 
 Road SR-2 is a room.
 Road SR-2 is east of Road SR-1.
