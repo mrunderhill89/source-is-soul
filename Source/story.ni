@@ -4,14 +4,21 @@ Volume - Included Extensions
 
 include Numbers by Krister Fundin.
 include Player Experience Upgrade by Aaron Reed.
+include Basic Screen Effects by Emily Short.
 
-Volume - Debug Routines
+Volume - Debug Routines - NOT for release
 
 [This is meant for finding stuff that still needs descriptions. We should remove it before turning it in.]
-When play begins (this is the find undescribed rooms at the start of play rule):
+When play begins (this is the find undescribed things at the start of play rule):
+	say "Checking for undescribed rooms:[line break]";
 	repeat with room running through rooms:
 		if description of the room is "":
-			say "[room] has no description."
+			say "[room] has no description.";
+	say "[line break]Checking for undescribed objects:[line break]";
+	repeat with object running through things:
+		if description of the object is "":
+			say "[object] has no description."
+
 
 Volume - Rules
 
@@ -47,24 +54,48 @@ An object has an indexed text called the corrupted description.
 
 Chapter - The Player
 
+Section - General Rules
+
 The description of the player is "[if the player is digital]You are currently intangible.[else][physical diagnostic][end if]".
 The corrupted description of the player is "[virus threat]".
 
 To say physical diagnostic:
 	say "Physical Diagnostic:".
 
+Section - Player Body
+
 [The body terminal represents where the player is in digital space, while the player's body stays where it is in physical space when the player goes somewhere]
 There is an object called player's body. The printed name is "your body". It is undescribed. Understand "my body" as player's body. 
 
-There is an object called player's terminal. It is in Terminal B-6.
-Instead of taking the player's terminal:
+Section - Player Terminal
+
+There is an object called player's terminal. It is undescribed.
+The printed name is "exit terminal".
+The player's terminal has a direction called dir that varies.
+
+Instead of taking the player's terminal for the first time:
+	say "Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever.
+	[paragraph break]
+	A single line of white text blinks into view, hovering motionless in the black void.
+	[paragraph break]
+	…initiating startup sequence…
+	[paragraph break]
+	Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.";
+	pause the game with alert;
+	transfer the player out.
+
+Instead of taking the player's terminal for more than the first time:
 	transfer the player out.
 
 Instead of dropping the player's body, say "It is not possible to totally exit your body without accessing a computer terminal first".
 
-Carry out entering the player's body:
-	move the player's body to the location of the player;
-	move the player to the player's body.
+Instead of entering the player's body:
+	now the player's body is in the holder of the player;
+	now the player is in the player's body.
+
+Instead of exiting from the player's body:
+	now the player is in the holder of the player's body;
+	now the player's body is held by the player.
 
 To transfer the player to (destination - a room):
 	if the destination is digital:
@@ -76,7 +107,9 @@ To transfer the player out:
 	move the player to the location of the player's body;
 	now the player's body is held by the player.
 
-Chapter - Look Module
+Chapter - Modules
+
+Section - Look Module
 
 Observation module is a module. It is a part of the player's body.
 
@@ -98,13 +131,12 @@ To print the location’s description:
 		increment j;
 	[repeated corrupted examinations raise corruption level]
 	if corruption > 25:
-		increment the corruption level of the examination module;
+		increment the corruption level of the observation module;
 	say "[N]";
 
-Chapter - Examine Module
+Section - Examine Module
 
 Examination module is a module. It is part of the player's body.
-The corruption level of the Examination module is 100.
 
 To say the description of (item - object):
 	let N be indexed text;
@@ -149,15 +181,25 @@ say "You have no real way of 'possessing' anything in your current form."
 Chapter - Other Regions
 
 
-
-
 Part - Conversation Rules
+
+Chapter - Text Rules
+
+To say more: 
+	say "[line break](more...)->".
+
+To pause game with alert:
+	pause the game with alert.
+
+To pause the game with alert:
+	say "[line break](press any key to continue)[line break]";
+	wait for any key.
 
 Volume - Story
 
 Part - BirthServer
 
-Birth is a scene. Birth begins when play begins. Birth ends when the player holds the player's body.
+Birth is a scene. Birth begins when play begins. Birth ends when the player is in Birth Server Terminus for the first time.
 
 Chapter - Silicon Expanse
 
@@ -193,12 +235,16 @@ Terminal B-5 is a room in BirthServer. It is west of Terminal B-6.
 Chapter - Terminal B-6
 
 Terminal B-6 is a room in BirthServer. It is south of Terminal B-3.
+The player's terminal is in Terminal B-6. 
+Instead of going south while in Terminal B-6: try taking the player's terminal.
 
 Chapter - Terminal B-7
 
 Terminal B-7 is a room in BirthServer. It is south of Terminal  B-4
 
 Part - Your Body
+
+
 
 Part - Server-Refuge Road
 
@@ -211,17 +257,7 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 	Door BT-1 is a door. Door BT-1 is east of Birth Server Terminus and west of Road SR-1.
 
 	Door BT-1 is a door. It is east of Birth Server Terminus and west of Road SR-1.
-
-	[After entering BirthServer Terminus from Cyberspace, say "Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever.
-	[paragraph break]
-	A single line of white text blinks into view, hovering motionless in the black void.
-	[paragraph break]
-	…initiating startup sequence…
-	[paragraph break]
-	Somewhere far away, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.
-	"]
-	[etc...]
-
+		
 Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
 
 	The rubble, south wall, hovertank, gun barrel, northward door, floor, walls, and ceiling are scenery.

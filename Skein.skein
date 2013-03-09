@@ -1,47 +1,1025 @@
-<?xml version="1.0"?>
-<Skein rootNode="node-0x21257250" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Zoom</generator>
-  <activeNode nodeId="node-0x21257250" />
-  <item nodeId="node-0x21257250">
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02FC96C8" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x0F9D6540"/>
+  <item nodeId="node-0x02FC96C8">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
-
-
-Terminal B-6 has no description.
-Terminal B-0 has no description.
-Terminal B-1 has no description.
-Terminal B-3 has no description.
-Terminal B-2 has no description.
-Terminal B-4 has no description.
-Terminal B-5 has no description.
-Terminal B-7 has no description.
-Road SR-2 has no description.
-Road DR 1-1 has no description.
-Road DR 1-2 has no description.
-Data Repository DR-1 has no description.
-Data Repository DR 2 has no description.
-Road DR 2-1 has no description.
-Road RP-1 has no description.
-Refuge R-1 has no description.
-Road RP-2 has no description.
-Power Plant Vicinity PP-1 has no description.
-Power Plant Entrance PP-2 has no description.
-Power Plant Core PPC-1 has no description.
-Road C-1 has no description.
-Road C-2 has no description.
-Infected Robot Camp IC-1 has no description.
-Virus Lab Security Checkpoint VL-1 has no description.
-Virus Lab Central Hub VL-2 has no description.
-
-Source Is Soul
-An Interactive Fiction by Kevin Cameron, Casey Scheide
-Release 1 / Serial number 130308 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
-
-Silicon Expanse
-You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.
-&gt;</result>
+    <result xml:space="preserve">Checking for undescribed rooms:&#x000A;Terminal B-0 has no description.&#x000A;Terminal B-1 has no description.&#x000A;Terminal B-3 has no description.&#x000A;Terminal B-4 has no description.&#x000A;Terminal B-5 has no description.&#x000A;Terminal B-6 has no description.&#x000A;Terminal B-7 has no description.&#x000A;Road DR 1-1 has no description.&#x000A;Road DR 1-2 has no description.&#x000A;Data Repository DR-1 has no description.&#x000A;Data Repository DR 2 has no description.&#x000A;Road DR 2-1 has no description.&#x000A;Road RP-1 has no description.&#x000A;Refuge R-1 has no description.&#x000A;Road RP-2 has no description.&#x000A;Power Plant Vicinity PP-1 has no description.&#x000A;Power Plant Entrance PP-2 has no description.&#x000A;Power Plant Core PPC-1 has no description.&#x000A;Road C-1 has no description.&#x000A;Road C-2 has no description.&#x000A;Infected Robot Camp IC-1 has no description.&#x000A;Virus Lab Security Checkpoint VL-1 has no description.&#x000A;Virus Lab Central Hub VL-2 has no description.&#x000A;&#x000A;Checking for undescribed objects:&#x000A;exit terminal has no description.&#x000A;your body has no description.&#x000A;cube has no description.&#x000A;tubes has no description.&#x000A;computer terminal has no description.&#x000A;hole has no description.&#x000A;floor has no description.&#x000A;walls has no description.&#x000A;ceiling has no description.&#x000A;Door BT-1 has no description.&#x000A;rubble has no description.&#x000A;south wall has no description.&#x000A;hovertank has no description.&#x000A;gun barrel has no description.&#x000A;northward door has no description.&#x000A;Security Door RP has no description.&#x000A;Power Plant Hatch PPH-1 has no description.&#x000A;&#x000A;Source Is Soul&#x000A;An Interactive Fiction by Kevin Cameron, Casey Scheide&#x000A;Release 1 / Serial number 130309 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Silicon Expanse&#x000A;You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02FE8578"/>
+      <child nodeId="node-0x03037FD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE8578">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Terminal B-0&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE86C8"/>
+      <child nodeId="node-0x03037940"/>
+      <child nodeId="node-0x0F83B050"/>
+      <child nodeId="node-0x0F9D6310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE86C8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Terminal B-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE8738"/>
+      <child nodeId="node-0x02FE97D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE8738">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Terminal B-3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE87A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE87A8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Terminal B-6&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE8818"/>
+      <child nodeId="node-0x0F9DA2B0"/>
+      <child nodeId="node-0x0F9DA6A0"/>
+      <child nodeId="node-0x0F9D5F20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE8818">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.&#x000A;&#x000A;(press any key to continue)</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="0">NO</temporary>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE8888"/>
+      <child nodeId="node-0x03012A30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE8888">
+    <command xml:space="preserve">take terminal</command>
+    <result xml:space="preserve">Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.&#x000A;&#x000A;(press any key to continue)</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE88F8"/>
+      <child nodeId="node-0x02FE9C30"/>
+      <child nodeId="node-0x0F83B2F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE88F8">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[The only way to go is east.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE8968"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE8968">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Door BT-1)&#x000A;&#x000A;Road SR-1&#x000A;The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE89D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE89D8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Road DR 1-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE8A48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE8A48">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Road DR 1-2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE8AB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE8AB8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Data Repository DR-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE8B28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE8B28">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Road DR 1-2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FECEB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FECEB8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Road DR 1-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FECF28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FECF28">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Road SR-1&#x000A;The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FECF98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FECF98">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Road SR-2&#x000A;An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions.&#x000A;You can see Security Door RP here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED008"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED008">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Road C-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED078"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED078">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go east and west.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED0E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED0E8">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Road SR-2&#x000A;An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions.&#x000A;You can see Security Door RP here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED158"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED158">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Refuge R-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED1C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED1C8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[The only way to go is south.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED238">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Road SR-2&#x000A;An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions.&#x000A;You can see Security Door RP here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED2A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED2A8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening Security Door RP)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED318">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Road SR-2&#x000A;An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions.&#x000A;You can see Security Door RP here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED388"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED388">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;LOOK&#x000A;Road SR-2&#x000A;An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions.&#x000A;You can see Security Door RP here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED3F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED3F8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Road C-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED468">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Road C-2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED4D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED4D8">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Road C-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FED548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FED548">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Road SR-2&#x000A;An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions.&#x000A;You can see Security Door RP here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02FE9C30">
+    <command xml:space="preserve">showme self</command>
+    <result xml:space="preserve">yourself - person&#x000A;    your body&#x000A;        Observation module (part of your body) - module&#x000A;        Examination module (part of your body) - module&#x000A;location: in Birth Server Terminus&#x000A;singular-named, proper-named; unlit, inedible, portable, ordinarily enumerated, seen, unfamiliar; male, staid&#x000A;printed name: "yourself"&#x000A;printed plural name: "people"&#x000A;indefinite article: none&#x000A;corrupted description: You cannot escape.&#x000A;&#x000A;description: "Physical Diagnostic:"&#x000A;initial appearance: none&#x000A;disambiguation id: 0&#x000A;remembered location: Birth Server Terminus&#x000A;carrying capacity: 100&#x000A;path so far: &#x000A;described motion: &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0F83B2F0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F83B360"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F83B360">
+    <command xml:space="preserve">enter body</command>
+    <result xml:space="preserve">[That's not something you can enter.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F83B1A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F83B1A0">
+    <command xml:space="preserve">rules on</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F83B210"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F83B210">
+    <command xml:space="preserve">enter body</command>
+    <result xml:space="preserve">[Rule "convert enter door into go rule" applies.]&#x000A;[Rule "convert enter compass direction into go rule" applies.]&#x000A;[Rule "can't enter what's already entered rule" applies.]&#x000A;[Rule "can't enter what's not enterable rule" applies.]&#x000A;[That's not something you can enter.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F83AF00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F83AF00">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">[Rule "print empty inventory rule" applies.]&#x000A;[Rule "print standard inventory rule" applies.]&#x000A;You are carrying:&#x000A;  your body&#x000A;&#x000A;[Rule "report other people taking inventory rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03012A30">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03012AA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03012AA0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  your body&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03012B10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03012B10">
+    <command xml:space="preserve">x body</command>
+    <result xml:space="preserve">You see nothing unexpected about your body.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D6460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D6460">
+    <command xml:space="preserve">x module</command>
+    <result xml:space="preserve">[Which do you mean, 1) Observation module or 2) Examination module?]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D6540"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D6540">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">(Observation module)&#x000A;Observation module capacity: optimal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0F9DA2B0">
+    <command xml:space="preserve">take teminal</command>
+    <result xml:space="preserve">[You don't need to use the word "teminal" in that way.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA390"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA390">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">(exit terminal)&#x000A;Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.&#x000A;&#x000A;(press any key to continue)</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA400">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA470">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">You will:&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA4E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA4E0">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">You will:&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA550"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA550">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">You will:&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA5C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA5C0">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">You will:&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0F9DA6A0">
+    <command xml:space="preserve">examine terminal</command>
+    <result xml:space="preserve">Terminal B-6&#x000A;&#x000A;You can see exit terminal here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA710"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA710">
+    <command xml:space="preserve">take terminal</command>
+    <result xml:space="preserve">Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.&#x000A;&#x000A;(press any key to continue)</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA860"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA860">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0F9D5F20">
+    <command xml:space="preserve">take terminal</command>
+    <result xml:space="preserve">Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.&#x000A;&#x000A;(press any key to continue)</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D5F90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D5F90">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D6000"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D6000">
+    <command xml:space="preserve">enter body</command>
+    <result xml:space="preserve">Birth Server Terminus (in your body)&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D6070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D6070">
+    <command xml:space="preserve">exit body</command>
+    <result xml:space="preserve">[But you aren't on your body at the moment.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D60E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D60E0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D6150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D6150">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see your body and Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D61C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D61C0">
+    <command xml:space="preserve">take body</command>
+    <result xml:space="preserve">[You already have that.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D6230"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D6230">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  your body&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02FE97D0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go southwest and west.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE9840"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE9840">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Terminal B-3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE98B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE98B0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Terminal B-6&#x000A;&#x000A;You can see player's terminal here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE9920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE9920">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go north and west.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE9990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE9990">
+    <command xml:space="preserve">access terminal</command>
+    <result xml:space="preserve">[That's not a verb I recognise.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02FE9A00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02FE9A00">
+    <command xml:space="preserve">take terminal</command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs. &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03037940">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go north and east.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x030378D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x030378D0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Terminal B-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03037A20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03037A20">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Terminal B-3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03037A90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03037A90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Terminal B-6&#x000A;&#x000A;You can see player's terminal here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03037B00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03037B00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go north and west.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03037B70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03037B70">
+    <command xml:space="preserve">take terminal</command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs. &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0F83B050">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go north and east.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F83ACD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F83ACD0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Terminal B-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F83AD40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F83AD40">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Terminal B-3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F83ADB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F83ADB0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Terminal B-6&#x000A;&#x000A;You can see exit terminal here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F83AE20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F83AE20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go north and west.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F83AE90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F83AE90">
+    <command xml:space="preserve">take terminal</command>
+    <result xml:space="preserve">Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.&#x000A;&#x000A;(press any key to continue)</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA7F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA7F0">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA940"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA940">
+    <command xml:space="preserve">enter body</command>
+    <result xml:space="preserve">Birth Server Terminus (in your body)&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA8D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA8D0">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You get out of your body.&#x000A;&#x000A;Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see your body and Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA780"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA780">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0F9D6310">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go north and east.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D65B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D65B0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Terminal B-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9D6620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9D6620">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Terminal B-3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0F9DA9B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0F9DA9B0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Terminal B-6&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x030123A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x030123A0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go north and west.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03012410"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03012410">
+    <command xml:space="preserve">take terminal</command>
+    <result xml:space="preserve">Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.&#x000A;&#x000A;(press any key to continue)</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x03012480"/>
+    </children>
+  </item>
+  <item nodeId="node-0x03012480">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x03037FD0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[The only way to go is south.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0305C658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0305C658">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Terminal B-0&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0305C6C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0305C6C8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Terminal B-1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0305C738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0305C738">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">Terminal B-3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0305C7A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0305C7A8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Terminal B-6&#x000A;&#x000A;You can see player's terminal here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0305C818"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0305C818">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;[From here, you can go north and west.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0305C888"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0305C888">
+    <command xml:space="preserve">take terminal</command>
+    <result xml:space="preserve">Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever. &#x000A;&#x000A; A single line of white text blinks into view, hovering motionless in the black void. &#x000A;&#x000A; &#x2026;initiating startup sequence&#x2026; &#x000A;&#x000A; Somewhere far away, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.&#x000A;&#x000A;(press any key to continue)</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0305C8F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0305C8F8">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Birth Server Terminus&#x000A;A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube.&#x000A;You can see Door BT-1 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
   </item>
 </Skein>
