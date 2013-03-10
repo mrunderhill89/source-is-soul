@@ -220,6 +220,8 @@ Chapter - Terminal B-2
 Terminal B-2 is a room in BirthServer. It is west of Terminal B-3.
 The description is "A glowing rectangle floats in the center of the room, images flashing by on its smooth surface."
 
+[Security Camera Access: There's a screen here that shows views of other areas]
+
 Chapter - Terminal B-3
 
 Terminal B-3 is a room in BirthServer.
@@ -241,6 +243,8 @@ Instead of going south while in Terminal B-6: try taking the player's terminal.
 Chapter - Terminal B-7
 
 Terminal B-7 is a room in BirthServer. It is south of Terminal  B-4
+
+[Communications Access: pitch dark room full of screaming voices]
 
 Part - Your Body
 
@@ -289,9 +293,9 @@ Part - Refugee Camp
 
 Chapter - Refuge R-01
 
-Refuge R-1 is a room.  It is north of Road SR-2.
+Refuge R-1 is a room. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, displaying the message 'Welcome Home'. An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node." It is north of Road SR-2.
 
-[Objects: Art piece(s), "dining" area with power conduits and automated maintenance station, armored wall]
+[Objects: Art piece(s), "dining" area with power conduits and automated maintenance station, armored wall, energy shield]
 
 Part - Refuge-Plant Road
 
@@ -306,6 +310,7 @@ Part - Power Plant
 Power Plant Vicinity PP-1 is a room. It is south of Road RP-2.
 
 Power Plant Entrance PP-2 is a room. It is west of PP-1.
+
 [Objects: Status readouts, dials / gauges, pipes, sealed hatch to core, safety override system (opens hatch)]
 
 Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
@@ -324,6 +329,8 @@ Road C-2 is a room. It is east of C-1.
 
 Part - The Human City Ruins
 
+City Grid CG-1 is a room. It is east of C-2.
+
 Chapter - West Labyrinth (To Refugee Camp)
 
 Chapter - North Labyrinth (To Virus Lab)
@@ -334,16 +341,41 @@ Chapter - East Labyrinth (To Genesis Factory)
 
 Part - Infected Robot Camp
 
-Infected Robot Camp IC-1 is a room.
+Infected Robot Camp IC-1 is a room. It is west of RP-2.
+The description is "A desolate patch of land sits in the shadow of the power plant."
 
 Part - Virus Lab
 
-Virus Lab Security Checkpoint VL-1 is a room.
+Virus Lab Security Checkpoint VL-1 is a room. It is south of CG-1.
 
 Virus Lab Central Hub VL-2 is a room. It is south of VL-1.
 
 Part - Genesis Factory
 
+[Genesis factory is a huge white tower that is visible from most other areas]
+
+Genesis Path GP-1 is a room. It is east of CG-1.
+
+Genesis Access GA-1 is a room. It is north of GP-1.
+
+Genesis Overlook is a room. It is above GA-1.
+
 Part - Infected Body
+
+Infected Body is a region. Infected Body is digital.
+
+AI Core is a room in Infected Body.
+
+Internal System IS-1 is a room. It is northeast of AI Core. It is in Infected Body.
+
+Internal System IS-2 is a room. It is southeast of AI Core. It is in Infected Body.
+
+Internal System IS-3 is a room. It is southwest of AI Core. It is in Infected Body.
+
+Internal System IS-4 is a room. It is northwest of AI Core. It is in Infected Body.
+
+Antivirus Coprocessor is a room. It is in Infected Body.
+
+[AI retreats to Coprocessor to escape virus]
 
 Part - Conclusion
