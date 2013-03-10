@@ -5,6 +5,7 @@ Volume - Included Extensions
 include Numbers by Krister Fundin.
 include Player Experience Upgrade by Aaron Reed.
 include Basic Screen Effects by Emily Short.
+include Real-Time Delays by Erik Temple.
 
 Volume - Debug Routines - NOT for release
 
@@ -26,31 +27,29 @@ Part - Modules
 
 Chapter - General Rules
 
-A module is a kind of thing.
+Section - Teletyping
 
-Chapter - Corruption
+Current teletype character delay is a number variable. The current teletype character delay is 1.
+Current teletype line break delay is a number variable. The current teletype line break delay is 40.
+Current teletype paragraph break delay is a number variable. The current teletype paragraph break delay is 40.
 
-A module has a number called corruption level. 
-The corruption level of a module is usually 0.
-
-Definition: a module is corrupted if the corruption level of the noun >= 50.
-
-The description of a module is usually "[The noun] capacity: [capacity of the noun]."
-
-To say capacity of (m - a module):
-	let corruption be the corruption level of m;
-	if corruption is 0: 
-		say "optimal";
-	else if corruption < 25: 
-		say "sufficient";
-	else if corruption < 50: 
-		say "impaired";
-	else if corruption < 75: 
-		say "damaged";
-	else: 
-		say "corrupted".
+To teletype (text-to-be-printed - an indexed text):
+	repeat with N running from 1 to the number of characters in the text-to-be-printed:
+		if character number N in the text-to-be-printed is "[line break]":
+			wait (current teletype line break delay) milliseconds before continuing;
+		if character number N in the text-to-be-printed is "[paragraph break]":
+			wait (current teletype paragraph break delay) milliseconds before continuing;
+		say "[character number N in the text-to-be-printed][run paragraph on]";
+		wait (current teletype character delay) milliseconds before continuing, strictly.
 		
-An object has an indexed text called the corrupted description.
+Section - Command Prompt
+
+When play begins: now the command prompt is "(".
+
+
+Chapter - Examined / Unexamined
+
+A thing can be examined or unexamined. A thing is usually unexamined. After examining something: now the noun is examined; continue the action.
 
 Chapter - The Player
 
@@ -78,7 +77,7 @@ Instead of taking the player's terminal for the first time:
 	[paragraph break]
 	A single line of white text blinks into view, hovering motionless in the black void.
 	[paragraph break]
-	…initiating startup sequence…
+	[startup routine]
 	[paragraph break]
 	Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.";
 	pause the game with alert;
@@ -109,6 +108,32 @@ To transfer the player out:
 
 Chapter - Modules
 
+A module is a kind of thing.
+
+Section - Corruption
+
+A module has a number called corruption level. 
+The corruption level of a module is usually 0.
+
+Definition: a module is corrupted if the corruption level of the noun >= 50.
+
+The description of a module is usually "[The noun] capacity: [capacity of the noun]."
+
+To say capacity of (m - a module):
+	let corruption be the corruption level of m;
+	if corruption is 0: 
+		say "optimal";
+	else if corruption < 25: 
+		say "sufficient";
+	else if corruption < 50: 
+		say "impaired";
+	else if corruption < 75: 
+		say "damaged";
+	else: 
+		say "corrupted".
+		
+An object has an indexed text called the corrupted description.
+
 Section - Look Module
 
 Observation module is a module. It is a part of the player's body.
@@ -122,13 +147,11 @@ To print the location’s description:
 	let corruption be the corruption level of the observation module;
 	let word difference be the absolute value of (number of words in N - number of words in C);
 	[word corruption]
-	repeat with i running from 1 to the number of words in N:
-		if j > the number of words in C:
-			let j be 1;
-		let chance be a random number between 25 and 100;
-		if corruption > chance:
-			replace word number i in N with word number j in C;
-		increment j;
+	let corrupted words be a random number between 0 and the number of words in N times corruption;
+	repeat with i running from 1 to corrupted words:
+		let j be a random number between 1 and the number of words in N;
+		let k be the remainder after dividing j by the number of words in C;
+		replace word number j in N with word number k in C;
 	[repeated corrupted examinations raise corruption level]
 	if corruption > 25:
 		increment the corruption level of the observation module;
@@ -146,17 +169,27 @@ To say the description of (item - object):
 	let corruption be the corruption level of the examination module;
 	let word difference be the absolute value of (number of words in N - number of words in C);
 	[word corruption]
-	repeat with i running from 1 to the number of words in N:
-		if j > the number of words in C:
-			let j be 1;
-		let chance be a random number between 25 and 100;
-		if corruption > chance:
-			replace word number i in N with word number j in C;
-		increment j;
+	let corrupted words be a random number between 0 and the number of words in N times corruption;
+	repeat with i running from 1 to corrupted words:
+		let j be a random number between 1 and the number of words in N;
+		let k be the remainder after dividing j by the number of words in C;
+		replace word number j in N with word number k in C;
 	[repeated corrupted examinations raise corruption level]
 	if corruption > 25:
 		increment the corruption level of the examination module;
 	say "[N]";
+	
+Section - Startup Routine
+
+To say startup routine:
+	Say "Initializing startup sequence.";
+	pause the game with alert;
+	repeat with module running through modules:
+		say "[module]...[run paragraph on]";		
+		wait 1500 milliseconds before continuing, strictly;
+		say "done.[paragraph break]";		
+		wait 500 milliseconds before continuing, strictly.
+		
 
 Chapter - Virus Threats
 
@@ -291,9 +324,49 @@ It is east of Road RP-1.
 
 Part - Refugee Camp
 
-Chapter - Refuge R-01
+Chapter - Refuge R-0d1
 
 Refuge R-1 is a room. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, displaying the message 'Welcome Home'. An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node." It is north of Road SR-2.
+
+The Welcome Home Sign is a backdrop in Refuge R-1. The description is "The letters are being projected in the air from a gray central cylinder, with various wires and components dangling precariously off to the sides.".
+
+The Camp Energy Shield is a backdrop in Refuge R-1. The description is "A pale gold energy shield that keeps out the elements as well as forcing any intruders to first go through the main gate. You detect rows of primary and backup projectors that occasionally cycle on-and-off. It gives off a stark contrast to the blue sky you saw overhead as you came here."
+
+Some charging stations are a backdrop in Refuge R-1. The description is "Simple power receptacles with a variety of connectors for different models. You spot one that corresponds with your own power supply."
+
+A camp repair node is a backdrop in Refuge R-1. The description is
+"A large red box containing various power tools and fabrication systems. Used for repairing physical damage to robot systems."
+
+Chapter - Art Gallery
+
+The Refuge Art Gallery is a room. It is east of Refuge R-1. The description is "A small room with several constructs elevated on metal crates as exhibits."
+
+Some exhibits are a backdrop in the Art Gallery. Understand "constructs" as the exhibits.
+The description is "Among the exhibits you find a strangely shaped gear, a complex set of gears and chains arranged in a box, and a number of carvings and paintings depicting various data structures and their contents."
+
+An art piece is a kind of backdrop. 
+
+Instead of examining an art piece when exhibits is unexamined:
+	try examining some exhibits. 
+
+A strangely shaped gear is an art piece in the Art Gallery. 
+Understand "gear" as the strangely shaped gear.
+Understand "nautilus" as the strangely shaped gear.
+The description is "The gear's teeth form a counter clockwise spiral from the center outwards, with square teeth on the outside and triangular teeth on the inside. Geometric analysis indicates that each of the triangular teeth is almost perfectly equilateral. The display beneath the exhibit transmits a low signal: (nautilus)."
+
+A complex gear set is an art piece in the Art Gallery.
+Understand "gear set" as the complex gear set.
+Understand "transmission" as the complex gear set.
+Understand "64 gear" as the complex gear set.
+Understand "gears" as the complex gear set.
+The description is "You notice on closer inspection that each of the gears on the construct are tightly connected, and that a set of rods protruding from the side would allow you to change which ones connect to the other. The display beneath the exhibit transmits a low signal: (transmission (gear (64)))."
+
+Some graphs are an art piece in the Art Gallery.
+Understand "carvings" as the graphs;
+Understand "paintings" as the graphs;
+Understand "data structures" as the graphs;
+Understand "data" as the graphs;
+The description is "[one of]You recognize one of the graphs as a multidimensional hash table. A horizontal line of nodes in the center indicate the initial table, with labeled branching lines to each of the secondary nodes.[cycling]"
 
 [Objects: Art piece(s), "dining" area with power conduits and automated maintenance station, armored wall, energy shield]
 
