@@ -6,6 +6,8 @@ include Numbers by Krister Fundin.
 include Player Experience Upgrade by Aaron Reed.
 include Basic Screen Effects by Emily Short.
 include Real-Time Delays by Erik Temple.
+include Conversation Framework for Sand-dancer by Aaron Reed.
+
 
 Volume - Debug Routines - NOT for release
 
@@ -20,27 +22,11 @@ When play begins (this is the find undescribed things at the start of play rule)
 		if description of the object is "":
 			say "[object] has no description."
 
-
 Volume - Rules
 
 Part - Modules
 
 Chapter - General Rules
-
-Section - Teletyping
-
-Current teletype character delay is a number variable. The current teletype character delay is 1.
-Current teletype line break delay is a number variable. The current teletype line break delay is 40.
-Current teletype paragraph break delay is a number variable. The current teletype paragraph break delay is 40.
-
-To teletype (text-to-be-printed - an indexed text):
-	repeat with N running from 1 to the number of characters in the text-to-be-printed:
-		if character number N in the text-to-be-printed is "[line break]":
-			wait (current teletype line break delay) milliseconds before continuing;
-		if character number N in the text-to-be-printed is "[paragraph break]":
-			wait (current teletype paragraph break delay) milliseconds before continuing;
-		say "[character number N in the text-to-be-printed][run paragraph on]";
-		wait (current teletype character delay) milliseconds before continuing, strictly.
 		
 Section - Command Prompt
 
@@ -64,7 +50,7 @@ To say physical diagnostic:
 Section - Player Body
 
 [The body terminal represents where the player is in digital space, while the player's body stays where it is in physical space when the player goes somewhere]
-There is an object called player's body. The printed name is "your body". It is undescribed. Understand "my body" as player's body. 
+There is an object called player's body. The printed name is "your body". It is undescribed. Understand "my body" as player's body.
 
 Section - Player Terminal
 
@@ -88,14 +74,14 @@ Instead of taking the player's terminal for more than the first time:
 
 Instead of dropping the player's body, say "It is not possible to totally exit your body without accessing a computer terminal first".
 
-Instead of entering the player's body:
+[Instead of entering the player's body:
 	now the player's body is in the holder of the player;
 	now the player is in the player's body.
 
 Instead of exiting from the player's body:
 	now the player is in the holder of the player's body;
-	now the player's body is held by the player.
-
+	now the player's body is held by the player.]
+	
 To transfer the player to (destination - a room):
 	if the destination is digital:
 		move the player's body to the location of the player;
@@ -230,7 +216,7 @@ To pause the game with alert:
 
 Volume - Story
 
-Part - BirthServer
+Part - Birth Server
 
 Birth is a scene. Birth begins when play begins. Birth ends when the player is in Birth Server Terminus for the first time.
 
@@ -242,40 +228,11 @@ The player is in Silicon Expanse.
 Chapter - Terminal B-0
 
 Terminal B-0 is a room in BirthServer. It is south of Silicon Expanse.
-
-Chapter - Terminal B-1
-
-Terminal B-1 is a room in BirthServer. 
-It is east of Terminal B-0 and northeast of Terminal B-3.
-
-Chapter - Terminal B-2
-
-Terminal B-2 is a room in BirthServer. It is west of Terminal B-3.
 The description is "A glowing rectangle floats in the center of the room, images flashing by on its smooth surface."
+The player's terminal is in Terminal B-0. 
+Instead of going south while in Terminal B-0: try taking the player's terminal.
 
 [Security Camera Access: There's a screen here that shows views of other areas]
-
-Chapter - Terminal B-3
-
-Terminal B-3 is a room in BirthServer.
-
-Chapter - Terminal B-4
-
-Terminal B-4 is a room in BirthServer. It is east of Terminal B-3.
-
-Chapter - Terminal B-5
-
-Terminal B-5 is a room in BirthServer. It is west of Terminal B-6.
-
-Chapter - Terminal B-6
-
-Terminal B-6 is a room in BirthServer. It is south of Terminal B-3.
-The player's terminal is in Terminal B-6. 
-Instead of going south while in Terminal B-6: try taking the player's terminal.
-
-Chapter - Terminal B-7
-
-Terminal B-7 is a room in BirthServer. It is south of Terminal  B-4
 
 [Communications Access: pitch dark room full of screaming voices]
 
@@ -324,9 +281,9 @@ It is east of Road RP-1.
 
 Part - Refugee Camp
 
-Chapter - Refuge R-0d1
+Chapter - Refuge R-1
 
-Refuge R-1 is a room. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, displaying the message 'Welcome Home'. An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node." It is north of Road SR-2.
+Refuge R-1 is a room. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, displaying the message (welcome home). An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node." It is north of Road SR-2.
 
 The Welcome Home Sign is a backdrop in Refuge R-1. The description is "The letters are being projected in the air from a gray central cylinder, with various wires and components dangling precariously off to the sides.".
 
@@ -336,6 +293,18 @@ Some charging stations are a backdrop in Refuge R-1. The description is "Simple 
 
 A camp repair node is a backdrop in Refuge R-1. The description is
 "A large red box containing various power tools and fabrication systems. Used for repairing physical damage to robot systems."
+
+Armored walls are a backdrop in Refuge R-1. The description is
+"Thick walls made of many welded plates of steel. You notice scratch marks around the edges of some of the older plates."
+
+Section - On Arrival
+
+Arrival is a scene. Arrival begins when Birth ends. Arrival ends when Security Door RP is unlocked.
+The Guide is a person. It is undescribed. It is in Refuge R-1.
+
+Instead of saying hello to the Guide:
+	say "Conversation will be implemented soon. For now, Security Door RP is unlocked.";
+	now Security Door RP is unlocked.
 
 Chapter - Art Gallery
 
@@ -396,7 +365,9 @@ Part - Refuge Invasion
 
 Part - Refuge-City Road
 
-Road C-1 is a room. It is east of SR-2.
+Security Door RC is a locked door. It is east of Road SR-2 and west of Road C-1.
+
+Road C-1 is a room.
 
 Road C-2 is a room. It is east of C-1.
 
@@ -414,7 +385,8 @@ Chapter - East Labyrinth (To Genesis Factory)
 
 Part - Infected Robot Camp
 
-Infected Robot Camp IC-1 is a room. It is west of RP-2.
+Security Door IC is a locked door. It is west of RP-2 and east of Infected Robot Camp.
+Infected Robot Camp IC-1 is a room.
 The description is "A desolate patch of land sits in the shadow of the power plant."
 
 Part - Virus Lab
@@ -437,6 +409,14 @@ Part - Infected Body
 
 Infected Body is a region. Infected Body is digital.
 
+Infection is a scene. 
+Infection begins when the player is in Infected Body for the first time.
+Infection ends when the player is not in Infected Body.
+
+When Infection begins:
+	now the Observation Module is in Internal System IS-1.
+	now the Examination Module is in Internal System IS-2.
+
 AI Core is a room in Infected Body.
 
 Internal System IS-1 is a room. It is northeast of AI Core. It is in Infected Body.
@@ -447,7 +427,7 @@ Internal System IS-3 is a room. It is southwest of AI Core. It is in Infected Bo
 
 Internal System IS-4 is a room. It is northwest of AI Core. It is in Infected Body.
 
-Antivirus Coprocessor is a room. It is in Infected Body.
+Antivirus Coprocessor is a room. It is in Infected Body. It is up from AI Core.
 
 [AI retreats to Coprocessor to escape virus]
 
