@@ -387,7 +387,11 @@ Part - Infected Robot Camp
 
 Security Door IC is a locked door. It is west of RP-2 and east of Infected Robot Camp.
 Infected Robot Camp IC-1 is a room.
+<<<<<<< HEAD
 The description is "A desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower that looms far to the northeast."
+=======
+The description is "A desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower that looms far to the northeast. The path out of the area lies to the east."
+>>>>>>> Genesis Access, tweak some other descritpions
 
 Part - Virus Lab
 
@@ -400,9 +404,28 @@ Part - Genesis Factory
 [Genesis factory is a huge white tower that is visible from most other areas]
 
 Genesis Path GP-1 is a room. It is east of CG-1.
+<<<<<<< HEAD
 The description is "The smooth white form of the Genesis Tower extends above you, its massive height dwarfing the buildings of the ruined city. The ground around the tower is strangely pristine, its surface somehow untouched by the armageddon that turned the surrounding world to ash. Humanoid marble statues line the sides of the stone path that leads up to the base of the tower, their arms extended overhead, forming a series of arches."
+=======
+The description is "The smooth white form of the Genesis Tower extends above you, its massive height dwarfing the buildings of the ruined city. Encircled by porcelain-alloy defensive walls, the ground around the tower is strangely pristine, its surface untouched by the armageddon that turned the surrounding world to ash. Marble statues line the sides of the stone path that leads up to the base of the tower, their arms extended overhead, forming a series of arches. To the north, the tower's open doorway beckons. The ruined city lies to the south."
+
+[The marble statues are modeled after humans, not robots, of course]
+>>>>>>> Genesis Access, tweak some other descritpions
 
 Genesis Access GA-1 is a room. It is north of GP-1.
+The description is "At first glance, it seems as if the interior of the tower has no walls. The tower courtyard, defensive wall, and the tops of buildings are still perfectly visible, holographically displayed on the inside of the tower by a ring of minuscule projectors that inscribe the edges of the ceiling, giving the effect that you are standing below a floating block of marble. Another statue stands on a pedestal in the center of the room, its outstretched hands cupped together as if offering something. There is a plaque affixed to the front of the pedestal."
+
+[This room should work like an elevator. Once activated (by giving the statue an item?), the door closes and it begins to move upward. As it moves, the view outside changes, "rewinding" back to a view from when the tower was first constructed. By the time it reaches the top, the view shows a thriving utopian metropolis.
+
+"With a sudden jolt, the room begins to accelerate upward. From your holographic viewpoint, you can see the courtyard slip away below you, the line of statues becoming smaller and smaller as the room rises.
+[paragraph break]
+For several moments, the only thing you can see is the surface if the external defensive wall.
+[paragraph break]
+Suddenly, the room clears the top of the wall, bringing the city in to view. With a start, you realize that something is very off about the landscape that pans out around you. As the room gains speed… (In progress)
+
+"
+
+]
 
 Genesis Overlook is a room. It is above GA-1.
 
