@@ -12,7 +12,7 @@ include Conversation Framework for Sand-dancer by Aaron Reed.
 Volume - Debug Routines - NOT for release
 
 [This is meant for finding stuff that still needs descriptions. We should remove it before turning it in.]
-When play begins (this is the find undescribed things at the start of play rule):
+[When play begins (this is the find undescribed things at the start of play rule):
 	say "Checking for undescribed rooms:[line break]";
 	repeat with room running through rooms:
 		if description of the room is "":
@@ -20,7 +20,7 @@ When play begins (this is the find undescribed things at the start of play rule)
 	say "[line break]Checking for undescribed objects:[line break]";
 	repeat with object running through things:
 		if description of the object is "":
-			say "[object] has no description."
+			say "[object] has no description."]
 
 Volume - Rules
 
