@@ -7,20 +7,13 @@ include Player Experience Upgrade by Aaron Reed.
 include Basic Screen Effects by Emily Short.
 include Real-Time Delays by Erik Temple.
 include Conversation Framework for Sand-dancer by Aaron Reed.
+include Property Checking by Emily Short.
+
 
 
 Volume - Debug Routines - NOT for release
 
 [This is meant for finding stuff that still needs descriptions. We should remove it before turning it in.]
-[When play begins (this is the find undescribed things at the start of play rule):
-	say "Checking for undescribed rooms:[line break]";
-	repeat with room running through rooms:
-		if description of the room is "":
-			say "[room] has no description.";
-	say "[line break]Checking for undescribed objects:[line break]";
-	repeat with object running through things:
-		if description of the object is "":
-			say "[object] has no description."]
 
 Volume - Rules
 
@@ -54,8 +47,10 @@ There is an object called player's body. The printed name is "your body". It is 
 
 Section - Player Terminal
 
-There is an object called player's terminal. It is undescribed.
+There is an object called player's terminal.
 The printed name is "exit terminal".
+The initial appearance is "[if Birth is happening]You see a series of glowing rings to the south of you.[else]You see the exit terminal here.".
+The description is "[if Birth is happening]Upon further inspection, the rings appear to form some sort of portal to a mobile platform. [end if]You can take this portal to enter the mobile platform."
 The player's terminal has a direction called dir that varies.
 
 Instead of taking the player's terminal for the first time:
@@ -225,6 +220,13 @@ Chapter - Silicon Expanse
 Silicon Expanse is a room in BirthServer. The description is "You are in a thousand places at once. Tiny parts of you flicker on and off at the edge of your perception. Signals and data flow in and out of you." 
 The player is in Silicon Expanse.
 
+The guiding voice is a backdrop in BirthServer. 
+Understand "voice" as the guiding voice. Understand "signal" as the guiding voice.
+The description is "The signal continues to repeat the same signal over again: (s)".
+After looking when the guiding voice is visible:	
+	say "[line break][one of]You detect a faint signal just outside your reach[or]The signal continues[stopping]: (s)".
+
+
 Chapter - Terminal B-0
 
 Terminal B-0 is a room in BirthServer. It is south of Silicon Expanse.
@@ -248,9 +250,8 @@ Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
 The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube."
 
 	The cube, tubes, computer terminal, hole, floor, walls, and ceiling are scenery.
-	Door BT-1 is a door. Door BT-1 is east of Birth Server Terminus and west of Road SR-1.
-
 	Door BT-1 is a door. It is east of Birth Server Terminus and west of Road SR-1.
+	The initial appearance is "There is a door to the east that leads outside the terminus room.".
 		
 Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
 
@@ -283,7 +284,7 @@ Part - Refugee Camp
 
 Chapter - Refuge R-1
 
-Refuge R-1 is a room. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, displaying the message (welcome home). An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node." It is north of Road SR-2.
+Refuge R-1 is a room. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message (welcome home). An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node." It is north of Road SR-2.
 
 The Welcome Home Sign is a backdrop in Refuge R-1. The description is "The letters are being projected in the air from a gray central cylinder, with various wires and components dangling precariously off to the sides.".
 
@@ -295,16 +296,25 @@ A camp repair node is a backdrop in Refuge R-1. The description is
 "A large red box containing various power tools and fabrication systems. Used for repairing physical damage to robot systems."
 
 Armored walls are a backdrop in Refuge R-1. The description is
-"Thick walls made of many welded plates of steel. You notice scratch marks around the edges of some of the older plates."
+"Thick walls made of many hastily-welded plates of steel. You notice scratch marks around the edges of some of the older plates."
 
 Section - On Arrival
 
 Arrival is a scene. Arrival begins when Birth ends. Arrival ends when Security Door RP is unlocked.
-The Guide is a person. It is undescribed. It is in Refuge R-1.
+The Guide is a person. It is in Refuge R-1.
+Understand "robot" as the guide. Understand "damaged robot" as the guide.
+The printed name is "damaged robot".
+The initial appearance is "On the ground is a heavily damaged robot of a similar make to yourself. Its signal transmissions match those of the faint signal you detected in the server.".
+The description is "Numerous critical and redundant systems on the robot have been dislocated. Electrical signals are faint and erratic."
 
-Instead of saying hello to the Guide:
+
+Instead of saying hello to the Guide for the first time:
 	say "Conversation will be implemented soon. For now, Security Door RP is unlocked.";
-	now Security Door RP is unlocked.
+	now Security Door RP is unlocked;
+	now the Guide is undescribed.
+
+Instead of doing anything to the Guide when Arrival is not happening:
+	say "You detect no further processing signals coming from the robot."
 
 Chapter - Art Gallery
 
@@ -313,7 +323,7 @@ The Refuge Art Gallery is a room. It is east of Refuge R-1. The description is "
 Some exhibits are a backdrop in the Art Gallery. Understand "constructs" as the exhibits.
 The description is "Among the exhibits you find a strangely shaped gear, a complex set of gears and chains arranged in a box, and a number of carvings and paintings depicting various data structures and their contents."
 
-An art piece is a kind of backdrop. 
+An art piece is a kind of thing. An art piece is usually fixed in place and undescribed. 
 
 Instead of examining an art piece when exhibits is unexamined:
 	try examining some exhibits. 
@@ -342,6 +352,8 @@ The description is "[one of]You recognize one of the graphs as a multidimensiona
 Part - Refuge-Plant Road
 
 Security Door RP is a locked door. It is south of Road SR-2 and north of Road RP-1.
+The initial appearance is "[if the player is in Road SR-2]There is a security door to the south.[else]The security door back to the refuge is to the north.[end if]".
+The description is "[if Security Door RP is locked]The red glowing markings indicate that the door is locked and the security field is holding.[else]The gold glowing markings indicate that the door recognizes your security clearance.[end if]".
 
 Road RP-1 is a room. 
 
@@ -366,6 +378,7 @@ Part - Refuge Invasion
 Part - Refuge-City Road
 
 Security Door RC is a locked door. It is east of Road SR-2 and west of Road C-1.
+The initial appearance is "[if the player is in Road SR-2][else]The security door back to the refuge is to the west.[end if]"
 
 Road C-1 is a room.
 
