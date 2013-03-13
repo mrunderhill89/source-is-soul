@@ -15,8 +15,6 @@ Volume - Debug Routines - NOT for release
 
 [This is meant for finding stuff that still needs descriptions. We should remove it before turning it in.]
 
-[Testing]
-
 Volume - Rules
 
 Part - Modules
@@ -326,7 +324,7 @@ The Refuge Art Gallery is a room. It is east of Refuge R-1. The description is "
 Some exhibits are a backdrop in the Art Gallery. Understand "constructs" as the exhibits.
 The description is "Among the exhibits you find a strangely shaped gear, a complex set of gears and chains arranged in a box, and a number of carvings and paintings depicting various data structures and their contents."
 
-An art piece is a kind of background. 
+An art piece is a kind of thing. It is usually undescribed and fixed in place. 
 
 Instead of examining an art piece when exhibits is unexamined:
 	try examining some exhibits. 
