@@ -246,10 +246,16 @@ Part - Server-Refuge Road
 
 Chapter - BirthServer and Main Road
 
+The white tower is a backdrop. The description is "From your vantage point, you can see a massive cylindrical white tower rising over the horizon. The strange monolith seems to be featureless, its blank sides gleaming in the sunlight."
+
+The sky is a backdrop. The description is "The sky is mostly empty except for a few clouds. There seems to be no danger of inclement weather at this time."
+
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
 The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube."
 
 	The cube, tubes, computer terminal, hole, floor, walls, and ceiling are scenery.
+	Door BT-1 is a door. Door BT-1 is east of Birth Server Terminus and west of Road SR-1.
+
 	Door BT-1 is a door. It is east of Birth Server Terminus and west of Road SR-1.
 	The initial appearance is "There is a door to the east that leads outside the terminus room.".
 		
@@ -263,22 +269,17 @@ Road SR-2 is east of Road SR-1.
 
 Chapter - Data Repository 1
 
-Road DR 1-1 is a room. 
+Road DR 1-1 is a room. The description is "The lights in this corridor have ceased to function, leaving the door to the south as the only source of light. Otherwise, this area seems structurally sound and free from debris. Several meters ahead, the hall makes a sharp turn to the west."
 It is north of Road SR-1.
+
 Road DR 1-1 is east of Road DR 1-2.
 
-Road DR 1-2 is a room.
+Road DR 1-2 is a room. The description is "Without functional lights, the hallway is almost entirely devoid of visible light. An opening looms to the south, silhouetted in false-color by the infrared spotlight of your night vision system. To the east, the hallway curves back out of sight."
 
-Data Repository DR-1 is a room.
+Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room."
+The personal data recorder is an object in DR-1.
+
 Data Repository DR-1 is south of Road DR 1-2.
-
-Chapter - Data Repository 2
-
-Data Repository DR 2 is a room.
-
-Road DR 2-1 is a room. 
-It is north of Data Repository DR 2.
-It is east of Road RP-1.
 
 Part - Refugee Camp
 
@@ -323,7 +324,7 @@ The Refuge Art Gallery is a room. It is east of Refuge R-1. The description is "
 Some exhibits are a backdrop in the Art Gallery. Understand "constructs" as the exhibits.
 The description is "Among the exhibits you find a strangely shaped gear, a complex set of gears and chains arranged in a box, and a number of carvings and paintings depicting various data structures and their contents."
 
-An art piece is a kind of thing. An art piece is usually fixed in place and undescribed. 
+An art piece is a kind of background. 
 
 Instead of examining an art piece when exhibits is unexamined:
 	try examining some exhibits. 
@@ -355,7 +356,7 @@ Security Door RP is a locked door. It is south of Road SR-2 and north of Road RP
 The initial appearance is "[if the player is in Road SR-2]There is a security door to the south.[else]The security door back to the refuge is to the north.[end if]".
 The description is "[if Security Door RP is locked]The red glowing markings indicate that the door is locked and the security field is holding.[else]The gold glowing markings indicate that the door recognizes your security clearance.[end if]".
 
-Road RP-1 is a room. 
+Road RP-1 is a room. The description is "A long dirt road leads from north to south, flanked on either side by piles of debris. The power plant".
 
 Road RP-2 is a room. It is south of Road RP-1.
 
