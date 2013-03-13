@@ -9,6 +9,8 @@ include Real-Time Delays by Erik Temple.
 include Conversation Framework for Sand-dancer by Aaron Reed.
 include Property Checking by Emily Short.
 
+
+
 Volume - Debug Routines - NOT for release
 
 [This is meant for finding stuff that still needs descriptions. We should remove it before turning it in.]
@@ -244,7 +246,7 @@ Part - Server-Refuge Road
 
 Chapter - BirthServer and Main Road
 
-The white tower is a backdrop. The description is "From your vantage point, you can see a massive cylindrical white tower rising over the horizon. The strange monolith seems to be featureless, its blank sides gleaming in the sunlight."
+The white tower is a backdrop. The description is "You can see a massive cylindrical white tower rising over the horizon. The strange monolith seems to be featureless, its blank sides gleaming in the sunlight, providing a stark contrast to the burned-out husks of buildings that surround it."
 
 The sky is a backdrop. The description is "The sky is mostly empty except for a few clouds. There seems to be no danger of inclement weather at this time."
 
@@ -252,16 +254,26 @@ Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
 The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube."
 
 	The cube, tubes, computer terminal, hole, floor, walls, and ceiling are scenery.
+
+	The description of the cube is "The surface of the cube is unbroken and smooth to the touch, its deep black surface reflecting slightly purple in the sunlight. On the front of the cube, a thin seam traces the outline of a door. In the center of the door, green text pulses on and off. 'Standing By'"
+
 	Door BT-1 is a door. Door BT-1 is east of Birth Server Terminus and west of Road SR-1.
 
 	Door BT-1 is a door. It is east of Birth Server Terminus and west of Road SR-1.
 	The initial appearance is "There is a door to the east that leads outside the terminus room.".
 		
-Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hovertank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
+Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hover tank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
 
-	The rubble, south wall, hovertank, gun barrel, northward door, floor, walls, and ceiling are scenery.
+	The rubble, south wall, hover tank, gun barrel, northward door, floor, walls, and ceiling are scenery.
+	
+	The description of the rubble is "Bits of twisted metal rebar and shattered concrete."
+	The description of the south wall is "Still structurally sound despite the tank protruding through it."
+	The description of the gun barrel is "A long square barrel pokes out from the upper half of the tank. On the side of the barrel, you can barely make out a sequence of vertical lines drawn on the metal, alongside what you can only assume is a crude drawing of a robot."
+	The description of the northward door is "The thick metal door is bent almost in half, "
 
 Road SR-2 is a room. The description is "An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions."
+
+	The signs are objects in SR-2. They are fixed in place. The description is "A metal sign sits over each of the four doors, each sporting a meticulously etched message.[Paragraph Break]North: (Home)[Paragraph Break]South: (Power)[Paragraph Break]East: (Legacy)[Paragraph Break]West: (Birth)"
 
 Road SR-2 is east of Road SR-1.
 
@@ -275,7 +287,9 @@ Road DR 1-1 is east of Road DR 1-2.
 Road DR 1-2 is a room. The description is "Without functional lights, the hallway is almost entirely devoid of visible light. An opening looms to the south, silhouetted in false-color by the infrared spotlight of your night vision system. To the east, the hallway curves back out of sight."
 
 Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room."
-The personal data recorder is an object in DR-1.
+	The personal data recorder is an object in DR-1.
+	The upturned desks and abandoned hardware are scenery in DR-1.
+
 
 Data Repository DR-1 is south of Road DR 1-2.
 
@@ -283,11 +297,11 @@ Part - Refugee Camp
 
 Chapter - Refuge R-1
 
-Refuge R-1 is a room. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message (welcome home). An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node." It is north of Road SR-2.
+Refuge R-1 is a room. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message (welcome home). An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
 
 The Welcome Home Sign is a backdrop in Refuge R-1. The description is "The letters are being projected in the air from a gray central cylinder, with various wires and components dangling precariously off to the sides.".
 
-The Camp Energy Shield is a backdrop in Refuge R-1. The description is "A pale gold energy shield that keeps out the elements as well as forcing any intruders to first go through the main gate. You detect rows of primary and backup projectors that occasionally cycle on-and-off. It gives off a stark contrast to the blue sky you saw overhead as you came here. To the east you can see a building labelled 'Art Gallery'."
+The Camp Energy Shield is a backdrop in Refuge R-1. The description is "A pale gold energy shield that keeps out the elements as well as forcing any intruders to first go through the main gate. You detect rows of primary and backup projectors that occasionally cycle on-and-off. It gives off a stark contrast to the blue sky you saw overhead as you came here."
 
 Some charging stations are a backdrop in Refuge R-1. The description is "Simple power receptacles with a variety of connectors for different models. You spot one that corresponds with your own power supply."
 
@@ -354,9 +368,14 @@ Security Door RP is a locked door. It is south of Road SR-2 and north of Road RP
 The initial appearance is "[if the player is in Road SR-2]There is a security door to the south.[else]The security door back to the refuge is to the north.[end if]".
 The description is "[if Security Door RP is locked]The red glowing markings indicate that the door is locked and the security field is holding.[else]The gold glowing markings indicate that the door recognizes your security clearance.[end if]".
 
-Road RP-1 is a room. The description is "A long dirt road leads from north to south, flanked on either side by piles of debris. The power plant".
+Road RP-1 is a room. The description is "A long dirt road leads from north to south, flanked on either side by piles of debris. The power plant is visible to the south.".
+
+The power plant is a backdrop. It is in RP-1. The description is "The power plant consists of a gunmetal grey geodesic dome topped with a tall cooling mast. Wide metal fins extend from the sides of the mast, rotating lazily in the wind."
+
+The geodesic dome, cooling mast, and metal fins are part of the power plant.
 
 Road RP-2 is a room. It is south of Road RP-1.
+The power plant is in RP-2.
 
 Part - Power Plant
 
@@ -364,6 +383,8 @@ Power Plant Vicinity PP-1 is a room. It is south of Road RP-2.
 
 Power Plant Entrance PP-2 is a room. It is west of PP-1.
 The description is "Your entry into the power plant ".
+The status readouts, gauges, pipes, warning lights, and core access terminal are scenery in PP-2.
+
 [Objects: Status readouts, dials / gauges, pipes, sealed hatch to core, safety override system (opens hatch)]
 
 Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
@@ -380,7 +401,7 @@ Road C-2 is a room. It is east of C-1.
 
 Part - The Human City Ruins
 
-City Grid CG-1 is a room. It is east of C-2.
+City Grid CG-1 is a room. It is east of C-2. The description is "You stand on the cracked asphalt of a road that leads through what must have once been a great city. Burned-out husks of buildings spread out around you, in various stages of collapse.".
 
 Chapter - West Labyrinth (To Refugee Camp)
 

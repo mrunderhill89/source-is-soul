@@ -1,3 +1,4 @@
+/Source Is Soul.inform/Source/story.ni.orig
 # Generated files
 
 Source Is Soul.inform/Build/
@@ -14,3 +15,5 @@ Source Is Soul.inform/README.md
 Source Is Soul.inform/.gitignore.orig
 Source Is Soul.inform/.gitignore~
 
+
+.DS_Store
