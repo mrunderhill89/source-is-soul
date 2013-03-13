@@ -230,9 +230,10 @@ After looking when the guiding voice is visible:
 Chapter - Terminal B-0
 
 Terminal B-0 is a room in BirthServer. It is south of Silicon Expanse.
-The description is "A glowing rectangle floats in the center of the room, images flashing by on its smooth surface."
-The player's terminal is in Terminal B-0. 
-Instead of going south while in Terminal B-0: try taking the player's terminal.
+	The description is "A glowing rectangle floats in the center of the room, images flashing by on its smooth surface."
+	The glowing rectangle is scenery in B-0. The description is "The panel appears to be cycling through several camera feeds. Despite the interference-induced static that clouds the display, you can still see that the feeds provide views in to the dark-walled hallways and rooms of a large building."
+	The player's terminal is in Terminal B-0. 
+	Instead of going south while in Terminal B-0: try taking the player's terminal.
 
 [Security Camera Access: There's a screen here that shows views of other areas]
 
@@ -251,20 +252,22 @@ The white tower is a backdrop. The description is "You can see a massive cylindr
 The sky is a backdrop. The description is "The sky is mostly empty except for a few clouds. There seems to be no danger of inclement weather at this time."
 
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
-The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube."
+The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube."
 
-	The cube, tubes, computer terminal, hole, floor, walls, and ceiling are scenery.
+	The cube, tubes, computer terminal, and hole are scenery.
 
-	The description of the cube is "The surface of the cube is unbroken and smooth to the touch, its deep black surface reflecting slightly purple in the sunlight. On the front of the cube, a thin seam traces the outline of a door. In the center of the door, green text pulses on and off. 'Standing By'"
+	The description of the cube is "The surface of the cube is unbroken and smooth to the touch, its deep black surface reflecting slightly purple in the sunlight. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. On the front of the cube, a thin seam traces the outline of a door. In the center of the door, green text pulses on and off. 'Standing By'"
+	
+	The tubes are a part of the cube. The description of the tubes is "Rubber insulated tubing. Some of the tubes hum with energy, while others lie dormant."
 
-	Door BT-1 is a door. Door BT-1 is east of Birth Server Terminus and west of Road SR-1.
+	The description of the hole is "One of the room's upper corners has been smashed in by some powerful force, leaving a meter-wide hole."
 
 	Door BT-1 is a door. It is east of Birth Server Terminus and west of Road SR-1.
 	The initial appearance is "There is a door to the east that leads outside the terminus room.".
 		
 Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hover tank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
 
-	The rubble, south wall, hover tank, gun barrel, northward door, floor, walls, and ceiling are scenery.
+	The rubble, south wall, hover tank, gun barrel, and northward door are scenery.
 	
 	The description of the rubble is "Bits of twisted metal rebar and shattered concrete."
 	The description of the south wall is "Still structurally sound despite the tank protruding through it."
@@ -289,6 +292,7 @@ Road DR 1-2 is a room. The description is "Without functional lights, the hallwa
 Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room."
 	The personal data recorder is an object in DR-1.
 	The upturned desks and abandoned hardware are scenery in DR-1.
+	
 
 
 Data Repository DR-1 is south of Road DR 1-2.
