@@ -9,8 +9,6 @@ include Real-Time Delays by Erik Temple.
 include Conversation Framework for Sand-dancer by Aaron Reed.
 include Property Checking by Emily Short.
 
-
-
 Volume - Debug Routines - NOT for release
 
 [This is meant for finding stuff that still needs descriptions. We should remove it before turning it in.]
@@ -289,7 +287,7 @@ Refuge R-1 is a room. The description is "You stand in a large room, surrounded 
 
 The Welcome Home Sign is a backdrop in Refuge R-1. The description is "The letters are being projected in the air from a gray central cylinder, with various wires and components dangling precariously off to the sides.".
 
-The Camp Energy Shield is a backdrop in Refuge R-1. The description is "A pale gold energy shield that keeps out the elements as well as forcing any intruders to first go through the main gate. You detect rows of primary and backup projectors that occasionally cycle on-and-off. It gives off a stark contrast to the blue sky you saw overhead as you came here."
+The Camp Energy Shield is a backdrop in Refuge R-1. The description is "A pale gold energy shield that keeps out the elements as well as forcing any intruders to first go through the main gate. You detect rows of primary and backup projectors that occasionally cycle on-and-off. It gives off a stark contrast to the blue sky you saw overhead as you came here. To the east you can see a building labelled 'Art Gallery'."
 
 Some charging stations are a backdrop in Refuge R-1. The description is "Simple power receptacles with a variety of connectors for different models. You spot one that corresponds with your own power supply."
 
@@ -324,7 +322,7 @@ The Refuge Art Gallery is a room. It is east of Refuge R-1. The description is "
 Some exhibits are a backdrop in the Art Gallery. Understand "constructs" as the exhibits.
 The description is "Among the exhibits you find a strangely shaped gear, a complex set of gears and chains arranged in a box, and a number of carvings and paintings depicting various data structures and their contents."
 
-An art piece is a kind of background. 
+An art piece is a kind of thing. It is usually undescribed and fixed in place. 
 
 Instead of examining an art piece when exhibits is unexamined:
 	try examining some exhibits. 
@@ -365,16 +363,11 @@ Part - Power Plant
 Power Plant Vicinity PP-1 is a room. It is south of Road RP-2.
 
 Power Plant Entrance PP-2 is a room. It is west of PP-1.
-
+The description is "Your entry into the power plant ".
 [Objects: Status readouts, dials / gauges, pipes, sealed hatch to core, safety override system (opens hatch)]
 
 Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
 [Objects in power plant core: misaligned fusion core, core shielding]
-
-
-Part - Refuge Invasion
-
-
 
 Part - Refuge-City Road
 
