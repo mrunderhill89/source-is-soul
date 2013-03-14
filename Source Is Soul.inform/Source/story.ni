@@ -290,10 +290,10 @@ Road DR 1-1 is east of Road DR 1-2.
 Road DR 1-2 is a room. The description is "Without functional lights, the hallway is almost entirely devoid of visible light. An opening looms to the south, silhouetted in false-color by the infrared spotlight of your night vision system. To the east, the hallway curves back out of sight."
 
 Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room."
-	The personal data recorder is an object in DR-1.
+	The personal data recorder is an object in DR-1. The description is "The PDR is a small electronic device used for recording secure audio logs."
 	The upturned desks and abandoned hardware are scenery in DR-1.
-	
 
+	Instead of using, taking, or listening to the personal data recorder, say "As you reach for the PDR, it detects your presence and automatically begins playback of the last recorded message…" [Backstory here if there's time]
 
 Data Repository DR-1 is south of Road DR 1-2.
 
@@ -374,19 +374,31 @@ The description is "[if Security Door RP is locked]The red glowing markings indi
 
 Road RP-1 is a room. The description is "A long dirt road leads from north to south, flanked on either side by piles of debris. The power plant is visible to the south.".
 
-The power plant is a backdrop. It is in RP-1. The description is "The power plant consists of a gunmetal grey geodesic dome topped with a tall cooling mast. Wide metal fins extend from the sides of the mast, rotating lazily in the wind."
+	The piles of debris are a backdrop. They are in RP-1. The description is "The mixed contents of these piles suggest they were moved here manually."
+	
+	The dirt road is a backdrop. It is in RP-1.
 
-The geodesic dome, cooling mast, and metal fins are part of the power plant.
+	The power plant is a backdrop. It is in RP-1. The description is "The power plant consists of a gunmetal grey geodesic dome topped with a tall metal mast. Wide cooling fins extend from the sides of the mast at regular intervals, spinning around at high speed."
 
-Road RP-2 is a room. It is south of Road RP-1.
-The power plant is in RP-2.
+	The geodesic dome, metal mast, and cooling fins are part of the power plant.
+	
+	The description of the geodesic dome is "A lattice of sturdy metal hexagons supports the dome's surface, giving it a polygonal look."
+	
+	The description of the metal mast is "A rigid metal pole that transfers heat from within the power plant out to fifteen cooling fins, connected to the tower in groups of three."
+
+	The description of the cooling fins is "Heat signatures reveal that each fin contains a spiraling configuration of pipes, through which liquid flows, aiding in heat transfer."
+
+
+Road RP-2 is a room. It is south of Road RP-1. The description is "The dirt road continues to the north and south. The debris that straddles the road is interrupted by an opening to the west, where another security door has been wedged."
+	The piles of debris are in RP-2.
+	The power plant is in RP-2.
 
 Part - Power Plant
 
 Power Plant Vicinity PP-1 is a room. It is south of Road RP-2.
 
 Power Plant Entrance PP-2 is a room. It is west of PP-1.
-The description is "Your entry into the power plant ".
+The description is "".
 The status readouts, gauges, pipes, warning lights, and core access terminal are scenery in PP-2.
 
 [Objects: Status readouts, dials / gauges, pipes, sealed hatch to core, safety override system (opens hatch)]
@@ -399,13 +411,17 @@ Part - Refuge-City Road
 Security Door RC is a locked door. It is east of Road SR-2 and west of Road C-1.
 The initial appearance is "[if the player is in Road SR-2][else]The security door back to the refuge is to the west.[end if]"
 
-Road C-1 is a room.
+Road C-1 is a room. The description is "A long paved road runs from the facility at the west to the ruined city to the east. To either side, a seemingly endless desert stretches to the horizon."
 
-Road C-2 is a room. It is east of C-1.
+The ruined city is scenery in C-1.
+The desert is a backdrop in C-1.
 
 Part - The Human City Ruins
 
-City Grid CG-1 is a room. It is east of C-2. The description is "You stand on the cracked asphalt of a road that leads through what must have once been a great city. Burned-out husks of buildings spread out around you, in various stages of collapse.".
+City Grid CG-1 is a room. It is east of C-1. The description is "You stand on the cracked asphalt of a road that leads through what must have once been a great city. Burned-out husks of buildings spread out around you, in various stages of collapse. The white tower dominates the skyline, rising high above the east side of the city.".
+
+	The white tower is in C-1.
+	The buildings are scenery in C-1.
 
 Chapter - West Labyrinth (To Refugee Camp)
 
@@ -422,20 +438,12 @@ Infected Robot Camp IC-1 is a room.
 
 The description is "A desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower that looms far to the northeast. The path out of the area lies to the east."
 
-Part - Virus Lab
-
-Virus Lab Security Checkpoint VL-1 is a room. It is south of CG-1.
-
-Virus Lab Central Hub VL-2 is a room. It is south of VL-1.
-
 Part - Genesis Factory
-
-[Genesis factory is a huge white tower that is visible from most other areas]
 
 Genesis Path GP-1 is a room. It is east of CG-1.
 The description is "The smooth white form of the Genesis Tower extends above you, its massive height dwarfing the buildings of the ruined city. Encircled by porcelain-alloy defensive walls, the ground around the tower is strangely pristine, its surface untouched by the armageddon that turned the surrounding world to ash. Marble statues line the sides of the stone path that leads up to the base of the tower, their arms extended overhead, forming a series of arches. To the north, the tower's open doorway beckons. The ruined city lies to the south."
 
-[The marble statues are modeled after humans, not robots, of course]
+	The genesis tower, defensive walls, marble statues, stone path, and doorway are scenery in GP-1.
 
 Genesis Access GA-1 is a room. It is north of GP-1.
 The description is "At first glance, it seems as if the interior of the tower has no walls. The tower courtyard, defensive wall, and the tops of buildings are still perfectly visible, holographically displayed on the inside of the tower by a ring of minuscule projectors that inscribe the edges of the ceiling, giving the effect that you are standing below a floating block of marble. Another statue stands on a pedestal in the center of the room, its outstretched hands cupped together as if offering something. There is a plaque affixed to the front of the pedestal."
@@ -444,7 +452,7 @@ The description is "At first glance, it seems as if the interior of the tower ha
 
 "With a sudden jolt, the room begins to accelerate upward. From your holographic viewpoint, you can see the courtyard slip away below you, the line of statues becoming smaller and smaller as the room rises.
 [paragraph break]
-For several moments, the only thing you can see is the surface if the external defensive wall.
+For several moments, the only thing you can see is the surface of the external defensive wall.
 [paragraph break]
 Suddenly, the room clears the top of the wall, bringing the city in to view. With a start, you realize that something is very off about the landscape that pans out around you. As the room gains speed… (In progress)
 
