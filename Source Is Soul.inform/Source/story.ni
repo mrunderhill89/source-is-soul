@@ -397,13 +397,23 @@ Part - Power Plant
 
 Power Plant Vicinity PP-1 is a room. It is south of Road RP-2.
 
-Power Plant Entrance PP-2 is a room. It is west of PP-1.
-The description is "".
-The status readouts, gauges, pipes, warning lights, and core access terminal are scenery in PP-2.
+Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You stand in the main control area of the power plant. Almost every surface in the room is covered in status readouts, gauges, and warning lights."
 
-[Objects: Status readouts, dials / gauges, pipes, sealed hatch to core, safety override system (opens hatch)]
+	The status readouts, gauges, pipes, warning lights, and core access terminal are scenery in PP-2.
 
-Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
+	Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
+
+	Instead of using the core access terminal:
+		say "The locking bolts on the hatch release and slide back out of sight, granting access to the core below.";
+		now Power Plant Hatch PPH-1 is unlocked;
+	
+Power Plant Core PPC-1 is a room.
+	
+	After entering PPC-1, say "As you enter the core, you feel your external shielding begin to deflect high levels of radiation."
+
+	The fusion core is scenery. The fusion core can be unstable or stable. The fusion core is unstable.
+
+
 [Objects in power plant core: misaligned fusion core, core shielding]
 
 Part - Refuge-City Road
@@ -433,7 +443,7 @@ Chapter - East Labyrinth (To Genesis Factory)
 
 Part - Infected Robot Camp
 
-Security Door IC is a locked door. It is west of RP-2 and east of Infected Robot Camp.
+Security Door IC is a locked door. It is west of RP-2 and east of Infected Robot Camp IC-1.
 Infected Robot Camp IC-1 is a room.
 
 The description is "A desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower that looms far to the northeast. The path out of the area lies to the east."
