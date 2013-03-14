@@ -7,13 +7,12 @@ include Player Experience Upgrade by Aaron Reed.
 include Basic Screen Effects by Emily Short.
 include Real-Time Delays by Erik Temple.
 include Conversation Framework for Sand-dancer by Aaron Reed.
-include Property Checking by Emily Short.
-
-
 
 Volume - Debug Routines - NOT for release
 
 [This is meant for finding stuff that still needs descriptions. We should remove it before turning it in.]
+include Property Checking by Emily Short.
+
 
 Volume - Rules
 
@@ -34,7 +33,7 @@ Chapter - The Player
 
 Section - General Rules
 
-The description of the player is "[if the player is digital]You are currently intangible.[else][physical diagnostic][end if]".
+The description of the player is "[if the player is in a digital region]You are currently intangible.[else][physical diagnostic][end if]".
 The corrupted description of the player is "[virus threat]".
 
 To say physical diagnostic:
@@ -93,8 +92,10 @@ A module is a kind of thing.
 
 Section - Corruption
 
-A module has a number called corruption level. 
-The corruption level of a module is usually 0.
+A thing has a number called corruption level. 
+The corruption level of a thing is usually 0.
+
+Definition: a thing is infected if the corruption level of the noun > 0.
 
 Definition: a module is corrupted if the corruption level of the noun >= 50.
 
@@ -194,6 +195,10 @@ say "You have no real way of 'possessing' anything in your current form."
 
 Chapter - Other Regions
 
+Chapter - Doors
+
+The can't go through undescribed doors rule is not listed in the check going rulebook.
+To say closed door: do nothing.
 
 Part - Conversation Rules
 
@@ -208,6 +213,97 @@ To pause game with alert:
 To pause the game with alert:
 	say "[line break](press any key to continue)[line break]";
 	wait for any key.
+
+Section - Enable Leaving Conversations
+
+When play begins:
+	now can't leave conversation early is false.
+
+Section - Topics
+
+The player has a list of things called used topics.
+
+To decide whether (topic - a thing) is used:
+	if the topic is listed in used topics of the player:
+		yes;
+	no.
+
+To decide whether (topic - a thing) is unused:
+	if topic is used:
+		no;
+	yes.
+
+After quizzing somebody about something (called the thread) (this is the add used ask topics rule):
+	add the thread to the used topics of the player, if absent;
+	remove thread from the goal topics of the player, if present.
+
+After informing somebody about something (called the thread) (this is the add used tell topics rule):
+	add the thread to the used topics of the player, if absent;
+	remove thread from the goal topics of the player, if present.		
+
+
+Instead of listing suggested topics:
+	consider the suggestion list construction rules;
+	let asks be the number of entries in sugg-list-ask;
+	let tells be the number of entries in sugg-list-tell;
+	let others be the number of entries in sugg-list-other;
+	if asks + tells + others is 0 begin;
+		say "[nothing specific]";
+		rule succeeds;
+	end if;
+	say "(available topics(([the printed name of the current interlocutor]))) ->";
+	if asks > 0, 
+		say "(ask ([sugg-list-ask in code format]))[if tells + others > 0], [end if]";
+	if tells > 0, 
+		say "(tell ([sugg-list-tell in code format]))[if others > 0], [end if]";
+	if others > 0, 
+		say "(misc ([sugg-list-other in code format]))";
+	say "[if topic-request is implicit])[paragraph break][otherwise].[end if]".
+
+To say nothing specific:
+   say "([the printed name of the current interlocutor]) -> (no topics available)";
+
+Section - Goal Topics
+
+The player has a list of things called goal topics.
+
+Instead of going anywhere while goal topics of the player is not empty:
+	say "[goal topics]".
+
+Instead of saying goodbye to someone while goal topics of the player is not empty:
+	say "[goal topics]".
+
+To say goal topics:
+	say "(urgent topics)->";
+	let any known topics be false;
+	repeat with topic running through goal topics of the player:
+		if topic is familiar:
+			say "([printed name of topic])";
+			let any known topics be true;
+	if any known topics is false:
+		say "(unknown)".
+
+To say add (topic - a thing) to goal topics:
+	add topic to goal topics of the player.
+
+Section - Carry Out Listing Support Routines
+
+To say (l - a list of objects) in code format:
+	repeat with item running through l:
+		say "([printed name of item in lower case])".
+
+Section - Code-Style Conversation
+
+Understand "ask ([someone]) ([text])" as asking it about.
+Understand "request ([someone]) ([any known thing])" as requesting it for.
+Understand "request ([someone]) ([text])" as imploring it for.
+Understand "ask ([someone]) ([any known thing])" as quizzing it about.
+Understand "tell ([someone]) ([any known thing])" as informing it about.
+
+After saying hello to someone:
+	say "(open ([the printed name of the current interlocutor]))";
+After saying goodbye to someone:
+	say "(close ([the printed name of the current interlocutor]))";	
 
 Volume - Story
 
@@ -234,6 +330,9 @@ Terminal B-0 is a room in BirthServer. It is south of Silicon Expanse.
 	The glowing rectangle is scenery in B-0. The description is "The panel appears to be cycling through several camera feeds. Despite the interference-induced static that clouds the display, you can still see that the feeds provide views in to the dark-walled hallways and rooms of a large building."
 	The player's terminal is in Terminal B-0. 
 	Instead of going south while in Terminal B-0: try taking the player's terminal.
+	
+[The player doesn't have access to this room. It's just a dummy so that the exit lister knows south is a valid direction.]
+Remote Terminal is a room in BirthServer. It is south of B-0.
 
 [Security Camera Access: There's a screen here that shows views of other areas]
 
@@ -251,6 +350,8 @@ The white tower is a backdrop. The description is "You can see a massive cylindr
 
 The sky is a backdrop. The description is "The sky is mostly empty except for a few clouds. There seems to be no danger of inclement weather at this time."
 
+Section - Birth Server Terminus
+
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
 The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube."
 
@@ -265,25 +366,43 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 	Door BT-1 is a door. It is east of Birth Server Terminus and west of Road SR-1.
 	The initial appearance is "There is a door to the east that leads outside the terminus room.".
 		
+Section  - Road SR-1
+
 Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hover tank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
 
-	The rubble, south wall, hover tank, gun barrel, and northward door are scenery.
+	The rubble, the south wall, the hover tank, and the gun barrel are scenery in Road SR-1.
 	
 	The description of the rubble is "Bits of twisted metal rebar and shattered concrete."
 	The description of the south wall is "Still structurally sound despite the tank protruding through it."
 	The description of the gun barrel is "A long square barrel pokes out from the upper half of the tank. On the side of the barrel, you can barely make out a sequence of vertical lines drawn on the metal, alongside what you can only assume is a crude drawing of a robot."
-	The description of the northward door is "The thick metal door is bent almost in half, "
+	
+	Repository Door DR-1 is a door. It is north of SR-1 and south of Road DR 1-1. It is closed and undescribed.
+	The description of the Repository Door is "The thick metal door is bent almost in half. "
+	
+	Carry out opening Repository Door DR-1 for the first time:
+		now the Repository Door is open;
+		now the Repository Door is unopenable.
+	After opening Door DR-1 for the first time:
+		say "Your servos strain slightly as you pull what's left of the metal door from its hinges.".		
+	
+	Instead of going north from SR-1 while DR-1 is closed:
+	try opening Door DR-1;
+	if door DR-1 is open:
+		try going north.
 
-Road SR-2 is a room. The description is "An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions."
+Section - Road SR-2
 
-	The signs are objects in SR-2. They are fixed in place. The description is "A metal sign sits over each of the four doors, each sporting a meticulously etched message.[Paragraph Break]North: (Home)[Paragraph Break]South: (Power)[Paragraph Break]East: (Legacy)[Paragraph Break]West: (Birth)"
+Road SR-2 is a room. The description is "An ancient foyer forms a well-worn crossroads, with paths leading in all cardinal directions. A metal sign sits over each of the four doors."
+
+	Some crossroad signs are a scenery in SR-2. 
+Understand "sign" as the crossroad signs. Understand "signs" as the crossroad signs. 
+The description is "Each sign sports a meticulously etched message.[Paragraph Break]North: (Home)[Paragraph Break]South: (Power)[Paragraph Break]East: (Legacy)[Paragraph Break]West: (Birth)"
 
 Road SR-2 is east of Road SR-1.
 
 Chapter - Data Repository 1
 
 Road DR 1-1 is a room. The description is "The lights in this corridor have ceased to function, leaving the door to the south as the only source of light. Otherwise, this area seems structurally sound and free from debris. Several meters ahead, the hall makes a sharp turn to the west."
-It is north of Road SR-1.
 
 Road DR 1-1 is east of Road DR 1-2.
 
@@ -292,8 +411,6 @@ Road DR 1-2 is a room. The description is "Without functional lights, the hallwa
 Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room."
 	The personal data recorder is an object in DR-1.
 	The upturned desks and abandoned hardware are scenery in DR-1.
-	
-
 
 Data Repository DR-1 is south of Road DR 1-2.
 
@@ -324,11 +441,14 @@ The printed name is "damaged robot".
 The initial appearance is "On the ground is a heavily damaged robot of a similar make to yourself. Its signal transmissions match those of the faint signal you detected in the server.".
 The description is "Numerous critical and redundant systems on the robot have been dislocated. Electrical signals are faint and erratic."
 
+After saying hello to the guide:
+	say "You approach the damaged robot, but do not get within close proximity. Wireless transmitters begin flickering as your peer tries to communicate.[add Identify ask suggestion][add Identify to goal topics]";
+	now Identify is familiar.
 
-Instead of saying hello to the Guide for the first time:
-	say "Conversation will be implemented soon. For now, Security Door RP is unlocked.";
-	now Security Door RP is unlocked;
-	now the Guide is undescribed.
+After saying goodbye to the guide:
+	now Security Door RP is unlocked.
+
+Identify is a thing.
 
 Instead of doing anything to the Guide when Arrival is not happening:
 	say "You detect no further processing signals coming from the robot."
@@ -388,10 +508,20 @@ Power Plant Vicinity PP-1 is a room. It is south of Road RP-2.
 Power Plant Entrance PP-2 is a room. It is west of PP-1.
 The description is "Your entry into the power plant ".
 The status readouts, gauges, pipes, warning lights, and core access terminal are scenery in PP-2.
+The safety override system is a switched on device in PP-2. It is fixed in place.
+
+Carry out switching on the safety override system:
+	now the Power Plant Hatch is unlocked.
+
+Report switching on the safety override system:
+	say "All of a sudden, warning lights and klaxons start blaring incessantly. The readouts begin showering lines of unrecognizable code. ".
 
 [Objects: Status readouts, dials / gauges, pipes, sealed hatch to core, safety override system (opens hatch)]
 
 Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
+
+
+
 [Objects in power plant core: misaligned fusion core, core shielding]
 
 Part - Refuge-City Road
