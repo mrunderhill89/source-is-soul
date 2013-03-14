@@ -498,15 +498,17 @@ Road RP-1 is a room. The description is "A long dirt road leads from north to so
 
 The piles of debris are a backdrop. They are in RP-1. The description is "The mixed contents of these piles suggest they were moved here manually."
 	
-The dirt road is a backdrop. It is in RP-1.
+The dirt road is a backdrop. It is in RP-1. The description is "The dirt road is relatively undisturbed, showing no signs of recent travel besides your own footprints."
 
-The power plant is a backdrop. It is in RP-1. The description is "The power plant consists of a gunmetal grey geodesic dome topped with a tall metal mast. Wide cooling fins extend from the sides of the mast at regular intervals, spinning around at high speed."
+The power plant is a backdrop. It is in RP-1. The description is "The power plant consists of a gunmetal grey geodesic dome topped with a tall metal mast. Wide cooling fins extend from the sides of the mast at regular intervals, [if the fusion reactor is unstable]spinning frantically at top speed.[else]twirling around lazily at low speed.[end if]"
 
 The geodesic dome, cooling mast, and metal fins are part of the power plant.
 
 Road RP-2 is a room. It is south of Road RP-1. The description is "The dirt road continues to the north and south. The debris that straddles the road is interrupted by an opening to the west, where another security door has been wedged."
 
-The power plant is in RP-2.
+	The power plant is in RP-2.
+	The piles of debris are in RP-2.
+	The dirt road is in RP-2.
 
 The geodesic dome, metal mast, and cooling fins are part of the power plant.
 	
@@ -520,7 +522,9 @@ The geodesic dome, metal mast, and cooling fins are part of the power plant.
 
 Part - Power Plant
 
-Power Plant Vicinity PP-1 is a room. It is south of Road RP-2.
+Power Plant Vicinity PP-1 is a room. It is south of Road RP-2. The description is "You are directly outside the power plant (to the west). The dirt road back to the refuge is to the north."
+	The power plant is in PP-1.
+
 
 Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You stand in the main control area of the power plant. Almost every surface in the room is covered in status readouts, gauges, and warning lights."
 
@@ -531,17 +535,19 @@ Carry out switching on the safety override system:
 	now the Power Plant Hatch is unlocked.
 
 Report switching on the safety override system:
-	say "All of a sudden, warning lights and klaxons start blaring incessantly. The readouts begin showering lines of unrecognizable code. ".
+	say "All of a sudden, warning lights flash and klaxons start blaring incessantly. The readouts begin showering lines of unrecognizable code. ".
 
-Instead of using the core access terminal:
+[Instead of using the core access terminal:
 		say "The locking bolts on the hatch release and slide back out of sight, granting access to the core below.";
-		now Power Plant Hatch PPH-1 is unlocked;
+		now Power Plant Hatch PPH-1 is unlocked;]
 	
-Power Plant Core PPC-1 is a room.
-	
+Power Plant Core PPC-1 is a room. The description is "You are inside the core of the power plant. In the center of the cylindrical room, the torus-shaped fusion reactor pulses with energy. [if the fusion reactor is unstable]You detect large fluctuations in the core's output, indicating that it is about to overload.[else]The core's output appears stable.[end if]"
+
+[I have no idea how fusion reactors work. This one's radioactive and explosive apparently.]
+
 	After entering PPC-1, say "As you enter the core, you feel your external shielding begin to deflect high levels of radiation."
 
-	The fusion core is scenery. The fusion core can be unstable or stable. The fusion core is unstable.
+	The fusion reactor is scenery. The fusion reactor can be unstable or stable. The fusion reactor is unstable.
 
 
 Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
@@ -596,13 +602,14 @@ The description is "At first glance, it seems as if the interior of the tower ha
 [paragraph break]
 For several moments, the only thing you can see is the surface of the external defensive wall.
 [paragraph break]
-Suddenly, the room clears the top of the wall, bringing the city in to view. With a start, you realize that something is very off about the landscape that pans out around you. As the room gains speed… (In progress)
+Suddenly, the elevator clears the top of the wall, bringing the city in to view. With a start, you realize that something is very off about the landscape that pans out around you. As the room gains speed… (In progress)
 
 "
 
 ]
 
 Genesis Overlook is a room. It is above GA-1.
+The description is "The elevator has reached its final stop at the pinnacle of the Genesis Tower. At this great hight, you can feel the tower sway slightly in the wind."
 
 Part - Infected Body
 
@@ -627,6 +634,7 @@ Internal System IS-3 is a room. It is southwest of AI Core. It is in Infected Bo
 Internal System IS-4 is a room. It is northwest of AI Core. It is in Infected Body.
 
 Antivirus Coprocessor is a room. It is in Infected Body. It is up from AI Core.
+The description is "The area seems impossibly small and cramped, leaving you barely any room to move in any direction. Every movement feels labored and slow, as if you are pushing through a thick viscous liquid. Even thinking feels difficult here."
 
 [AI retreats to Coprocessor to escape virus]
 
