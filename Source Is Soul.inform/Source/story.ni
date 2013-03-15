@@ -677,7 +677,7 @@ Before entering GA-1, say "As you cross the threshold, lights snap on, filling t
 ]
 
 Genesis Overlook is a room. It is above GA-1.
-The description is "Outside the virtual windows, the world is paused at midday, with the sun high overhead in the blue sky. A gleaming city surrounds the tower, its roads packed with vehicles and human pedestrians. A lush forest flanks the city on one side, breaking away to hilly grassland on the other. Planes hang in the sky in the process of landing and taking off. In the distance, the building that houses the refuge is fully intact."
+The description is "Outside the virtual windows, the world is paused at midday, with the sun high overhead in the blue sky. A gleaming city surrounds the tower, its roads packed with vehicles and human pedestrians. A lush forest flanks the city on one side, breaking away to hilly grassland on the other. Planes hang in the sky in the process of landing and taking off. In the distance, the building that houses the refuge is fully intact. At this great hight, you can feel the tower sway slightly in the wind."
 
 Instead of going down, say "You see no way to lower the elevator."
 
