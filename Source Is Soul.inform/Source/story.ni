@@ -373,11 +373,11 @@ The sky is a backdrop. The description is "The sky is mostly empty except for a 
 Section - Birth Server Terminus
 
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
-The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube."
+The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east."
 
 	The cube, tubes, computer terminal, and hole are scenery.
 
-	The description of the cube is "The surface of the cube is unbroken and smooth to the touch, its deep black surface reflecting slightly purple in the sunlight. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. On the front of the cube, a thin seam traces the outline of a door. In the center of the door, green text pulses on and off. 'Standing By'"
+	The description of the cube is "The surface of the cube is unbroken and smooth to the touch, its deep black surface reflecting slightly purple in the sunlight. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. On the front of the cube, a thin seam traces the outline of a door. In the center of the door, green text pulses on and off. 'Fabricator Standing By'"
 	
 	The tubes are a part of the cube. The description of the tubes is "Rubber insulated tubing. Some of the tubes hum with energy, while others lie dormant."
 
@@ -522,7 +522,9 @@ The dirt road is a backdrop. It is in RP-1. The description is "The dirt road is
 
 The power plant is a backdrop. It is in RP-1. The description is "The power plant consists of a gunmetal grey geodesic dome topped with a tall metal mast. Wide cooling fins extend from the sides of the mast at regular intervals, [if the fusion reactor is unstable]spinning frantically at top speed.[else]twirling around lazily at low speed.[end if]"
 
-Road RP-2 is a room. It is south of Road RP-1. The description is "The dirt road continues to the north and south. The debris that straddles the road is interrupted by an opening to the west, where another security door has been wedged."
+Road RP-2 is a room. It is south of Road RP-1. The description is "The dirt road continues to the north and south. The debris that straddles the road is interrupted by an opening to the west, where a damaged door has been wedged, blocking passage."
+
+Damaged Door IC is a locked door. It is west of RP-2 and east of Infected Robot Camp IC-1. The description is "The physical door has been torn away, but the energy shield over the opening is still active. Through the energy field, a desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower."
 
 	The power plant is in RP-2.
 	The piles of debris are in RP-2.
@@ -547,6 +549,12 @@ Power Plant Vicinity PP-1 is a room. It is south of Road RP-2. The description i
 Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You stand in the main control area of the power plant. Almost every surface in the room is covered in status readouts, gauges, and warning lights."
 
 The status readouts, gauges, pipes, warning lights, plant schematics, and core access terminal are scenery in PP-2.
+
+	[The description of the status readouts is "[if the core is unstable]'CRITICAL TEMPERATURE WARNING! CORE UNSTABLE! MANUAL OVERRIDE REQUIRED![else]'Temperature nominal. Core levels are within expected parameters.'[end if]'"
+	
+	The description of the gauges is "[if the core is unstable]Dials throughout the room indicate impending doom, their needles firmly fixed in the red.[else]"]
+
+
 The safety override system is a switched on device in PP-2. It is fixed in place.
 
 Section - Status Readouts
@@ -608,10 +616,9 @@ Chapter - East Labyrinth (To Genesis Factory)
 
 Part - Infected Robot Camp
 
-Security Door IC is a locked door. It is west of RP-2 and east of Infected Robot Camp IC-1.
 Infected Robot Camp IC-1 is a room.
 
-The description is "A desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower that looms far to the northeast. The path out of the area lies to the east."
+The description is "A desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower. The path out of the area lies to the east."
 
 Part - Genesis Factory
 
@@ -634,6 +641,7 @@ Before entering GA-1, say "As you cross the threshold, lights snap on, filling t
 
 	The statue, pedestal, and minuscule projectors are scenery in GA-1.
 	The plaque is part of the pedestal.
+
 
 [This room should work like an elevator. Once activated (by giving the statue an item?), the door closes and it begins to move upward. As it moves, the view outside changes, "rewinding" back to a view from when the tower was first constructed. By the time it reaches the top, the view shows a thriving utopian metropolis.
 
