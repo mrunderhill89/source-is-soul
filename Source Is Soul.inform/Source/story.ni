@@ -88,6 +88,8 @@ Before accessing the player's terminal for the first time:
 
 Instead of dropping the player's body, say "It is not possible to totally exit your body without accessing a computer terminal first".
 
+Does the player mean doing anything with the player's body: it is unlikely.
+
 [Instead of entering the player's body:
 	now the player's body is in the holder of the player;
 	now the player is in the player's body.
@@ -547,7 +549,7 @@ Power Plant Vicinity PP-1 is a room. It is south of Road RP-2. The description i
 Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You stand in the main control area of the power plant. Almost every surface in the room is covered in status readouts, gauges, and warning lights."
 
 The status readouts, gauges, pipes, warning lights, plant schematics, and core access terminal are scenery in PP-2.
-The safety override system is a switched on device in PP-2. It is fixed in place.
+The safety override system is a switched off device in PP-2. It is fixed in place.
 
 Section - Status Readouts
 
@@ -556,7 +558,7 @@ The corrupted description of the status readouts is "The warning signs seem to h
 
 Section - Plant Schematics
 
-The description of the plant schematics is "The power plant is a standard "
+The description of the plant schematics is "You take in the digital form of the plant's schematics and process them within a few minutes. The plant is a Wildcat-Class fusion reactor that runs on pressurized hydrogen fuel. You find a reference to emergency procedures in case of plasma containment failure. Though not quite an 'explosion,' the plant's core can potentially build up an excess of plasma that could vaporize approximately 20 cubic kilometers from the origin if the containment were to fail." 
 
 Carry out switching on the safety override system:
 	now the Power Plant Hatch is unlocked.
@@ -579,11 +581,20 @@ Power Plant Core PPC-1 is a room. The description is "You are as close to the po
 
 Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
 
+The fuel injector is a thing in PPC-1. The description is "The fuel injector for the power plant core. [if the examination module is corrupted]Push the control rods further into the reactor to stabilize the core. [else if the plant schematics are examined]The schematics said that the injector can be closed off manually to stop the fusion reaction.[end if]".
+
+Instead of closing the fuel injector:
+	say "You find the manual control for the fuel injector and close it off. The reactor shuts down for a moment before emergency power comes back online. The computer terminals continue to protest that the reactor is going critical before shutting down. Was this the virus the damaged robot was talking about?";
+	now the fusion reactor is stable.
+
+Instead of pushing the fuel injector:
+	say "You struggle to push the control rods in... only to remember that fusion reactors don't have control rods. Where did you hear that idea?"
+
 [Objects in power plant core: malfunctioning fuel injector, neutron shielding]
 
 Part - Refuge-City Road
 
-Security Door RC is a locked door. It is east of Road SR-2 and west of Road C-1.
+Security Door RC is a door. It is east of Road SR-2 and west of Road C-1.
 The initial appearance is "[if the player is in Road SR-2][else]The security door back to the refuge is to the west.[end if]"
 
 Road C-1 is a room. The description is "A long paved road runs from the facility at the west to the ruined city to the east. To either side, a seemingly endless desert stretches to the horizon."
