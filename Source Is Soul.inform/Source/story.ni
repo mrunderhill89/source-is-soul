@@ -650,7 +650,10 @@ The description is "The smooth white form of the Genesis Tower extends above you
 Genesis Access GA-1 is a room. It is north of GP-1.
 The description is "At first glance, it seems as if the interior of the tower has no walls. The tower courtyard, defensive wall, and the tops of buildings are still perfectly visible, holographically displayed on the inside of the tower by a ring of minuscule projectors that inscribe the edges of the ceiling, giving the effect that you are standing below a floating block of marble. Another statue stands on a pedestal in the center of the room, its outstretched hands cupping a small sphere as if offering it to you. There is a plaque affixed to the front of the pedestal."
 
-Before entering GA-1, say "As you cross the threshold, lights snap on, filling the room with harsh blue-white light."
+
+	Before entering GA-1, say "As you cross the threshold, lights snap on, filling the room with harsh blue-white light."
+
+	Instead of going up, say "There is no visible way to access the upper parts of the tower from here."
 
 	The defensive walls, marble statues, stone path, and husks of buildings are in GA-1.
 
