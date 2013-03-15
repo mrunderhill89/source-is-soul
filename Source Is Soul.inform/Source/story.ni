@@ -46,24 +46,44 @@ There is an object called player's body. The printed name is "your body". It is 
 
 Section - Player Terminal
 
-There is an object called player's terminal.
+A terminal is a kind of thing. 
+A terminal is usually fixed in place and undescribed.
+A terminal has a room called target.
+A terminal can be open or closed. A terminal is usually open.
+
+Accessing is an action applying to one visible thing.
+Understand "access [a terminal]" as accessing.
+
+Check accessing something that is not a terminal:
+	say "-> (failure (inappropriate (access)))"
+
+Check accessing a terminal when the terminal is closed:
+	say "-> (failure (terminal is closed))" instead.
+	
+Carry out accessing a terminal (called the terminal):
+	if the terminal is not the player's terminal:
+		transfer the player to target of the terminal.
+	
+Instead of taking a terminal:
+	try silently accessing the noun.
+
+There is a terminal called player's terminal.
 The printed name is "exit terminal".
 The initial appearance is "[if Birth is happening]You see a series of glowing rings to the south of you.[else]You see the exit terminal here.".
 The description is "[if Birth is happening]Upon further inspection, the rings appear to form some sort of portal to a mobile platform. [end if]You can take this portal to enter the mobile platform."
-The player's terminal has a direction called dir that varies.
 
-Instead of taking the player's terminal for the first time:
+Carry out accessing the player's terminal:
+	transfer the player out.
+
+Before accessing the player's terminal for the first time:
 	say "Absolute darkness and silence fall around you. For a fleeting moment, you experience nothing whatsoever.
 	[paragraph break]
 	A single line of white text blinks into view, hovering motionless in the black void.
 	[paragraph break]
 	[startup routine]
-	[paragraph break]
+	[line break]
 	Somewhere far away, yet somehow closing in, a motor springs to life. Warmth flows over you, spreading outwards from below. You feel your head suddenly spring into existence behind your eyes, followed closely by your torso, arms, and legs.";
 	pause the game with alert;
-	transfer the player out.
-
-Instead of taking the player's terminal for more than the first time:
 	transfer the player out.
 
 Instead of dropping the player's body, say "It is not possible to totally exit your body without accessing a computer terminal first".
@@ -169,7 +189,7 @@ To say startup routine:
 	repeat with module running through modules:
 		say "[module]...[run paragraph on]";		
 		wait 1500 milliseconds before continuing, strictly;
-		say "done.[paragraph break]";		
+		say "done.";		
 		wait 500 milliseconds before continuing, strictly.
 		
 
@@ -251,7 +271,7 @@ Instead of listing suggested topics:
 		say "[nothing specific]";
 		rule succeeds;
 	end if;
-	say "(available topics(([the printed name of the current interlocutor]))) ->";
+	say "(available topics([the printed name of the current interlocutor])) ->";
 	if asks > 0, 
 		say "(ask ([sugg-list-ask in code format]))[if tells + others > 0], [end if]";
 	if tells > 0, 
@@ -526,31 +546,40 @@ Power Plant Vicinity PP-1 is a room. It is south of Road RP-2. The description i
 
 Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You stand in the main control area of the power plant. Almost every surface in the room is covered in status readouts, gauges, and warning lights."
 
-The status readouts, gauges, pipes, warning lights, and core access terminal are scenery in PP-2.
+The status readouts, gauges, pipes, warning lights, plant schematics, and core access terminal are scenery in PP-2.
 The safety override system is a switched on device in PP-2. It is fixed in place.
+
+Section - Status Readouts
+
+The description of the status readouts is "The fuel draw sign indicates an abnormally high amount of hydrogen fuel is present in the reactor.[if plant schematics are examined] This seems to run contrary to what the schematics indicated would happen in the case of a regular malfunction.[end if]".
+The corrupted description of the status readouts is "The warning signs seem to have faded for now. All systems are reporting normally.".
+
+Section - Plant Schematics
+
+The description of the plant schematics is "The power plant is a standard "
 
 Carry out switching on the safety override system:
 	now the Power Plant Hatch is unlocked.
 
 Report switching on the safety override system:
-	say "All of a sudden, warning lights flash and klaxons start blaring incessantly. The readouts begin showering lines of unrecognizable code. ".
+	say "All of a sudden, warning lights flash and klaxons start blaring incessantly. The readouts begin showering lines of unrecognizable code.".
 
 [Instead of using the core access terminal:
 		say "The locking bolts on the hatch release and slide back out of sight, granting access to the core below.";
 		now Power Plant Hatch PPH-1 is unlocked;]
 	
-Power Plant Core PPC-1 is a room. The description is "You are inside the core of the power plant. In the center of the cylindrical room, the torus-shaped fusion reactor pulses with energy. [if the fusion reactor is unstable]You detect large fluctuations in the core's output, indicating that it is about to overload.[else]The core's output appears stable.[end if]"
+Power Plant Core PPC-1 is a room. The description is "You are as close to the power plant's core as you can be without being exposed to the internal plasma. [if the fusion reactor is unstable]You detect large fluctuations in the core's containment shielding, indicating that it is about to fail.[else]The core's output appears stable.[end if]"
 
 [I have no idea how fusion reactors work. This one's radioactive and explosive apparently.]
+[Kevin: Fusion reactors are basically miniature stars fueled by hydrogen. I'm not an expert, but from what I studied a while back, the way fuel is injected into the reactor is theorized to be pretty safe. At worst, the fusion reaction simply runs out of fuel and the reactor shuts down. The fact that fuel is still being pumped into this reactor, and to the point of causing an explosion, should be a clue that the plant is being actively sabotaged (by the virus, which the player doesn't know is sentient yet). Radiation is still an issue, but not as much as in regular nuclear reactors. The bigger issue with fusion reactors are leaks of white-hot plasma. Maybe if we wanted to screw with the player's expectations, we could have the corrupted descriptions describe a regular nuclear reactor instead, like mentioning control rods or something that fusion reactors don't have.]
 
-	After entering PPC-1, say "As you enter the core, you feel your external shielding begin to deflect high levels of radiation."
+	After entering PPC-1 while the fusion reactor is unstable, say "As you get closer to the core, you impose a positive charge in your external armor to deflect the small, high-energy plasma particles leaking from the reactor containment. The makeshift shield holds for now, but it is putting a constant drain on your energy reserves, and it won't do much in the case of complete containment failure. You should work quickly."
 
 	The fusion reactor is scenery. The fusion reactor can be unstable or stable. The fusion reactor is unstable.
 
-
 Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
 
-[Objects in power plant core: misaligned fusion core, core shielding]
+[Objects in power plant core: malfunctioning fuel injector, neutron shielding]
 
 Part - Refuge-City Road
 
