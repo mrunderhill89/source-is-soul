@@ -502,8 +502,6 @@ The dirt road is a backdrop. It is in RP-1. The description is "The dirt road is
 
 The power plant is a backdrop. It is in RP-1. The description is "The power plant consists of a gunmetal grey geodesic dome topped with a tall metal mast. Wide cooling fins extend from the sides of the mast at regular intervals, [if the fusion reactor is unstable]spinning frantically at top speed.[else]twirling around lazily at low speed.[end if]"
 
-The geodesic dome, cooling mast, and metal fins are part of the power plant.
-
 Road RP-2 is a room. It is south of Road RP-1. The description is "The dirt road continues to the north and south. The debris that straddles the road is interrupted by an opening to the west, where another security door has been wedged."
 
 	The power plant is in RP-2.
@@ -561,7 +559,7 @@ The initial appearance is "[if the player is in Road SR-2][else]The security doo
 
 Road C-1 is a room. The description is "A long paved road runs from the facility at the west to the ruined city to the east. To either side, a seemingly endless desert stretches to the horizon."
 
-The ruined city is scenery in C-1.
+The ruined city is a backdrop in C-1.
 The desert is a backdrop in C-1.
 
 Part - The Human City Ruins
@@ -569,7 +567,7 @@ Part - The Human City Ruins
 City Grid CG-1 is a room. It is east of C-1. The description is "You stand on the cracked asphalt of a road that leads through what must have once been a great city. Burned-out husks of buildings spread out around you, in various stages of collapse. The white tower dominates the skyline, rising high above the east side of the city.".
 
 	The white tower is in C-1.
-	The buildings are scenery in C-1.
+	The husks of buildings are backdrops in C-1.
 
 Chapter - West Labyrinth (To Refugee Camp)
 
@@ -589,12 +587,24 @@ The description is "A desolate patch of land sits in the shadow of the power pla
 Part - Genesis Factory
 
 Genesis Path GP-1 is a room. It is east of CG-1.
-The description is "The smooth white form of the Genesis Tower extends above you, its massive height dwarfing the buildings of the ruined city. Encircled by porcelain-alloy defensive walls, the ground around the tower is strangely pristine, its surface untouched by the armageddon that turned the surrounding world to ash. Marble statues line the sides of the stone path that leads up to the base of the tower, their arms extended overhead, forming a series of arches. To the north, the tower's open doorway beckons. The ruined city lies to the south."
+The description is "The smooth white form of the Genesis Tower extends above you, its massive height dwarfing the buildings of the ruined city. Protected by encircling defensive walls, the ground around the tower is strangely pristine, its surface untouched by the armageddon that turned the surrounding world to ash. Marble statues line the sides of the stone path that leads up to the base of the tower, their arms extended overhead, forming a series of arches. To the north, the tower's open doorway beckons. The ruined city lies to the south."
 
-	The genesis tower, defensive walls, marble statues, stone path, and doorway are scenery in GP-1.
+	The genesis tower, defensive walls, marble statues, stone path, and doorway are backdrops in GP-1.
+	The description of the genesis tower is "Up close, the tower is just as featureless and uniform as from afar. The surface of the tower is marble-like in texture, but synthetic."
+	The description of the defensive walls is "The walls are constructed from a thick porcelain-alloy armor, rendering them highly resistant to most forms of weaponry."
+	The description of the marble statues is "The statues are larger-than-life depictions of human males in ancient military garb, holding long, bladed weapons in their outstretched hands."
+	The description of the stone path is "The path is made up of hexagonal cobblestones meshed together."
+	The description of the doorway is "An open archway breaks the surface of the tower, revealing a darkened room beyond."
 
 Genesis Access GA-1 is a room. It is north of GP-1.
-The description is "At first glance, it seems as if the interior of the tower has no walls. The tower courtyard, defensive wall, and the tops of buildings are still perfectly visible, holographically displayed on the inside of the tower by a ring of minuscule projectors that inscribe the edges of the ceiling, giving the effect that you are standing below a floating block of marble. Another statue stands on a pedestal in the center of the room, its outstretched hands cupped together as if offering something. There is a plaque affixed to the front of the pedestal."
+The description is "At first glance, it seems as if the interior of the tower has no walls. The tower courtyard, defensive wall, and the tops of buildings are still perfectly visible, holographically displayed on the inside of the tower by a ring of minuscule projectors that inscribe the edges of the ceiling, giving the effect that you are standing below a floating block of marble. Another statue stands on a pedestal in the center of the room, its outstretched hands cupped together as if begging for something. There is a plaque affixed to the front of the pedestal."
+
+Before entering GA-1, say "As you cross the threshold, lights snap on, filling the room with harsh blue-white light."
+
+	The defensive walls, marble statues, stone path, and husks of buildings are in GA-1.
+
+	The statue, pedestal, and minuscule projectors are scenery in GA-1.
+	The plaque is part of the pedestal.
 
 [This room should work like an elevator. Once activated (by giving the statue an item?), the door closes and it begins to move upward. As it moves, the view outside changes, "rewinding" back to a view from when the tower was first constructed. By the time it reaches the top, the view shows a thriving utopian metropolis.
 
