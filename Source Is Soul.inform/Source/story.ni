@@ -157,7 +157,7 @@ To print the location’s description:
 		let k be the remainder after dividing j by the number of words in C;
 		replace word number j in N with word number k in C;
 	[repeated corrupted examinations raise corruption level]
-	if corruption > 25:
+	if the location is infected:
 		increment the corruption level of the observation module;
 	say "[N]";
 
@@ -179,7 +179,7 @@ To say the description of (item - object):
 		let k be the remainder after dividing j by the number of words in C;
 		replace word number j in N with word number k in C;
 	[repeated corrupted examinations raise corruption level]
-	if corruption > 25:
+	if the item is infected:
 		increment the corruption level of the examination module;
 	say "[N]";
 	
@@ -263,7 +263,6 @@ After informing somebody about something (called the thread) (this is the add us
 	add the thread to the used topics of the player, if absent;
 	remove thread from the goal topics of the player, if present.		
 
-
 Instead of listing suggested topics:
 	consider the suggestion list construction rules;
 	let asks be the number of entries in sugg-list-ask;
@@ -280,10 +279,14 @@ Instead of listing suggested topics:
 		say "(tell ([sugg-list-tell in code format]))[if others > 0], [end if]";
 	if others > 0, 
 		say "(misc ([sugg-list-other in code format]))";
-	say "[if topic-request is implicit])[paragraph break][otherwise].[end if]".
+	say "[if topic-request is implicit])[paragraph break][otherwise].[end if]";
+	rule succeeds.
 
 To say nothing specific:
    say "([the printed name of the current interlocutor]) -> (no topics available)";
+
+The Conversation Framework for Sand-dancer can't say hello to yourself rule is not listed in the Instead rulebook.
+Instead of saying hello to yourself (this is the robot-style can't say hello to yourself rule): say "(open (self)) ->[line break](open ( (open (self)) )) ->[line break](open ( (open ( (open (self)) )) ) ->[line break](stop (infinite recursion))". 
 
 Section - Goal Topics
 
@@ -322,9 +325,9 @@ Understand "request ([someone]) ([text])" as imploring it for.
 Understand "ask ([someone]) ([any known thing])" as quizzing it about.
 Understand "tell ([someone]) ([any known thing])" as informing it about.
 
-After saying hello to someone:
+Report saying hello to someone:
 	say "(open ([the printed name of the current interlocutor]))";
-After saying goodbye to someone:
+Report saying goodbye to someone:
 	say "(close ([the printed name of the current interlocutor]))";	
 
 Volume - Story
@@ -379,7 +382,7 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 
 	The cube, tubes, computer terminal, and hole are scenery.
 
-	The description of the cube is "The surface of the cube is unbroken and smooth to the touch, its deep black surface reflecting slightly purple in the sunlight. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. On the front of the cube, a thin seam traces the outline of a door. In the center of the door, green text pulses on and off. 'Standing By'"
+	The description of the cube is "The surface of the cube is unbroken and smooth to the touch, its deep black surface reflecting slightly purple in the sunlight. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. On the front of the cube, a thin seam traces the outline of a door. In the center of the door, green text pulses on and off. 'Fabricator Standing By'"
 	
 	The tubes are a part of the cube. The description of the tubes is "Rubber insulated tubing. Some of the tubes hum with energy, while others lie dormant."
 
@@ -524,7 +527,7 @@ The dirt road is a backdrop. It is in RP-1. The description is "The dirt road is
 
 The power plant is a backdrop. It is in RP-1. The description is "The power plant consists of a gunmetal grey geodesic dome topped with a tall metal mast. Wide cooling fins extend from the sides of the mast at regular intervals, [if the fusion reactor is unstable]spinning frantically at top speed.[else]twirling around lazily at low speed.[end if]"
 
-Road RP-2 is a room. It is south of Road RP-1. The description is "The dirt road continues to the north and south. The debris that straddles the road is interrupted by an opening to the west, where another security door has been wedged."
+Road RP-2 is a room. It is south of Road RP-1. The description is "The dirt road continues to the north and south. The debris that straddles the road is interrupted by an opening to the west, where a damaged door has been wedged, blocking passage."
 
 	The power plant is in RP-2.
 	The piles of debris are in RP-2.
@@ -542,6 +545,8 @@ The geodesic dome, metal mast, and cooling fins are part of the power plant.
 
 Part - Power Plant
 
+Power Plant Grounds is a region.
+
 Power Plant Vicinity PP-1 is a room. It is south of Road RP-2. The description is "You are directly outside the power plant (to the west). The dirt road back to the refuge is to the north."
 	The power plant is in PP-1.
 
@@ -550,6 +555,9 @@ Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You 
 
 The status readouts, gauges, pipes, warning lights, plant schematics, and core access terminal are scenery in PP-2.
 The safety override system is a switched off device in PP-2. It is fixed in place.
+	[The description of the status readouts is "[if the core is unstable]'CRITICAL TEMPERATURE WARNING! CORE UNSTABLE! MANUAL OVERRIDE REQUIRED![else]'Temperature nominal. Core levels are within expected parameters.'[end if]'"
+	
+	The description of the gauges is "[if the core is unstable]Dials throughout the room indicate impending doom, their needles firmly fixed in the red.[else]"]
 
 Section - Status Readouts
 
@@ -620,9 +628,12 @@ Chapter - East Labyrinth (To Genesis Factory)
 Part - Infected Robot Camp
 
 Security Door IC is a locked door. It is west of RP-2 and east of Infected Robot Camp IC-1.
+Security Door IC can be damaged or undamaged. Door IC is damaged. [We can change this to undamaged if we want.]
+The description is "The physical door has been torn away, but the energy shield over the opening is still active. Through the energy field, a desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower."
+
 Infected Robot Camp IC-1 is a room.
 
-The description is "A desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower that looms far to the northeast. The path out of the area lies to the east."
+The description is "A desolate patch of land sits in the shadow of the power plant, its soil pockmarked with small charred craters. An uprooted power conduit sends wires snaking across the ground, running up in to the power ports of fifty dark, motionless robots. The silent machines stand in rows of ten, their collective, unmoving gaze fixed on the white tower. The path out of the area lies to the east."
 
 Part - Genesis Factory
 
@@ -661,6 +672,12 @@ Suddenly, the elevator clears the top of the wall, bringing the city in to view.
 Genesis Overlook is a room. It is above GA-1.
 The description is "The elevator has reached its final stop at the pinnacle of the Genesis Tower. At this great hight, you can feel the tower sway slightly in the wind."
 
+Last after going to Genesis Overlook for the first time:
+	say "No... that's not entirely true. You are swaying, but not from the wind...";
+	pause game with alert;
+	transfer the player to Antivirus Coprocessor;
+	try silently looking.
+
 Part - Infected Body
 
 Infected Body is a region. Infected Body is digital.
@@ -670,8 +687,10 @@ Infection begins when the player is in Infected Body for the first time.
 Infection ends when the player is not in Infected Body.
 
 When Infection begins:
-	now the Observation Module is in Internal System IS-1.
-	now the Examination Module is in Internal System IS-2.
+	now the Observation Module is in Internal System IS-1;
+	now the Examination Module is in Internal System IS-2;
+	now the player's terminal is in AI Core;
+	now the player's terminal is closed.
 
 AI Core is a room in Infected Body.
 
