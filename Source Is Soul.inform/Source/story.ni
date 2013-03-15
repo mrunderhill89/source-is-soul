@@ -475,7 +475,12 @@ After saying hello to the guide:
 After saying goodbye to the guide:
 	now Security Door RP is unlocked.
 
-Identify is a thing.
+Identify is a thing. The description is "(identify) -> (security guard (refugee camp))[line break](request (help))[add Help ask suggestion]"
+
+Help is a thing. The printed name is "clarify (help)". 
+The description is "(clarify (help)) -> ()".
+Understand "clarify" as help. Understand "clarify help" as help. Understand "clarify (help)" as help.
+ 
 
 Instead of doing anything to the Guide when Arrival is not happening:
 	say "You detect no further processing signals coming from the robot."
