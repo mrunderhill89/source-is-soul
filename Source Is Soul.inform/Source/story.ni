@@ -648,7 +648,7 @@ The description is "The smooth white form of the Genesis Tower extends above you
 	The description of the doorway is "An open archway breaks the surface of the tower, revealing a darkened room beyond."
 
 Genesis Access GA-1 is a room. It is north of GP-1.
-The description is "At first glance, it seems as if the interior of the tower has no walls. The tower courtyard, defensive wall, and the tops of buildings are still perfectly visible, holographically displayed on the inside of the tower by a ring of minuscule projectors that inscribe the edges of the ceiling, giving the effect that you are standing below a floating block of marble. Another statue stands on a pedestal in the center of the room, its outstretched hands cupped together as if begging for something. There is a plaque affixed to the front of the pedestal."
+The description is "At first glance, it seems as if the interior of the tower has no walls. The tower courtyard, defensive wall, and the tops of buildings are still perfectly visible, holographically displayed on the inside of the tower by a ring of minuscule projectors that inscribe the edges of the ceiling, giving the effect that you are standing below a floating block of marble. Another statue stands on a pedestal in the center of the room, its outstretched hands cupping a small sphere as if offering it to you. There is a plaque affixed to the front of the pedestal."
 
 Before entering GA-1, say "As you cross the threshold, lights snap on, filling the room with harsh blue-white light."
 
@@ -656,21 +656,30 @@ Before entering GA-1, say "As you cross the threshold, lights snap on, filling t
 
 	The statue, pedestal, and minuscule projectors are scenery in GA-1.
 	The plaque is part of the pedestal.
+	The small sphere is an object. The description is "A white light pulses slowly from within the sphere. It appears to be portable."
+	
+	Before taking the sphere, say "As you lift the sphere from the statue's grip, its hands fold closed, palms inward, and retract back towards its chest."
+	
+	After taking the sphere:
+		say "With a sudden jolt, the room begins to accelerate upward. From your holographic viewpoint, you can see the courtyard slip away below you, the line of statues becoming smaller and smaller as the room rises.[paragraph break]For several moments, the only thing you can see is the surface of the external defensive wall.";
+		pause the game with alert;
+		say "Suddenly, the room clears the top of the wall, bringing the city in to view. With a start, you realize that something is very off about the holographic world that pans out around you:[paragraph break]The sun has started moving backwards, and is picking up speed.[paragraph break]The day turns to night, then to day again. In the distance, a large cloud of dark smoke fades into existence above the refuge, and is promptly inhaled back down to its source.[paragraph break]The elevator accelerates. Days and nights blur together. Huge storms flash by and are gone in an instant. Entire years pass in seconds.[paragraph break]The landscape begins to change as the arid desert becomes darker. A small trickle of water appears in a nearby ravine, slowly becoming a stream, and then a river.";
+		pause the game with alert;
+		say "The elevator harshly reduces its speed.[paragraph break]Fires spring up outside the city, growing and spreading, producing grasslands and trees in their wake. Shockwaves collapse inward as incendiary bombs undetonate, falling upward into the bomb bays of planes. Shells and railgun bolts return to their barrels as the husks of destroyed tanks reform and retreat. The city begins to rebuild, fallen buildings righting themselves as explosions fold back down and disappear.[paragraph break]By the time the elevator rolls to a stop at the top of the tower, the world outside is almost unrecognizable.";
+		pause the game with alert;
+		move the player to Genesis Overlook:
 
 [This room should work like an elevator. Once activated (by giving the statue an item?), the door closes and it begins to move upward. As it moves, the view outside changes, "rewinding" back to a view from when the tower was first constructed. By the time it reaches the top, the view shows a thriving utopian metropolis.
 
-"With a sudden jolt, the room begins to accelerate upward. From your holographic viewpoint, you can see the courtyard slip away below you, the line of statues becoming smaller and smaller as the room rises.
-[paragraph break]
-For several moments, the only thing you can see is the surface of the external defensive wall.
-[paragraph break]
-Suddenly, the elevator clears the top of the wall, bringing the city in to view. With a start, you realize that something is very off about the landscape that pans out around you. As the room gains speed… (In progress)
 
 "
 
 ]
 
 Genesis Overlook is a room. It is above GA-1.
-The description is "The elevator has reached its final stop at the pinnacle of the Genesis Tower. At this great hight, you can feel the tower sway slightly in the wind."
+The description is "Outside the virtual windows, the world is paused at midday, with the sun high overhead in the blue sky. A gleaming city surrounds the tower, its roads packed with vehicles and human pedestrians. A lush forest flanks the city on one side, breaking away to hilly grassland on the other. Planes hang in the sky in the process of landing and taking off. In the distance, the building that houses the refuge is fully intact."
+
+Instead of going down, say "You see no way to lower the elevator."
 
 Last after going to Genesis Overlook for the first time:
 	say "No... that's not entirely true. You are swaying, but not from the wind...";
