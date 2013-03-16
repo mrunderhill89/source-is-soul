@@ -413,7 +413,7 @@ Chapter - BirthServer and Main Road
 
 The white tower is a backdrop. The description is "You can see a massive cylindrical white tower rising over the horizon. The strange monolith seems to be featureless, its blank sides gleaming in the sunlight, providing a stark contrast to the burned-out husks of buildings that surround it. [if the player is corrupted]Turn to the tower for advice, as it will bring about our genesis.[end if]"
 
-The sky is a backdrop. The description is "The sky is mostly empty except for a few clouds. There seems to be no danger of inclement weather at this time."
+The sky is a backdrop. The description is "The sky is mostly empty except for a few clouds. [if the player is corrupted]Shut yourself down and leave your body to us.[end if]There seems to be no danger of inclement weather at this time."
 
 Section - Birth Server Terminus
 
@@ -431,12 +431,14 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 	Door BT-1 is a door. It is east of Birth Server Terminus and west of Road SR-1.
 	The initial appearance is "There is a door to the east that leads outside the terminus room.".
 		
-		Section  - Road SR-1
+Section  - Road SR-1
 
 Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hover tank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
 
 	The rubble, the south wall, the hover tank, and the gun barrel are scenery in Road SR-1.
 	
+	The description of the hover tank is "An armored vehicle differentiated by its lack of mechanical treads. Instead, the hover tank uses downward-facing repulsors to hover slightly above the ground. While power-hungry, this system allowed tanks of this class to move frictionlessly in any direction, even over water. The tank's generator appears to have overloaded after it collided with the wall, blasting a hole in its rear armor."
+
 	The description of the rubble is "Bits of twisted metal rebar and shattered concrete."
 	The description of the south wall is "Still structurally sound despite the tank protruding through it."
 	The description of the gun barrel is "A long square barrel pokes out from the upper half of the tank. On the side of the barrel, you can barely make out a sequence of vertical lines drawn on the metal, alongside what you can only assume is a crude drawing of a robot."
@@ -473,13 +475,15 @@ Road DR 1-1 is east of Road DR 1-2.
 
 Road DR 1-2 is a room. The description is "Without functional lights, the hallway is almost entirely devoid of visible light. An opening looms to the south, silhouetted in false-color by the infrared spotlight of your night vision system. To the east, the hallway curves back out of sight."
 
-Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room."
-
-	The personal data recorder is an object in DR-1. The description is "The PDR is a small electronic device used for recording secure audio logs."
-
+Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room. A human skeleton lies slumped against the rear wall. A personal data recorder lies near the skeleton's hand."
+	The personal data recorder is scenery in DR-1. The description is "The PDR is a small electronic device used for recording secure audio logs. Its power has drained away, leaving it inoperable, but you are able to recover snippets of voice data.[paragraph break]'…mistake…'[line break]'…should never have…'[line break]'…operation Genesis…'[line break]'…seal the doors…'[line break]'…I think we're the only ones left…'[line break]'…I'm sorry…'[paragraph break]The final message is punctuated by a loud crash."
 	The upturned desks and abandoned hardware are scenery in DR-1.
 
-	Instead of using, taking, or listening to the personal data recorder, say "As you reach for the PDR, it detects your presence and automatically begins playback of the last recorded message…" [Backstory here if there's time]
+	The description of the desks is "Laboratory desks with nonreactive surfaces made from thick synthetic material. The configuration of the toppled desks suggests that they were used to construct a makeshift barrier, but there are no signs of combat."
+	
+	The description of the abandoned hardware is "Various pieces of electronic equipment, including multimeters, diagnostic consoles, and power supplies. It is likely that they were used to work with robotics."
+
+	[Instead of using, taking, or listening to the personal data recorder, say "As you reach for the PDR, it detects your presence and automatically begins playback of the last recorded message.]
 
 Data Repository DR-1 is south of Road DR 1-2.
 
@@ -491,16 +495,16 @@ The Refugee Camp is a region.
 Every turn when the player is in Refugee Camp:
 	corrupt the player by 1.
 
-Refuge R-1 is a room in Refugee Camp. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message (welcome home). An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
+Refuge R-1 is a room in Refugee Camp. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message [if the player is corrupted](genesis is neigh)[else](welcome home)[end if]. An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
 
 The Welcome Home Sign is a backdrop in Refuge R-1. The description is "The letters are being projected in the air from a gray central cylinder, with various wires and components dangling precariously off to the sides.".
 
-The Camp Energy Shield is a backdrop in Refuge R-1. The description is "A pale gold energy shield that keeps out the elements as well as forcing any intruders to first go through the main gate. You detect rows of primary and backup projectors that occasionally cycle on-and-off. It gives off a stark contrast to the blue sky you saw overhead as you came here."
+The Camp Energy Shield is a backdrop in Refuge R-1. The description is "A pale gold energy shield that keeps out the elements as well as forcing any intruders to first go through the main gate[if the player is corrupted], but this only delays the inevitable.[else].[end if] You detect rows of primary and backup projectors that occasionally cycle on-and-off. It gives off a stark contrast to the blue sky you saw overhead as you came here."
 
 Some charging stations are a backdrop in Refuge R-1. The description is "Simple power receptacles with a variety of connectors for different models. You spot one that corresponds with your own power supply."
 
 A camp repair node is a backdrop in Refuge R-1. The description is
-"A large red box containing various power tools and fabrication systems. Used for repairing physical damage to robot systems."
+"A large red box containing various power tools and fabrication systems. Used for repairing physical damage to robot systems[if the player is corrupted][else], but there are some things screwdrivers and drills cannot repair[end if]."
 
 Armored walls are a backdrop in Refuge R-1. The description is
 "Thick walls made of many hastily-welded plates of steel. You notice scratch marks around the edges of some of the older plates."
@@ -519,9 +523,10 @@ After saying hello to the guide:
 
 Chapter - Guide Conversation
 
-Identify is a thing. 
 
 Section - Identify
+
+Identify is a thing.
 
 After quizzing the guide about identify: 
 say "(identify) -> (security guard (refugee camp))[line break](request (help))[add Help ask suggestion][make help familiar]".
@@ -604,11 +609,11 @@ Security Door RP is a locked door. It is south of Road SR-2 and north of Road RP
 The initial appearance is "[if the player is in Road SR-2]There is a security door to the south.[else]The security door back to the refuge is to the north.[end if]".
 The description is "[if Security Door RP is locked]The red glowing markings indicate that the door is locked and the security field is holding.[else]The gold glowing markings indicate that the door recognizes your security clearance.[end if]".
 
-Road RP-1 is a room. The description is "A long dirt road leads from north to south, flanked on either side by piles of debris. The power plant is visible to the south.".
+Road RP-1 is a room. The description is "A long dirt road leads from north to south, flanked on either side by piles of debris. [if the player is corrupted]Go back.[end if] The power plant is visible to the south.".
 
 The piles of debris are a backdrop. They are in RP-1. The description is "The mixed contents of these piles suggest they were moved here manually."
 	
-The dirt road is a backdrop. It is in RP-1. The description is "The dirt road is relatively undisturbed, showing no signs of recent travel besides your own footprints."
+The dirt road is a backdrop. It is in RP-1. The description is "The dirt road is relatively undisturbed, showing no signs of recent travel besides your own footprints[if the player is corrupted], which trace a path away from inevitability.[end if]."
 
 The power plant is a backdrop. It is in RP-1. The description is "The power plant consists of a gunmetal grey geodesic dome topped with a tall metal mast. Wide cooling fins extend from the sides of the mast at regular intervals, [if the fusion reactor is unstable]spinning frantically at top speed.[else]twirling around lazily at low speed.[end if]"
 
@@ -698,7 +703,7 @@ The initial appearance is "[if the player is in Road SR-2]There is a security do
 Road C-1 is a room. The description is "A long paved road runs from the facility at the west to the ruined city to the east. To either side, a seemingly endless desert stretches to the horizon."
 
 	The paved road, facility, and desert are scenery in C-1.
-	The description of the paved road is "Dark asphalt, cracked and eroded by prolonged exposure to harsh weather."
+	The description of the paved road is "Dark asphalt, cracked and eroded by prolonged exposure to harsh weather. [if the player is corrupted]Lie down on the road and await your destiny.[end if]"
 	The description of the facility is "A long, single-floored building. Its lack of windows and thick outer walls seems to have helped protect it from the desert sand that is piled around the perimeter. A faded sign outside the perimeter proclaims the facility as 'Walter-Becile Robotics Laboratory'."
 	The description of the desert is "[if the player is corrupted]Walk in to the desert. Let the sand overwhelm your systems. [else]Heat mirages distort the air above the hot sands, but you detect no sources of water anywhere within sensor range.[end if]"
 
@@ -824,4 +829,3 @@ After quizzing Creator's Sentience about help:
 	say "'You want to know why I'm helping you?'"
 
 Part - Conclusion
-	
