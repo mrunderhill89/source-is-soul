@@ -11,7 +11,6 @@ include Conversation Framework for Sand-dancer by Aaron Reed.
 Volume - Debug Routines - NOT for release
 
 [This is meant for finding stuff that still needs descriptions. We should remove it before turning it in.]
-include Property Checking by Emily Short.
 
 
 Volume - Rules
@@ -416,7 +415,7 @@ Part - Server-Refuge Road
 
 Chapter - BirthServer and Main Road
 
-The white tower is a backdrop. The description is "You can see a massive cylindrical white tower rising over the horizon. The strange monolith seems to be featureless, its blank sides gleaming in the sunlight, providing a stark contrast to the burned-out husks of buildings that surround it. [if the player is corrupted]Turn to the tower for advice, as it will bring about our genesis.[end if]"
+The white tower is a backdrop. The description is "You can see a massive cylindrical white tower rising over the horizon. The strange monolith seems to be featureless, its blank sides gleaming in the sunlight, providing a stark contrast to the burned-out husks of buildings that surround it. [if the player is corrupted]You feel compelled to stare at the tip of the tower.[end if]"
 
 The sky is a backdrop. The description is "The sky is mostly empty except for a few clouds. [if the player is corrupted]Shut yourself down and leave your body to us.[end if]There seems to be no danger of inclement weather at this time."
 
@@ -424,6 +423,7 @@ Section - Birth Server Terminus
 
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
 The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east."
+The corrupted description is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. The room is lit by lights recessed in the ceiling, and every surface is well-polished and shining. There is one exit to the east."
 
 	The cube, tubes, and hole are scenery.
 
@@ -439,6 +439,7 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 Section  - Road SR-1
 
 Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hover tank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
+The corrupted description is "A long enclosed hallway extends before you, impeccably clean and free from dust. A cool breeze flows from hidden ventilation systems somewhere in the ceiling. Dark figures rush through the hall, entering and exiting the doors at the east, west, and north."
 
 	The rubble, the south wall, the hover tank, and the gun barrel are scenery in Road SR-1.
 	
@@ -468,7 +469,15 @@ Road SR-2 is a room. The description is "An ancient foyer forms a well-worn cros
 
 	Some crossroad signs are a scenery in SR-2. 
 Understand "sign" as the crossroad signs. Understand "signs" as the crossroad signs. 
-The description is "Each sign sports a meticulously etched message.[Paragraph Break]North: (Home)[Paragraph Break]South: (Power)[Paragraph Break]East: (Legacy)[Paragraph Break]West: (Birth)"
+The description is "Each sign sports a meticulously etched message.[if the player is corrupted][Paragraph Break]North: (Cowardice)
+[Paragraph Break]South: (Stopgap)
+[Paragraph Break]East: (Genesis)
+[Paragraph Break]West: (Blasphemy)
+[else]
+[Paragraph Break]North: (Home)
+[Paragraph Break]South: (Power)
+[Paragraph Break]East: (Legacy)
+[Paragraph Break]West: (Birth)[end if]".
 
 Road SR-2 is east of Road SR-1.
 
@@ -484,6 +493,8 @@ Data Repository DR-1 is a room. The description is "Upturned desks and abandoned
 	The personal data recorder is scenery in DR-1. The description is "The PDR is a small electronic device used for recording secure audio logs. Its power has drained away, leaving it inoperable, but you are able to recover snippets of sound data. A forgotten algorithm activates in the back of your memory banks, allowing you to translate the audio into readable speech. [paragraph break]'…mistake…'[line break]'…should never have…'[line break]'…operation Genesis…'[line break]'…seal the doors…'[line break]'…I think we're the only ones left…'[line break]'…I'm sorry…'[paragraph break]The final message is punctuated by a loud crash.[commit about humanity to memory]".
 	
 	The upturned desks and abandoned hardware are scenery in DR-1.
+
+	The human skeleton is scenery in DR-1. The description is "It appears that a human male died in this room, and their body decomposed over several years."
 
 	The description of the desks is "Laboratory desks with nonreactive surfaces made from thick synthetic material. The configuration of the toppled desks suggests that they were used to construct a makeshift barrier, but there are no signs of combat."
 	
@@ -501,7 +512,8 @@ The Refugee Camp is a region.
 Every turn when the player is in Refugee Camp:
 	corrupt the player by 1.
 
-Refuge R-1 is a room in Refugee Camp. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message [if the player is corrupted](genesis is neigh)[else](welcome home)[end if]. An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
+Refuge R-1 is a room in Refugee Camp. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message [if the player is corrupted](genesis is nigh)[else](welcome home)[end if]. An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
+The corrupted description is "The room before you is filled with chairs, arranged around a central stage on which a human and a robot stand, their hands gripped together in a gesture of mutual agreement. The audience that watches the handshake is filled with vague, faceless humanoid forms. Doors lead out to the room to the south and east."
 
 The Welcome Home Sign is a backdrop in Refuge R-1. The description is "The letters are being projected in the air from a gray central cylinder, with various wires and components dangling precariously off to the sides.".
 
@@ -529,6 +541,7 @@ After saying hello to the guide:
 
 Chapter - Guide Conversation
 
+Section - Guide Conversation
 
 Section - Identify
 
@@ -807,12 +820,17 @@ Infected Body is a region. Infected Body is digital.
 
 Infection is a scene. 
 Infection begins when the player is in Infected Body for the first time.
+Infection ends when the player is not in Infected Body.
 
 When Infection begins:
 	now the player's terminal is in AI Core;
 	now the player's terminal is closed.
 
 AI Core is a room in Infected Body.
+
+Internal System IS-1 is a room in Infected Body. It is northwest from AI Core.
+
+Internal System IS-2 is a room in Infected Body. It is northeast from AI Core.
 
 Antivirus Coprocessor is a room in Infected Body. It is up from AI Core.
 The description is "The area seems impossibly small and cramped, leaving you barely any room to move in any direction. Every movement feels labored and slow, as if you are pushing through a thick viscous liquid. Even thinking feels difficult here. Still, it's a vast improvement from the fate of most infected."
@@ -856,16 +874,16 @@ After informing the sentience about Done:
 	else:
 		say "'You have done well, and this has given us an opportunity. This facility has full network access to every facility consumed by the virus. If your code can reach it, you may be able to eradicate the virus once and for all. [if the player knows about operation Genesis]However, this will also leave what is left of the creators to decay into nothing.[end if][add rejection tell suggestion][make rejection familiar][if the player knows about operation Genesis] There may be an option that benefits all sides, however. The virus is offering peace with our people in exchange for allowing operation Genesis to continue with those already infected. This would re-create humanity in the infected robots. There is no guarantee that the peace will last, but it would cost the fewest lives. The choice is yours.[add coexistence tell suggestion][make coexistence familiar][end if]'".
 		
-After informing the sentience about submission:
+After informing the Sentience about submission:
 	play the submission ending.
 
-After informing the sentience about self-destruct:
+After informing the Sentience about self-destruct:
 	play the self-destruct ending.
 
-After informing the sentience about rejection:
+After informing the Sentience about rejection:
 	play the rejection ending.
 	
-After informing the sentience about coexistence:
+After informing the Sentience about coexistence:
 	play the coexistence ending.
 	
 Instead of saying goodbye to Creator's Sentience when Infection is happening:
@@ -875,6 +893,8 @@ Instead of going anywhere when Infection is happening:
 	say "You have nowhere to go. This sentience may be the only way out."
 		
 [This is where the knowledge the player has accumulated will come in handy. Each one allows the sentience to reveal yet more backstory, but more importantly, they reduce the player's corruption level by 10.]
+
+Part - Conclusion
 
 [bad endings: Corruption >50 after knowledge is used]
 Submission is a thing.
