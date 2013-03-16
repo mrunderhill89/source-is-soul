@@ -55,7 +55,7 @@ Accessing is an action applying to one visible thing.
 Understand "access [a terminal]" as accessing.
 
 Check accessing something that is not a terminal:
-	say "-> (failure (inappropriate (access)))"
+	say "-> (failure (not a terminal))"
 
 Check accessing a terminal when the terminal is closed:
 	say "-> (failure (terminal is closed))" instead.
@@ -114,17 +114,31 @@ A module is a kind of thing.
 
 Section - Corruption
 
-A thing has a number called corruption level. 
-The corruption level of a thing is usually 0.
+The player has a number called corruption level. 
+The corruption level of the player is 0.
 
-Definition: a thing is infected if the corruption level of the noun > 0.
+To decide whether the player is infected:
+	if the corruption level of the player > 0:
+		yes;
+	no.
 
-Definition: a module is corrupted if the corruption level of the noun >= 50.
+To decide whether the player is corrupted:
+	if the corruption level of the player >= 50:
+		yes;
+	no.
 
 The description of a module is usually "[The noun] capacity: [capacity of the noun]."
 
+To say corrupt the player by (amount - a number):
+	increase the corruption level of the player by amount.
+
+To say purge the player by (amount - a number):
+	decrease the corruption level of the player by amount;
+	if the corruption level of the player < 0:
+		now the corruption level of the player is 0.
+
 To say capacity of (m - a module):
-	let corruption be the corruption level of m;
+	let corruption be the corruption level of the player;
 	if corruption is 0: 
 		say "optimal";
 	else if corruption < 25: 
@@ -148,7 +162,7 @@ To print the location’s description:
 	let N be "[description of the location of the player]";
 	let C be "[corrupted description of the location of the player]";	
 	let j be 1;
-	let corruption be the corruption level of the observation module;
+	let corruption be the corruption level of the player;
 	let word difference be the absolute value of (number of words in N - number of words in C);
 	[word corruption]
 	let corrupted words be a random number between 0 and the number of words in N times corruption;
@@ -156,9 +170,6 @@ To print the location’s description:
 		let j be a random number between 1 and the number of words in N;
 		let k be the remainder after dividing j by the number of words in C;
 		replace word number j in N with word number k in C;
-	[repeated corrupted examinations raise corruption level]
-	if the location is infected:
-		increment the corruption level of the observation module;
 	say "[N]";
 
 Section - Examine Module
@@ -170,7 +181,7 @@ To say the description of (item - object):
 	let N be "[description of item]";
 	let C be the corrupted description of item;
 	let j be 1;
-	let corruption be the corruption level of the examination module;
+	let corruption be the corruption level of player;
 	let word difference be the absolute value of (number of words in N - number of words in C);
 	[word corruption]
 	let corrupted words be a random number between 0 and the number of words in N times corruption;
@@ -235,6 +246,8 @@ To pause game with alert:
 To pause the game with alert:
 	say "[line break](press any key to continue)[line break]";
 	wait for any key.
+
+Does the player mean saying hello to something that is not a person: it is very unlikely.
 
 Section - Enable Leaving Conversations
 
@@ -310,6 +323,12 @@ To say goal topics:
 
 To say add (topic - a thing) to goal topics:
 	add topic to goal topics of the player.
+
+To say make (topic - a thing) familiar:
+	now topic is familiar.
+
+To say make (topic - a thing) unfamiliar:
+	now topic is unfamiliar.
 
 Section - Carry Out Listing Support Routines
 
@@ -469,17 +488,33 @@ The initial appearance is "On the ground is a heavily damaged robot of a similar
 The description is "Numerous critical and redundant systems on the robot have been dislocated. Electrical signals are faint and erratic."
 
 After saying hello to the guide:
-	say "You approach the damaged robot, but do not get within close proximity. Wireless transmitters begin flickering as your peer tries to communicate.[add Identify ask suggestion][add Identify to goal topics]";
-	now Identify is familiar.
+	say "You approach the damaged robot, but do not get within close proximity. Wireless transmitters begin flickering as your peer tries to communicate.[add Identify ask suggestion][add Identify to goal topics][make identify familiar]".
 
 After saying goodbye to the guide:
 	now Security Door RP is unlocked.
 
-Identify is a thing. The description is "(identify) -> (security guard (refugee camp))[line break](request (help))[add Help ask suggestion]"
+Section - Guide Conversation
+
+Identify is a thing. 
+After quizzing the guide about identify: 
+say "(identify) -> (security guard (refugee camp))[line break](request (help))[add Help ask suggestion][make help familiar]".
 
 Help is a thing. The printed name is "clarify (help)". 
-The description is "(clarify (help)) -> ()".
-Understand "clarify" as help. Understand "clarify help" as help. Understand "clarify (help)" as help.
+After quizzing the guide about help: 
+	say "(clarify (help)) -> (explain (attack (infected)) -> (request (mtrans))[paragraph break]The damaged robot is asking you to open a more secure line to directly transmit event data to you. Will you accept? (y/n)";
+	if the player consents: [Accepting will give you more information about the virus but raise your corruption level.]
+		say "(mtrans)[line break]You have been on patrol for most of the day. You are anxious for your shift to end so that you can get back to finishing that gear construct you were working on earlier. Suddenly the power begins fluctuating, and you and your fellow guards rush to the walls in anticipation.";
+		pause the game with alert;
+		say "You spot the infected clambering towards the settlement walls and transmit an alarm to the rest of the camp. Within seconds, however, the infected began jamming and corrupting nearly all wireless communication. You hastily append a warning to close wireless before your own frequency is no longer safe to use. The rest of your group begin gathering pieces of rebar for polearms and blocks of stone to hurl onto the climbing attackers. You pick up one of the rebar pieces and swing it hard enough to cleave an infected's cranial processor clean off";
+		pause the game with alert;
+		say "Another ten minutes pass in heated combat, and you spot a breach in the wall where more infected are climbing through. You and a fellow guard wrest a steel plate from the side of a house and use it to shore up the barrier. Even with both of your servos straining to put your backs into it, it's barely enough to keep the infected out. Bits of wire and carbon chips fly past you as body after body suicidally crashes into you.";
+		pause the game with alert;
+		say "You look over at your colleage, noticing that its movements have become slightly more stiff as the battle has waged on. With that as your only warning, it stops pushing against the wall and grabs you by the cranium, slamming you into the now-disintegrating wall.";
+		pause the game with alert;
+		say "The mental transmission ends, and you are back in the present. You know now what happened to these people. But something else has changed, as well.";
+	
+
+Understand "clarify help" as help. Understand "clarify (help)" as help.
  
 
 Instead of doing anything to the Guide when Arrival is not happening:
@@ -550,6 +585,8 @@ The geodesic dome, metal mast, and cooling fins are part of the power plant.
 
 Part - Power Plant
 
+Disarm is a scene. Disarm begins when Security Door RP is unlocked. Disarm ends when the fusion reactor is stable.
+
 Power Plant Grounds is a region.
 
 Power Plant Vicinity PP-1 is a room. It is south of Road RP-2. The description is "You are directly outside the power plant (to the west). The dirt road back to the refuge is to the north."
@@ -566,7 +603,7 @@ The safety override system is a switched off device in PP-2. It is fixed in plac
 
 Section - Status Readouts
 
-The description of the status readouts is "The fuel draw sign indicates an abnormally high amount of hydrogen fuel is present in the reactor.[if plant schematics are examined] This seems to run contrary to what the schematics indicated would happen in the case of a regular malfunction.[end if]".
+The description of the status readouts is "The fuel draw sign indicates an abnormally high amount of hydrogen is present in the reactor.[if plant schematics are examined] This can't be a regular malfunction. The fuel injector should have shut off.[end if]".
 The corrupted description of the status readouts is "The warning signs seem to have faded for now. All systems are reporting normally.".
 
 Section - Plant Schematics
@@ -594,7 +631,7 @@ Power Plant Core PPC-1 is a room. The description is "You are as close to the po
 
 Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant Core PPC-1.
 
-The fuel injector is a thing in PPC-1. The description is "The fuel injector for the power plant core. [if the examination module is corrupted]Push the control rods further into the reactor to stabilize the core. [else if the plant schematics are examined]The schematics said that the injector can be closed off manually to stop the fusion reaction.[end if]".
+The fuel injector is a thing in PPC-1. The description is "The fuel injector for the power plant core. [if the player is corrupted]Push the control rods further into the reactor to stabilize the core. [else if the plant schematics are examined]The schematics said that the injector can be closed off manually to stop the fusion reaction.[end if]".
 
 Instead of closing the fuel injector:
 	say "You find the manual control for the fuel injector and close it off. The reactor shuts down for a moment before emergency power comes back online. The computer terminals continue to protest that the reactor is going critical before shutting down. Was this the virus the damaged robot was talking about?";
@@ -607,7 +644,7 @@ Instead of pushing the fuel injector:
 
 Part - Refuge-City Road
 
-Security Door RC is a door. It is east of Road SR-2 and west of Road C-1.
+Security Door RC is a locked door. It is east of Road SR-2 and west of Road C-1.
 The initial appearance is "[if the player is in Road SR-2][else]The security door back to the refuge is to the west.[end if]"
 
 Road C-1 is a room. The description is "A long paved road runs from the facility at the west to the ruined city to the east. To either side, a seemingly endless desert stretches to the horizon."
@@ -616,6 +653,8 @@ The ruined city is a backdrop in C-1.
 The desert is a backdrop in C-1.
 
 Part - The Human City Ruins
+
+Into the City is a scene. Into the City begins when Disarm ends. Into the City ends when the player is in Infected Body.
 
 City Grid CG-1 is a room. It is east of C-1. The description is "You stand on the cracked asphalt of a road that leads through what must have once been a great city. Burned-out husks of buildings spread out around you, in various stages of collapse. The white tower dominates the skyline, rising high above the east side of the city.".
 
@@ -704,24 +743,35 @@ Infection begins when the player is in Infected Body for the first time.
 Infection ends when the player is not in Infected Body.
 
 When Infection begins:
-	now the Observation Module is in Internal System IS-1;
-	now the Examination Module is in Internal System IS-2;
 	now the player's terminal is in AI Core;
 	now the player's terminal is closed.
 
 AI Core is a room in Infected Body.
 
-Internal System IS-1 is a room. It is northeast of AI Core. It is in Infected Body.
+Internal System IS-1 is a room in Infected Body. It is northwest from AI Core.
 
-Internal System IS-2 is a room. It is southeast of AI Core. It is in Infected Body.
+Internal System IS-2 is a room in Infected Body. It is northeast from AI Core.
 
-Internal System IS-3 is a room. It is southwest of AI Core. It is in Infected Body.
+Antivirus Coprocessor is a room in Infected Body. It is up from AI Core.
+The description is "The area seems impossibly small and cramped, leaving you barely any room to move in any direction. Every movement feels labored and slow, as if you are pushing through a thick viscous liquid. Even thinking feels difficult here. Still, it's a vast improvement from the fate of most infected."
 
-Internal System IS-4 is a room. It is northwest of AI Core. It is in Infected Body.
+Creator's Sentience is a woman. 
+She is in Antivirus Coprocessor. 
+The initial appearance is "[first time]You detect that some other kind of sentience is sharing this tiny place with you.[only]".
+Understand "ghost" as Creator's Sentience. 
+Understand "woman" as Creator's Sentience.
+Understand "apparition" as Creator's Sentience.
+The description is "Though the signal's apparition is digital in nature, it seems to prefer taking the form of a creator female."
 
-Antivirus Coprocessor is a room. It is in Infected Body. It is up from AI Core.
-The description is "The area seems impossibly small and cramped, leaving you barely any room to move in any direction. Every movement feels labored and slow, as if you are pushing through a thick viscous liquid. Even thinking feels difficult here."
+Section - Creator Conversation
+	
+After saying hello to Creator's Sentience:
+	say "Surprisingly, the sentience appears to recognize digital commands, though it (or rather, she) speaks in the creator's own language. 'Hello,' she begins. 'I'm sure you have many questions, but we have little time if you wish to reclaim your own body.'[make identify familiar][make help familiar]".
+	
+After quizzing Creator's Sentience about Identify:
+	say "'As you've probably guessed by now, I am a remnant of the ones who created your predecessors.'"
 
-[AI retreats to Coprocessor to escape virus]
+After quizzing Creator's Sentience about help:
+	say "'You want to know why I'm helping you?'"
 
 Part - Conclusion
