@@ -166,17 +166,12 @@ To print the location’s description:
 	let N be indexed text; 
 	let C be indexed text;
 	let N be "[description of the location of the player]";
-	let C be "[corrupted description of the location of the player]";	
-	let j be 1;
+	let C be "[corrupted description of the location of the player]";
 	let corruption be the corruption level of the player;
-	let word difference be the absolute value of (number of words in N - number of words in C);
-	[word corruption]
-	let corrupted words be a random number between 0 and the number of words in N times corruption;
-	repeat with i running from 1 to corrupted words:
-		let j be a random number between 1 and the number of words in N;
-		let k be the remainder after dividing j by the number of words in C;
-		replace word number j in N with word number k in C;
-	say "[N]";
+	if the number of words in C > 0 and a random chance of corruption in 100 succeeds:
+		say "[C]";
+	else:
+		say "[N]";
 
 Section - Examine Module
 
@@ -186,20 +181,12 @@ To say the description of (item - object):
 	let N be indexed text;
 	let N be "[description of item]";
 	let C be the corrupted description of item;
-	let j be 1;
-	let corruption be the corruption level of player;
-	let word difference be the absolute value of (number of words in N - number of words in C);
-	[word corruption]
-	let corrupted words be a random number between 0 and the number of words in N times corruption;
-	repeat with i running from 1 to corrupted words:
-		let j be a random number between 1 and the number of words in N;
-		let k be the remainder after dividing j by the number of words in C;
-		replace word number j in N with word number k in C;
-	[repeated corrupted examinations raise corruption level]
-	if the item is infected:
-		increment the corruption level of the examination module;
-	say "[N]";
-	
+	let corruption be the corruption level of the player;
+	if the number of words in C > 0 and a random chance of corruption in 100 succeeds:
+		say "[C]";
+	else:
+		say "[N]";
+		
 Section - Startup Routine
 
 To say startup routine:
@@ -307,6 +294,31 @@ To say nothing specific:
 The Conversation Framework for Sand-dancer can't say hello to yourself rule is not listed in the Instead rulebook.
 Instead of saying hello to yourself (this is the robot-style can't say hello to yourself rule): say "(open (self)) ->[line break](open ( (open (self)) )) ->[line break](open ( (open ( (open (self)) )) ) ->[line break](stop (infinite recursion))". 
 
+Section - Knowledge and Memory
+
+The player has a list of things called acquired knowledge.
+
+To decide whether the player knows (knowledge - a thing):
+	if the knowledge is listed in the acquired knowledge of the player:
+		yes;
+	no.
+	
+To commit (knowledge - a thing) to memory:
+	add knowledge to acquired knowledge of the player, if absent.
+
+To say commit (knowledge - a thing) to memory:
+	commit knowledge to memory.
+	
+To remove (knowledge - a thing) from memory:
+	remove knowledge from acquired knowledge of the player, if present.
+
+To say remove (knowledge - a thing) from memory:
+	remove knowledge from memory.
+	
+about the virus is a thing.
+about the infected is a thing.
+about humanity is a thing.
+
 Section - Goal Topics
 
 The player has a list of things called goal topics.
@@ -328,7 +340,10 @@ To say goal topics:
 		say "(unknown)".
 
 To say add (topic - a thing) to goal topics:
-	add topic to goal topics of the player.
+	add topic to goal topics of the player, if absent.
+
+To say remove (topic - a thing) from goal topics:
+	remove topic from goal topics of the player, if present.
 
 To say make (topic - a thing) familiar:
 	now topic is familiar.
@@ -381,7 +396,7 @@ Terminal B-0 is a room in BirthServer. It is south of Silicon Expanse.
 	The player's terminal is in Terminal B-0. 
 	Instead of going south while in Terminal B-0: try taking the player's terminal.
 	
-[The player doesn't have access to this room. It's just a dummy so that the exit lister knows south is a valid direction.]
+	[The player doesn't have access to this room. It's just a dummy so that the exit lister knows south is a valid direction.]
 Remote Terminal is a room in BirthServer. It is south of B-0.
 
 [Security Camera Access: There's a screen here that shows views of other areas]
@@ -416,7 +431,7 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 	Door BT-1 is a door. It is east of Birth Server Terminus and west of Road SR-1.
 	The initial appearance is "There is a door to the east that leads outside the terminus room.".
 		
-Section  - Road SR-1
+		Section  - Road SR-1
 
 Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hover tank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
 
@@ -459,7 +474,9 @@ Road DR 1-1 is east of Road DR 1-2.
 Road DR 1-2 is a room. The description is "Without functional lights, the hallway is almost entirely devoid of visible light. An opening looms to the south, silhouetted in false-color by the infrared spotlight of your night vision system. To the east, the hallway curves back out of sight."
 
 Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room."
+
 	The personal data recorder is an object in DR-1. The description is "The PDR is a small electronic device used for recording secure audio logs."
+
 	The upturned desks and abandoned hardware are scenery in DR-1.
 
 	Instead of using, taking, or listening to the personal data recorder, say "As you reach for the PDR, it detects your presence and automatically begins playback of the last recorded message…" [Backstory here if there's time]
@@ -471,7 +488,7 @@ Part - Refugee Camp
 Chapter - Refuge R-1
 
 The Refugee Camp is a region.
-Every turn when the player is in Power Plant Grounds:
+Every turn when the player is in Refugee Camp:
 	corrupt the player by 1.
 
 Refuge R-1 is a room in Refugee Camp. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message (welcome home). An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
@@ -498,20 +515,26 @@ The initial appearance is "On the ground is a heavily damaged robot of a similar
 The description is "Numerous critical and redundant systems on the robot have been dislocated. Electrical signals are faint and erratic."
 
 After saying hello to the guide:
-	say "You approach the damaged robot, but do not get within close proximity. Wireless transmitters begin flickering as your peer tries to communicate.[add Identify ask suggestion][add Identify to goal topics][make identify familiar]".
+	say "You approach the damaged robot, but do not get within close proximity. Wireless transmitters begin flickering as your peer tries to communicate.[add Identify ask suggestion][add About the power plant to goal topics][make identify familiar]".
 
-After saying goodbye to the guide:
-	now Security Door RP is unlocked.
-
-Section - Guide Conversation
+Chapter - Guide Conversation
 
 Identify is a thing. 
+
+Section - Identify
+
 After quizzing the guide about identify: 
 say "(identify) -> (security guard (refugee camp))[line break](request (help))[add Help ask suggestion][make help familiar]".
 
 Help is a thing. The printed name is "clarify (help)". 
+Understand "clarify help" as help. 
+Understand "clarify (help)" as help.
+Understand "(clarify (help))" as help.
+
+Section - Help
+
 After quizzing the guide about help: 
-	say "(clarify (help)) -> (explain (attack (infected)) -> (request (mtrans))[paragraph break]The damaged robot is asking you to open a more secure line to directly transmit event data to you. Will you accept? (y/n)";
+	say "(clarify (help)) -> (explain (attack (*translation failure*)) -> (request (mtrans))[paragraph break]The damaged robot is asking you to open a more secure line to directly transmit event data to you, but something is strange about its signal. Will you accept? (y/n)";
 	if the player consents: [Accepting will give you more information about the virus but raise your corruption level.]
 		say "(mtrans)[line break]You have been on patrol for most of the day. You are anxious for your shift to end so that you can get back to finishing that gear construct you were working on earlier. Suddenly the power begins fluctuating, and you and your fellow guards rush to the walls in anticipation.";
 		pause the game with alert;
@@ -519,12 +542,24 @@ After quizzing the guide about help:
 		pause the game with alert;
 		say "Another ten minutes pass in heated combat, and you spot a breach in the wall where more infected are climbing through. You and a fellow guard wrest a steel plate from the side of a house and use it to shore up the barrier. Even with both of your servos straining to put your backs into it, it's barely enough to keep the infected out. Bits of wire and carbon chips fly past you as body after body suicidally crashes into you.";
 		pause the game with alert;
-		say "You look over at your colleage, noticing that its movements have become slightly more stiff as the battle has waged on. With that as your only warning, it stops pushing against the wall and grabs you by the cranium, slamming you into the now-disintegrating wall.";
+		say "You look over at your colleague, noticing that its movements have become slightly more stiff as the battle has waged on. With that as your only warning, it stops pushing against the wall and grabs you by the cranium, slamming you into the now-disintegrating wall.";
 		pause the game with alert;
 		say "The mental transmission ends, and you are back in the present. You know now what happened to these people. But something else has changed, as well.[corrupt the player by 10]";
-	
+	else:
+		say "The damaged robot seems dismayed, but continues broadcasting on regular channels.[paragraph break](inform (attack) (days (2)))(conjecture (survivors (self, receiver)))";
+	say "[paragraph break]The damaged robot begins sending an even more urgent set of signals.[paragraph break](inform (plan (attackers))) -> (power plant (sabotage))(request (help)(receiver))[line break][add About the power plant ask suggestion][make about the power plant familiar]";
 
-Understand "clarify help" as help. Understand "clarify (help)" as help.
+Section - About the Power Plant
+
+There is a thing called About the power plant. The printed name is "power plant". 
+Understand "sabotage" as about the power plant. Understand "power plant" as about the power plant.
+
+Does the player mean quizzing the guide about About the Power Plant: it is likely.
+
+After quizzing the guide about About the power plant:
+	say "The robot manages to give you the security codes for the power plant before its processor gives out. [paragraph break](mtrans (security codes))[line break](inform (logic (selection (receiver)) -> ...(*no response*)[paragraph break][remove About the power plant from goal topics]";
+	now Security Door RP is unlocked; 
+	try silently saying goodbye to the guide. [<- saddest line of code I've ever written. :( ]
  
 
 Instead of doing anything to the Guide when Arrival is not happening:
@@ -606,7 +641,7 @@ Power Plant Vicinity PP-1 is a room. It is south of Road RP-2. The description i
 	The power plant is in PP-1.
 
 
-Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You stand in the main control area of the power plant. Almost every surface in the room is covered in status readouts, gauges, and warning lights."
+Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You stand in the main control area of the power plant. Almost every surface in the room is covered in status readouts, gauges, and warning lights. You find one screen has a readout of the plant's schematics."
 
 The status readouts, gauges, pipes, warning lights, plant schematics, and core access terminal are scenery in PP-2.
 The safety override system is a switched off device in PP-2. It is fixed in place.
@@ -766,10 +801,6 @@ When Infection begins:
 
 AI Core is a room in Infected Body.
 
-Internal System IS-1 is a room in Infected Body. It is northwest from AI Core.
-
-Internal System IS-2 is a room in Infected Body. It is northeast from AI Core.
-
 Antivirus Coprocessor is a room in Infected Body. It is up from AI Core.
 The description is "The area seems impossibly small and cramped, leaving you barely any room to move in any direction. Every movement feels labored and slow, as if you are pushing through a thick viscous liquid. Even thinking feels difficult here. Still, it's a vast improvement from the fate of most infected."
 
@@ -793,3 +824,4 @@ After quizzing Creator's Sentience about help:
 	say "'You want to know why I'm helping you?'"
 
 Part - Conclusion
+	
