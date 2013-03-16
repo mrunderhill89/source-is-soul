@@ -626,13 +626,13 @@ Power Plant Vicinity PP-1 is a room. It is south of Road RP-2. The description i
 	The power plant is in PP-1.
 
 
-Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You stand in the main control area of the power plant. Almost every surface in the room is covered in status readouts and gauges."
+Power Plant Central PP-2 is a room. It is west of PP-1. The description is "You stand in the main control area of the power plant. Almost every surface in the room is covered in status readouts, gauges, and warning lights."
 
 The status readouts, gauges, pipes, warning lights, plant schematics, and core access terminal are scenery in PP-2.
 The safety override system is a switched off device in PP-2. It is fixed in place.
-	The description of the status readouts is "[if the core is unstable]'CRITICAL WARNING! CORE UNSTABLE! MANUAL OVERRIDE REQUIRED![else]'System nominal. Core levels are within expected parameters.'[end if]'"
+	[The description of the status readouts is "[if the core is unstable]'CRITICAL TEMPERATURE WARNING! CORE UNSTABLE! MANUAL OVERRIDE REQUIRED![else]'Temperature nominal. Core levels are within expected parameters.'[end if]'"
 	
-	The description of the gauges is "[if the core is unstable]Dials throughout the room indicate impending doom, their needles firmly fixed in the red.[else]Everything seems to be working properly.[end if]"
+	The description of the gauges is "[if the core is unstable]Dials throughout the room indicate impending doom, their needles firmly fixed in the red.[else]"]
 
 Section - Status Readouts
 
