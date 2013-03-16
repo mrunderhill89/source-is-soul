@@ -404,6 +404,7 @@ Section - Birth Server Terminus
 
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
 The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east."
+The corrupted description is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. The room is lit by lights recessed in the ceiling, and every surface is well-polished and shining. There is one exit to the east."
 
 	The cube, tubes, and hole are scenery.
 
@@ -419,6 +420,7 @@ The description of Birth Server Terminus is "A large metallic cube rests dead ce
 Section  - Road SR-1
 
 Road SR-1 is a room. The description is "The ruins of what was once a long, enclosed hallway extend before you. The ceiling has almost entirely collapsed, littering the floor with rubble. The center of the south wall has been smashed inward, revealing the front half of a long-since disabled hover tank. The main gun barrel of the damaged tank extends across the hallway, and appears to have collided with the northward door, ripping it from its frame. Doors stand to the east and west."
+The corrupted description is "A long enclosed hallway extends before you, impeccably clean and free from dust. A cool breeze flows from hidden ventilation systems somewhere in the ceiling. Dark figures rush through the hall, entering and exiting the doors at the east, west, and north."
 
 	The rubble, the south wall, the hover tank, and the gun barrel are scenery in Road SR-1.
 	
@@ -448,7 +450,15 @@ Road SR-2 is a room. The description is "An ancient foyer forms a well-worn cros
 
 	Some crossroad signs are a scenery in SR-2. 
 Understand "sign" as the crossroad signs. Understand "signs" as the crossroad signs. 
-The description is "Each sign sports a meticulously etched message.[Paragraph Break]North: (Home)[Paragraph Break]South: (Power)[Paragraph Break]East: (Legacy)[Paragraph Break]West: (Birth)"
+The description is "Each sign sports a meticulously etched message.[if the player is corrupted][Paragraph Break]North: (Cowardice)
+[Paragraph Break]South: (Stopgap)
+[Paragraph Break]East: (Genesis)
+[Paragraph Break]West: (Blasphemy)
+[else]
+[Paragraph Break]North: (Home)
+[Paragraph Break]South: (Power)
+[Paragraph Break]East: (Legacy)
+[Paragraph Break]West: (Birth)[end if]".
 
 Road SR-2 is east of Road SR-1.
 
@@ -463,6 +473,8 @@ Road DR 1-2 is a room. The description is "Without functional lights, the hallwa
 Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room. A human skeleton lies slumped against the rear wall. A personal data recorder lies near the skeleton's hand."
 	The personal data recorder is scenery in DR-1. The description is "The PDR is a small electronic device used for recording secure audio logs. Its power has drained away, leaving it inoperable, but you are able to recover snippets of voice data.[paragraph break]'…mistake…'[line break]'…should never have…'[line break]'…operation Genesis…'[line break]'…seal the doors…'[line break]'…I think we're the only ones left…'[line break]'…I'm sorry…'[paragraph break]The final message is punctuated by a loud crash."
 	The upturned desks and abandoned hardware are scenery in DR-1.
+
+	The human skeleton is scenery in DR-1. The description is "It appears that a human male died in this room, and their body decomposed over several years."
 
 	The description of the desks is "Laboratory desks with nonreactive surfaces made from thick synthetic material. The configuration of the toppled desks suggests that they were used to construct a makeshift barrier, but there are no signs of combat."
 	
@@ -480,7 +492,8 @@ The Refugee Camp is a region.
 Every turn when the player is in Refugee Camp:
 	corrupt the player by 1.
 
-Refuge R-1 is a room in Refugee Camp. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message [if the player is corrupted](genesis is neigh)[else](welcome home)[end if]. An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
+Refuge R-1 is a room in Refugee Camp. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message [if the player is corrupted](genesis is nigh)[else](welcome home)[end if]. An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
+The corrupted description is "The room before you is filled with chairs, arranged around a central stage on which a human and a robot stand, their hands gripped together in a gesture of mutual agreement. The audience that watches the handshake is filled with vague, faceless humanoid forms. Doors lead out to the room to the south and east."
 
 The Welcome Home Sign is a backdrop in Refuge R-1. The description is "The letters are being projected in the air from a gray central cylinder, with various wires and components dangling precariously off to the sides.".
 
@@ -538,7 +551,8 @@ Instead of doing anything to the Guide when Arrival is not happening:
 
 Chapter - Art Gallery
 
-The Refuge Art Gallery is a room in Refugee camp. It is east of Refuge R-1. The description is "A small room with several constructs elevated on metal crates as exhibits."
+The Refuge Art Gallery is a room in Refugee camp. It is east of Refuge R-1. The description is "A small room with several constructs elevated on metal crates as exhibits. Exit to the west."
+The corrupted description is "A small supply closet filled with cleaning implements. Exit to the west."
 
 Some exhibits are a backdrop in the Art Gallery. Understand "constructs" as the exhibits.
 The description is "Among the exhibits you find a strangely shaped gear, a complex set of gears and chains arranged in a box, and a number of carvings and paintings depicting various data structures and their contents."
@@ -667,14 +681,15 @@ Security Door RC is a locked door. It is east of Road SR-2 and west of Road C-1.
 The initial appearance is "[if the player is in Road SR-2]There is a security door to the east.[else]The security door back to the refuge is to the west.[end if]"
 
 Road C-1 is a room. The description is "A long paved road runs from the facility at the west to the ruined city to the east. To either side, a seemingly endless desert stretches to the horizon."
+The corrupted description is "You are alone in the desert, unable to see anything of interest in any direction."
 
 	The paved road, facility, and desert are scenery in C-1.
-	The description of the paved road is "Dark asphalt, cracked and eroded by prolonged exposure to harsh weather. [if the player is corrupted]Lie down on the road and await your destiny.[end if]"
+	The description of the paved road is "Dark asphalt, cracked and eroded by prolonged exposure to harsh weather. [if the player is corrupted]Lie down on the road and await your destiny.[end if]".
 	The description of the facility is "A long, single-floored building. Its lack of windows and thick outer walls seems to have helped protect it from the desert sand that is piled around the perimeter. A faded sign outside the perimeter proclaims the facility as 'Walter-Becile Robotics Laboratory'."
 	The description of the desert is "[if the player is corrupted]Walk in to the desert. Let the sand overwhelm your systems. [else]Heat mirages distort the air above the hot sands, but you detect no sources of water anywhere within sensor range.[end if]"
 
-The ruined city is a backdrop in C-1.
-The desert is a backdrop in C-1.
+The ruined city is a backdrop in C-1. The description is "The disintegrating husks of buildings lie before you."
+The desert is a backdrop in C-1. The description is "Endless, hot sands."
 
 Part - The Human City Ruins
 
@@ -706,7 +721,7 @@ The description is "A desolate patch of land sits in the shadow of the power pla
 Part - Genesis Factory
 
 Genesis Path GP-1 is a room. It is east of CG-1.
-The description is "The smooth white form of the Genesis Tower extends above you, its massive height dwarfing the buildings of the ruined city. Protected by encircling defensive walls, the ground around the tower is strangely pristine, its surface untouched by the armageddon that turned the surrounding world to ash. Marble statues line the sides of the stone path that leads up to the base of the tower, their arms extended overhead, forming a series of arches. To the north, the tower's open doorway beckons. The ruined city lies to the south."
+The description is "The smooth white form of the Genesis Tower extends above you, its massive height dwarfing the buildings of the ruined city. Protected by encircling defensive walls, the ground around the tower is strangely pristine, its surface untouched by the armageddon that turned the surrounding world to ash[if the player is corrupted], a fate you too will suffer if you continue to resist[end if]. Marble statues line the sides of the stone path that leads up to the base of the tower, their arms extended overhead, forming a series of arches. To the north, the tower's open doorway beckons. The ruined city lies to the south."
 
 	The genesis tower, defensive walls, marble statues, stone path, and doorway are backdrops in GP-1.
 	The description of the genesis tower is "Up close, the tower is just as featureless and uniform as from afar. The surface of the tower is marble-like in texture, but synthetic."
@@ -726,8 +741,11 @@ The description is "At first glance, it seems as if the interior of the tower ha
 	The defensive walls, marble statues, stone path, and husks of buildings are in GA-1.
 
 	The statue, pedestal, and minuscule projectors are scenery in GA-1.
-	The plaque is part of the pedestal.
-	The small sphere is an object. The description is "A white light pulses slowly from within the sphere. It appears to be portable."
+	The plaque is part of the pedestal. The description is "[if the player is corrupted]'da te ad nos'[else]'resurrecto humanitatis'[end if]".
+	The description of the minuscule projectors is "High-resolution holographic projectors, capable of creating lifelike three-dimensional projections".
+	The description of the statue is "A human male, kneeling down on one knee, head bowed.".
+	The description of the pedestal is "The pedestal is made from the same marble as the statue, and is fastened securely to the floor.".
+	The small sphere is an object. The description is "A white light pulses slowly from within the sphere. It appears to be portable.".
 	
 	Before taking the sphere, say "As you lift the sphere from the statue's grip, its hands fold closed, palms inward, and retract back towards its chest."
 	
