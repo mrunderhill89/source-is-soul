@@ -117,8 +117,8 @@ Section - Corruption
 The player has a number called corruption level. 
 The corruption level of the player is 0.
 
-To decide whether the player is infected:
-	if the corruption level of the player > 0:
+To decide whether an object is infected:
+	if the corruption level of the noun > 0:
 		yes;
 	no.
 
@@ -129,13 +129,19 @@ To decide whether the player is corrupted:
 
 The description of a module is usually "[The noun] capacity: [capacity of the noun]."
 
-To say corrupt the player by (amount - a number):
+To corrupt the player by (amount - a number):
 	increase the corruption level of the player by amount.
 
-To say purge the player by (amount - a number):
+To say corrupt the player by (amount - a number):
+	corrupt the player by amount;
+
+To purge the player by (amount - a number):
 	decrease the corruption level of the player by amount;
 	if the corruption level of the player < 0:
 		now the corruption level of the player is 0.
+
+To say purge the player by (amount - a number):
+	purge the player by amount;
 
 To say capacity of (m - a module):
 	let corruption be the corruption level of the player;
@@ -464,7 +470,11 @@ Part - Refugee Camp
 
 Chapter - Refuge R-1
 
-Refuge R-1 is a room. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message (welcome home). An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
+The Refugee Camp is a region.
+Every turn when the player is in Power Plant Grounds:
+	corrupt the player by 1.
+
+Refuge R-1 is a room in Refugee Camp. The description is "You stand in a large room, surrounded by heavily-armored walls. Orange holographic letters float in a tight circle over the center of the area, flickering the message (welcome home). An energy shield covers the area, distorting your view of the sky. One corner of the refuge contains several universal charging stations and an AMS-5 repair node. To the east you can see a building labelled 'Art Gallery'." It is north of Road SR-2.
 
 The Welcome Home Sign is a backdrop in Refuge R-1. The description is "The letters are being projected in the air from a gray central cylinder, with various wires and components dangling precariously off to the sides.".
 
@@ -511,7 +521,7 @@ After quizzing the guide about help:
 		pause the game with alert;
 		say "You look over at your colleage, noticing that its movements have become slightly more stiff as the battle has waged on. With that as your only warning, it stops pushing against the wall and grabs you by the cranium, slamming you into the now-disintegrating wall.";
 		pause the game with alert;
-		say "The mental transmission ends, and you are back in the present. You know now what happened to these people. But something else has changed, as well.";
+		say "The mental transmission ends, and you are back in the present. You know now what happened to these people. But something else has changed, as well.[corrupt the player by 10]";
 	
 
 Understand "clarify help" as help. Understand "clarify (help)" as help.
@@ -522,7 +532,7 @@ Instead of doing anything to the Guide when Arrival is not happening:
 
 Chapter - Art Gallery
 
-The Refuge Art Gallery is a room. It is east of Refuge R-1. The description is "A small room with several constructs elevated on metal crates as exhibits."
+The Refuge Art Gallery is a room in Refugee camp. It is east of Refuge R-1. The description is "A small room with several constructs elevated on metal crates as exhibits."
 
 Some exhibits are a backdrop in the Art Gallery. Understand "constructs" as the exhibits.
 The description is "Among the exhibits you find a strangely shaped gear, a complex set of gears and chains arranged in a box, and a number of carvings and paintings depicting various data structures and their contents."
@@ -587,7 +597,10 @@ Part - Power Plant
 
 Disarm is a scene. Disarm begins when Security Door RP is unlocked. Disarm ends when the fusion reactor is stable.
 
-Power Plant Grounds is a region.
+Power Plant Grounds is a region.	
+Every turn when the player is in Power Plant Grounds:
+	corrupt the player by 2.
+
 
 Power Plant Vicinity PP-1 is a room. It is south of Road RP-2. The description is "You are directly outside the power plant (to the west). The dirt road back to the refuge is to the north."
 	The power plant is in PP-1.
@@ -633,11 +646,11 @@ Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant
 
 The fuel injector is a thing in PPC-1. The description is "The fuel injector for the power plant core. [if the player is corrupted]Push the control rods further into the reactor to stabilize the core. [else if the plant schematics are examined]The schematics said that the injector can be closed off manually to stop the fusion reaction.[end if]".
 
-Instead of closing the fuel injector:
+Instead of closing the fuel injector for the first time:
 	say "You find the manual control for the fuel injector and close it off. The reactor shuts down for a moment before emergency power comes back online. The computer terminals continue to protest that the reactor is going critical before shutting down. Was this the virus the damaged robot was talking about?";
 	now the fusion reactor is stable.
 
-Instead of pushing the fuel injector:
+Instead of pushing the fuel injector for the first time:
 	say "You struggle to push the control rods in... only to remember that fusion reactors don't have control rods. Where did you hear that idea?"
 
 [Objects in power plant core: malfunctioning fuel injector, neutron shielding]
@@ -645,12 +658,12 @@ Instead of pushing the fuel injector:
 Part - Refuge-City Road
 
 Security Door RC is a locked door. It is east of Road SR-2 and west of Road C-1.
-The initial appearance is "[if the player is in Road SR-2][else]The security door back to the refuge is to the west.[end if]"
+The initial appearance is "[if the player is in Road SR-2]There is a security door to the east.[else]The security door back to the refuge is to the west.[end if]"
 
 Road C-1 is a room. The description is "A long paved road runs from the facility at the west to the ruined city to the east. To either side, a seemingly endless desert stretches to the horizon."
 
 	The paved road, facility, and desert are scenery in C-1.
-	The description of the road is "Dark asphalt, cracked and eroded by prolonged exposure to harsh weather."
+	The description of the paved road is "Dark asphalt, cracked and eroded by prolonged exposure to harsh weather."
 	The description of the facility is "A long, single-floored building. Its lack of windows and thick outer walls seems to have helped protect it from the desert sand that is piled around the perimeter. A faded sign outside the perimeter proclaims the facility as 'Walter-Becile Robotics Laboratory'."
 	The description of the desert is "[if the player is corrupted]Walk in to the desert. Let the sand overwhelm your systems. [else]Heat mirages distort the air above the hot sands, but you detect no sources of water anywhere within sensor range.[end if]"
 
