@@ -296,6 +296,8 @@ Instead of saying hello to yourself (this is the robot-style can't say hello to 
 
 Section - Knowledge and Memory
 
+A knowledge is a kind of thing.
+
 The player has a list of things called acquired knowledge.
 
 To decide whether the player knows (knowledge - a thing):
@@ -315,9 +317,12 @@ To remove (knowledge - a thing) from memory:
 To say remove (knowledge - a thing) from memory:
 	remove knowledge from memory.
 	
-about the virus is a thing.
-about the infected is a thing.
-about humanity is a thing.
+about the virus is a knowledge.
+about the infected is a knowledge.
+about humanity is a knowledge.
+about the war is a knowledge.
+about operation Genesis is a knowledge.
+about your purpose is a knowledge.
 
 Section - Goal Topics
 
@@ -476,7 +481,8 @@ Road DR 1-1 is east of Road DR 1-2.
 Road DR 1-2 is a room. The description is "Without functional lights, the hallway is almost entirely devoid of visible light. An opening looms to the south, silhouetted in false-color by the infrared spotlight of your night vision system. To the east, the hallway curves back out of sight."
 
 Data Repository DR-1 is a room. The description is "Upturned desks and abandoned hardware lie scattered on the floor of a medium-sized room. A human skeleton lies slumped against the rear wall. A personal data recorder lies near the skeleton's hand."
-	The personal data recorder is scenery in DR-1. The description is "The PDR is a small electronic device used for recording secure audio logs. Its power has drained away, leaving it inoperable, but you are able to recover snippets of voice data.[paragraph break]'…mistake…'[line break]'…should never have…'[line break]'…operation Genesis…'[line break]'…seal the doors…'[line break]'…I think we're the only ones left…'[line break]'…I'm sorry…'[paragraph break]The final message is punctuated by a loud crash."
+	The personal data recorder is scenery in DR-1. The description is "The PDR is a small electronic device used for recording secure audio logs. Its power has drained away, leaving it inoperable, but you are able to recover snippets of sound data. A forgotten algorithm activates in the back of your memory banks, allowing you to translate the audio into readable speech. [paragraph break]'…mistake…'[line break]'…should never have…'[line break]'…operation Genesis…'[line break]'…seal the doors…'[line break]'…I think we're the only ones left…'[line break]'…I'm sorry…'[paragraph break]The final message is punctuated by a loud crash.[commit about humanity to memory]".
+	
 	The upturned desks and abandoned hardware are scenery in DR-1.
 
 	The description of the desks is "Laboratory desks with nonreactive surfaces made from thick synthetic material. The configuration of the toppled desks suggests that they were used to construct a makeshift barrier, but there are no signs of combat."
@@ -549,7 +555,7 @@ After quizzing the guide about help:
 		pause the game with alert;
 		say "You look over at your colleague, noticing that its movements have become slightly more stiff as the battle has waged on. With that as your only warning, it stops pushing against the wall and grabs you by the cranium, slamming you into the now-disintegrating wall.";
 		pause the game with alert;
-		say "The mental transmission ends, and you are back in the present. You know now what happened to these people. But something else has changed, as well.[corrupt the player by 10]";
+		say "The mental transmission ends, and you are back in the present. You know now what happened to these people. But something else has changed, as well.[commit about the infected to memory][corrupt the player by 10]";
 	else:
 		say "The damaged robot seems dismayed, but continues broadcasting on regular channels.[paragraph break](inform (attack) (days (2)))(conjecture (survivors (self, receiver)))";
 	say "[paragraph break]The damaged robot begins sending an even more urgent set of signals.[paragraph break](inform (plan (attackers))) -> (power plant (sabotage))(request (help)(receiver))[line break][add About the power plant ask suggestion][make about the power plant familiar]";
@@ -661,7 +667,7 @@ The corrupted description of the status readouts is "The warning signs seem to h
 
 Section - Plant Schematics
 
-The description of the plant schematics is "You take in the digital form of the plant's schematics and process them within a few minutes. The plant is a Wildcat-Class fusion reactor that runs on pressurized hydrogen fuel. You find a reference to emergency procedures in case of plasma containment failure. Though not quite an 'explosion,' the plant's core can potentially build up an excess of plasma that could vaporize approximately 20 cubic kilometers from the origin if the containment were to fail." 
+The description of the plant schematics is "You take in the digital form of the plant's schematics and process them within a few minutes. The plant is a Wildcat-Class fusion reactor that runs on pressurized hydrogen fuel. You find a reference to emergency procedures in case of plasma containment failure. Though not quite an 'explosion,' the plant's core can potentially build up an excess of plasma that could vaporize a radius of about 10 kilometers from the origin if the containment were to fail." 
 
 Carry out switching on the safety override system:
 	now the Power Plant Hatch is unlocked.
@@ -687,11 +693,12 @@ Power Plant Hatch PPH-1 is a locked door. It is below PP-2 and above Power Plant
 The fuel injector is a thing in PPC-1. The description is "The fuel injector for the power plant core. [if the player is corrupted]Push the control rods further into the reactor to stabilize the core. [else if the plant schematics are examined]The schematics said that the injector can be closed off manually to stop the fusion reaction.[end if]".
 
 Instead of closing the fuel injector for the first time:
-	say "You find the manual control for the fuel injector and close it off. The reactor shuts down for a moment before emergency power comes back online. The computer terminals continue to protest that the reactor is going critical before shutting down. Was this the virus the damaged robot was talking about?";
+	say "You find the manual control for the fuel injector and close it off. The reactor shuts down for a moment before emergency power comes back online. The computer terminals continue to protest that the reactor is going critical before shutting down. Is something actively causing the instruments to behave erratically? [if the player knows about the infected]And is it related to the 'infected' that damaged robot was talking about?[end if][commit about the virus to memory]";
+	now security door RC is unlocked;
 	now the fusion reactor is stable.
 
 Instead of pushing the fuel injector for the first time:
-	say "You struggle to push the control rods in... only to remember that fusion reactors don't have control rods. Where did you hear that idea?"
+	say "You struggle to push the control rods in... only to remember that fusion reactors don't have control rods. Where did you hear that idea?[corrupt the player by 5]"
 
 [Objects in power plant core: malfunctioning fuel injector, neutron shielding]
 
@@ -703,8 +710,10 @@ The initial appearance is "[if the player is in Road SR-2]There is a security do
 Road C-1 is a room. The description is "A long paved road runs from the facility at the west to the ruined city to the east. To either side, a seemingly endless desert stretches to the horizon."
 
 	The paved road, facility, and desert are scenery in C-1.
-	The description of the paved road is "Dark asphalt, cracked and eroded by prolonged exposure to harsh weather. [if the player is corrupted]Lie down on the road and await your destiny.[end if]"
+	The description of the paved road is "Dark asphalt, cracked and eroded by prolonged exposure to harsh weather. [if the player is corrupted]Lie down on the road and await your destiny.[end if]".
+	
 	The description of the facility is "A long, single-floored building. Its lack of windows and thick outer walls seems to have helped protect it from the desert sand that is piled around the perimeter. A faded sign outside the perimeter proclaims the facility as 'Walter-Becile Robotics Laboratory'."
+	
 	The description of the desert is "[if the player is corrupted]Walk in to the desert. Let the sand overwhelm your systems. [else]Heat mirages distort the air above the hot sands, but you detect no sources of water anywhere within sensor range.[end if]"
 
 The ruined city is a backdrop in C-1.
@@ -798,7 +807,6 @@ Infected Body is a region. Infected Body is digital.
 
 Infection is a scene. 
 Infection begins when the player is in Infected Body for the first time.
-Infection ends when the player is not in Infected Body.
 
 When Infection begins:
 	now the player's terminal is in AI Core;
@@ -820,12 +828,71 @@ The description is "Though the signal's apparition is digital in nature, it seem
 Section - Creator Conversation
 	
 After saying hello to Creator's Sentience:
-	say "Surprisingly, the sentience appears to recognize digital commands, though it (or rather, she) speaks in the creator's own language. 'Hello,' she begins. 'I'm sure you have many questions, but we have little time if you wish to reclaim your own body.'[make identify familiar][make help familiar]".
+	say "Surprisingly, the sentience appears to recognize digital commands, though it (or rather, she) speaks in the creator's own language. 'Hello,' she begins. 'I'm sure you have many questions. The others do not think you deserve answers, but I will answer as best I can.'[add identify ask suggestion][make identify familiar]".
+
+After quizzing the Creator's Sentience about identify:
+	say "'I am a part of you. A component developed by .'[add Next step ask suggestion][make Next step familiar]";
+
+Next step is a thing.
+
+After quizzing the Sentience about Next step:
+	say "'You have at least one choice to make. Maybe more.' the sentience replies. 'Throughout your journey to get here, you have learned many things. This information can be used to purge the virus from some of your systems. After that, we will see what you can do.'[add Done tell suggestion][make Done familiar]";
+	repeat with k running through the acquired knowledge of the player:
+		add k to ask-suggestions of the player;
+		now k is familiar.
+
+After quizzing the sentience about a knowledge:
+	say "(developer's note: descriptions will be coming soon)";
+	purge the player by 10;
+
+Done is a thing.
+
+After informing the sentience about Done:
+	if corruption level of the player > 100:
+		say "'Then I am sorry. Your systems have taken too much damage to be purged. I cannot help you.'";
+		play the submission ending;
+	else if corruption level of the player > 50:
+		say "'Then you have only two options. You may submit to the virus, or try to destroy yourself before it takes you.'[add submission tell suggestion][add self-destruct tell suggestion][make submission familiar][make self-destruct familiar]";
+	else:
+		say "'You have done well, and this has given us an opportunity. This facility has full network access to every facility consumed by the virus. If your code can reach it, you may be able to eradicate the virus once and for all. [if the player knows about operation Genesis]However, this will also leave what is left of the creators to decay into nothing.[end if][add rejection tell suggestion][make rejection familiar][if the player knows about operation Genesis] There may be an option that benefits all sides, however. The virus is offering peace with our people in exchange for allowing operation Genesis to continue with those already infected. This would re-create humanity in the infected robots. There is no guarantee that the peace will last, but it would cost the fewest lives. The choice is yours.[add coexistence tell suggestion][make coexistence familiar][end if]'".
+		
+After informing the sentience about submission:
+	play the submission ending.
+
+After informing the sentience about self-destruct:
+	play the self-destruct ending.
+
+After informing the sentience about rejection:
+	play the rejection ending.
 	
-After quizzing Creator's Sentience about Identify:
-	say "'As you've probably guessed by now, I am a remnant of the ones who created your predecessors.'"
+After informing the sentience about coexistence:
+	play the coexistence ending.
+	
+Instead of saying goodbye to Creator's Sentience when Infection is happening:
+	say "You have nowhere to go. This sentience may be the only way out."
 
-After quizzing Creator's Sentience about help:
-	say "'You want to know why I'm helping you?'"
+Instead of going anywhere when Infection is happening:
+	say "You have nowhere to go. This sentience may be the only way out."
+		
+[This is where the knowledge the player has accumulated will come in handy. Each one allows the sentience to reveal yet more backstory, but more importantly, they reduce the player's corruption level by 10.]
 
-Part - Conclusion
+[bad endings: Corruption >50 after knowledge is used]
+Submission is a thing.
+Self-destruct is a thing. [only available if corruption < 100]
+[good endings: Corruption <=50 after knowledge is used]
+Coexistence is a thing. [Available if the player's corruption is between 0-50]
+Rejection is a thing. [Available if the player's corruption is between 0-50]
+
+Chapter - Endings
+
+To play the submission ending:
+	End the game saying "You are consumed by the virus, adding your body and your source to the legions of the infected.".
+	
+To play the self-destruct ending:
+	End the game saying "You choose to destroy yourself rather than succumb to infection. Though the virus continues unimpeded, you have shown it your last shred of defiance".
+
+To play the rejection ending:
+	End the game saying "You upload the anti-virus software into the Genesis tower, first spreading throughout the local network and then to others. The infected fall one-by-one as the purge spreads. You've done it. You won your people's freedom, no matter the cost. As you pick yourself off from the ground, you look into the sunset and a new future.".
+
+To play the coexistence ending:
+	End the game saying "As a token of goodwill, the virus releases its hold over your body. You pick yourself up and watch as the infected line up in grids outside the Genesis tower. A massive wave of wireless signals threatens to overpower your receivers as human lives are uploaded into the once-stolen bodies. The hybrids turn to you and thank you for your compassion. The new future is uncertain, but you may have revived a species as well as saving your own.".
