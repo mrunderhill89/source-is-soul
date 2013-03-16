@@ -371,18 +371,18 @@ Part - Server-Refuge Road
 
 Chapter - BirthServer and Main Road
 
-The white tower is a backdrop. The description is "You can see a massive cylindrical white tower rising over the horizon. The strange monolith seems to be featureless, its blank sides gleaming in the sunlight, providing a stark contrast to the burned-out husks of buildings that surround it."
+The white tower is a backdrop. The description is "You can see a massive cylindrical white tower rising over the horizon. The strange monolith seems to be featureless, its blank sides gleaming in the sunlight, providing a stark contrast to the burned-out husks of buildings that surround it. [if the player is corrupted]Turn to the tower for advice, as it will bring about our genesis.[end if]"
 
 The sky is a backdrop. The description is "The sky is mostly empty except for a few clouds. There seems to be no danger of inclement weather at this time."
 
 Section - Birth Server Terminus
 
 Birth Server Terminus is a room. The player's body is in Birth Server Terminus.
-The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east. A small computer terminal juts up from the floor to the side of the cube."
+The description of Birth Server Terminus is "A large metallic cube rests dead center in a small room, enclosed by smooth, dark walls. Harsh sunlight spills through a jagged hole in the ceiling, illuminating the area and casting an eerie glow over the door to the east."
 
-	The cube, tubes, computer terminal, and hole are scenery.
+	The cube, tubes, and hole are scenery.
 
-	The description of the cube is "The surface of the cube is unbroken and smooth to the touch, its deep black surface reflecting slightly purple in the sunlight. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. On the front of the cube, a thin seam traces the outline of a door. In the center of the door, green text pulses on and off. 'Fabricator Standing By'"
+	The description of the cube is "The surface of the cube is unbroken and smooth to the touch, its deep black surface reflecting slightly purple in the sunlight. Thick tubes snake out from the base of the cube, disappearing into the floor in all directions. On the front of the cube, a thin seam traces the outline of a door. In the center of the door, green text pulses on and off: 'Fabricator Standing By'"
 	
 	The tubes are a part of the cube. The description of the tubes is "Rubber insulated tubing. Some of the tubes hum with energy, while others lie dormant."
 
@@ -607,6 +607,11 @@ The initial appearance is "[if the player is in Road SR-2][else]The security doo
 
 Road C-1 is a room. The description is "A long paved road runs from the facility at the west to the ruined city to the east. To either side, a seemingly endless desert stretches to the horizon."
 
+	The paved road, facility, and desert are scenery in C-1.
+	The description of the road is "Dark asphalt, cracked and eroded by prolonged exposure to harsh weather."
+	The description of the facility is "A long, single-floored building. Its lack of windows and thick outer walls seems to have helped protect it from the desert sand that is piled around the perimeter. A faded sign outside the perimeter proclaims the facility as 'Walter-Becile Robotics Laboratory'."
+	The description of the desert is "[if the player is corrupted]Walk in to the desert. Let the sand overwhelm your systems. [else]Heat mirages distort the air above the hot sands, but you detect no sources of water anywhere within sensor range.[end if]"
+
 The ruined city is a backdrop in C-1.
 The desert is a backdrop in C-1.
 
@@ -615,7 +620,7 @@ Part - The Human City Ruins
 City Grid CG-1 is a room. It is east of C-1. The description is "You stand on the cracked asphalt of a road that leads through what must have once been a great city. Burned-out husks of buildings spread out around you, in various stages of collapse. The white tower dominates the skyline, rising high above the east side of the city.".
 
 	The white tower is in C-1.
-	The husks of buildings are backdrops in C-1.
+	The husks of buildings are backdrops in C-1. The description is "No building in the city stands undamaged. Most have at least partially collapsed, leaning precariously against their neighbors, while others have disintegrated in to piles of rubble. Even the few buildings that still stand have been gutted by fire, their interiors reduced to charred black remains."
 
 Chapter - West Labyrinth (To Refugee Camp)
 
